@@ -1,3 +1,8 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Block diagram for optical uplink \cite {b1}\relax }}{1}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2}{\ignorespaces CMOS ring oscillator schematic\relax }}{2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Simulated CMOS ring oscillator output\relax }}{2}
+=======
+\contentsline {figure}{\numberline {2}{\ignorespaces Generic current driver circuit \cite {b2}\relax }}{2}
+\contentsline {figure}{\numberline {3}{\ignorespaces IC Buck converter block diagram [5]\relax }}{3}
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9

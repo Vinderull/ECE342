@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.12)  12 NOV 2017 16:46
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  12 NOV 2017 16:24
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 entering extended mode
 **./main.tex
 (main.tex
@@ -44,7 +48,19 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+<<<<<<< HEAD
 File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+=======
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -92,8 +108,13 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+<<<<<<< HEAD
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
+=======
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 \dotsspace@=\muskip10
 \c@parentequation=\count94
 \dspbrk@lvl=\count95
@@ -133,7 +154,11 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks23
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+<<<<<<< HEAD
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+=======
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
@@ -422,7 +447,11 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+<<<<<<< HEAD
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+=======
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -543,7 +572,27 @@ LaTeX Font Info:    ... okay on input line 28.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks28
+<<<<<<< HEAD
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+=======
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
@@ -566,16 +615,20 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+<<<<<<< HEAD
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
+=======
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -588,6 +641,8 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+=======
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -601,6 +656,7 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+<<<<<<< HEAD
 <Images/barcode.png, id=1, 454.69875pt x 443.6575pt>
 File: Images/barcode.png Graphic file (type png)
 <use Images/barcode.png>
@@ -609,23 +665,43 @@ ne 78.
 Package pdftex.def Info: Requested size: 45.47253pt x 44.36835pt on input line 
 78.
  [1
+=======
+
+<Images/barcode.png, id=1, 454.69875pt x 443.6575pt>
+File: Images/barcode.png Graphic file (type png)
+ <use Images/barcode.png>
+Package pdftex.def Info: Images/barcode.png used on input line 78.
+(pdftex.def)             Requested size: 45.47253pt x 44.36835pt.
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 
 {C:/Users/Phil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/bar
 code.png>] (main.toc
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
+=======
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/barcode.png>]
+(main.toc
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [1] (main.lof)
+ [1]
+(main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
+<<<<<<< HEAD
 
 (main.lot)
+=======
+ (main.lot)
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -656,6 +732,7 @@ Overfull \hbox (2.7734pt too wide) in paragraph at lines 26--27
 olt-ages for logic low and logic high are shown. 
  []
 
+<<<<<<< HEAD
 ) (CircuitDevelopment/Circuit.tex (CircuitDevelopment/ring_oscillator.tex
 [1
 
@@ -684,6 +761,36 @@ oscsimlab4.jpg>])
 (ExperimentalImplementation/signalconditioner.tex)
 (ExperimentalImplementation/currentdriver.tex)) (Discussion/Discussion.tex
 [3] [4]) (Conclusion/Conclusion.tex) [5]
+=======
+) (CircuitDevelopment/Circuit.tex (CircuitDevelopment/ring_oscillator.tex)
+[1
+
+ <./Introduction/Block_Diagram_MFBP.png>]
+(CircuitDevelopment/signal_conditioner.tex)
+(CircuitDevelopment/current_driver.tex
+<CircuitDevelopment/ledgeneric.png, id=24, 373.395pt x 241.90375pt>
+File: CircuitDevelopment/ledgeneric.png Graphic file (type png)
+
+<use CircuitDevelopment/ledgeneric.png>
+Package pdftex.def Info: CircuitDevelopment/ledgeneric.png used on input line 6
+.
+(pdftex.def)             Requested size: 281.85587pt x 182.60852pt.
+)
+(CircuitDevelopment/voltageregulator.tex
+<CircuitDevelopment/ICblock.png, id=25, 557.83406pt x 307.90031pt>
+File: CircuitDevelopment/ICblock.png Graphic file (type png)
+
+<use CircuitDevelopment/ICblock.png>
+Package pdftex.def Info: CircuitDevelopment/ICblock.png used on input line 7.
+(pdftex.def)             Requested size: 281.85587pt x 155.57533pt.
+ [2 <./CircuitDevelopment/ledgeneric.png (PNG copy)>])) (ExperimentalImplementa
+tion/experimental.tex
+(ExperimentalImplementation/ringosc.tex)
+(ExperimentalImplementation/signalconditioner.tex)
+(ExperimentalImplementation/currentdriver.tex)) (Discussion/Discussion.tex
+[3 <./CircuitDevelopment/ICblock.png>] [4]) (Conclusion/Conclusion.tex)
+[5]
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#2$ Ac-tive Band-pass Fil-ters [
 On-line]. Avail-able: 
@@ -709,6 +816,7 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  3897 strings out of 493312
  59036 string characters out of 3138901
  120997 words of memory out of 3000000
@@ -716,6 +824,15 @@ Here is how much of TeX's memory you used:
  7021 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,41p,907b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 3943 strings out of 493333
+ 58417 string characters out of 3139196
+ 124547 words of memory out of 3000000
+ 7356 multiletter control sequences out of 15000+200000
+ 7021 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,8n,41p,907b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -723,7 +840,11 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmr9.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (9 pages, 211404 bytes).
+=======
+Output written on main.pdf (9 pages, 177991 bytes).
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

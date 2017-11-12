@@ -1,14 +1,24 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Circuit Development}{1}
 \contentsline {subsection}{\numberline {2.1}Ring Oscillator}{2}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.2}Signal Conditioner}{3}
 \contentsline {subsection}{\numberline {2.3}Current Driver}{3}
+=======
+\contentsline {subsection}{\numberline {2.2}Signal Conditioner}{2}
+\contentsline {subsection}{\numberline {2.3}Current Driver}{2}
+\contentsline {subsection}{\numberline {2.4}Voltage Regulator}{2}
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 \contentsline {section}{\numberline {3}Experimental Implementation}{3}
 \contentsline {subsection}{\numberline {3.1}Ring Oscillator}{3}
 \contentsline {subsection}{\numberline {3.2}Signal Conditioner}{3}
 \contentsline {subsection}{\numberline {3.3}Current Driver}{3}
 \contentsline {section}{\numberline {4}Discussion}{3}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {4.1}NMOS inverter}{3}
+=======
+\contentsline {subsection}{\numberline {4.1}NMOS inverter}{4}
+>>>>>>> e43d0820a932000e7cd5e5d1c8b399b942817ea9
 \contentsline {subsection}{\numberline {4.2}CMOS inverter}{4}
 \contentsline {subsection}{\numberline {4.3}AND gate}{4}
 \contentsline {subsection}{\numberline {4.4}Ring oscillator}{5}
