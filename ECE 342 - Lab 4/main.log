@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  12 NOV 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  12 NOV 2017 17:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -665,16 +665,20 @@ File: CircuitDevelopment/ledgeneric.png Graphic file (type png)
 Package pdftex.def Info: CircuitDevelopment/ledgeneric.png used on input line 6
 .
 (pdftex.def)             Requested size: 281.85587pt x 182.60852pt.
-)
-(CircuitDevelopment/voltageregulator.tex
-<CircuitDevelopment/ICblock.png, id=25, 557.83406pt x 307.90031pt>
+
+
+LaTeX Warning: Citation `LEDDATASHEET' on page 2 undefined on input line 13.
+
+) (CircuitDevelopment/voltageregulator.tex [2 <./CircuitDevelopment/ledgeneric.
+png (PNG copy)>]
+<CircuitDevelopment/ICblock.png, id=32, 557.83406pt x 307.90031pt>
 File: CircuitDevelopment/ICblock.png Graphic file (type png)
 
 <use CircuitDevelopment/ICblock.png>
 Package pdftex.def Info: CircuitDevelopment/ICblock.png used on input line 7.
 (pdftex.def)             Requested size: 281.85587pt x 155.57533pt.
- [2 <./CircuitDevelopment/ledgeneric.png (PNG copy)>])) (ExperimentalImplementa
-tion/experimental.tex
+))
+(ExperimentalImplementation/experimental.tex
 (ExperimentalImplementation/ringosc.tex)
 (ExperimentalImplementation/signalconditioner.tex)
 (ExperimentalImplementation/currentdriver.tex)) (Discussion/Discussion.tex
@@ -705,10 +709,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3943 strings out of 493333
- 58417 string characters out of 3139196
- 124547 words of memory out of 3000000
- 7356 multiletter control sequences out of 15000+200000
+ 3944 strings out of 493333
+ 58431 string characters out of 3139196
+ 123547 words of memory out of 3000000
+ 7357 multiletter control sequences out of 15000+200000
  7021 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,8n,41p,907b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -716,12 +720,14 @@ Here is how much of TeX's memory you used:
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr9.pfb>
-Output written on main.pdf (9 pages, 177991 bytes).
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+>
+Output written on main.pdf (9 pages, 196016 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
