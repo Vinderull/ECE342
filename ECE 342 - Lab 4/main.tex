@@ -54,7 +54,7 @@
         %I re-worded it here, check it over to make sure it sounds not so choppy and details what is needed
         
         \noindent 
-        The design, simulation, and construction of an LED driver circuit are described. In task 4 of the optical uplink project, a signal conditioning circuit and current driver are explored. A signal conditioner using the MCP6004 operational amplifier as a Schmitt trigger was built in order to output a square wave with 50\% duty-cycle. The current driver was constructed using a MCP6004 operational amplifier to create a transconductance amplifier that takes the output from the conditioner and converts it to a current signal. The output of LED driver was required to operated at approximately 20 kHz, 50\% duty-cycle, with a current of 100mA amplitude.  a sinusoidal wave form, at a frequency of 20.1 kHz, a duty cycle of 50.1\% and 150mA peak amplitude.
+        The design, simulation, and construction of an LED driver circuit are described. In task 4 of the optical uplink project, a signal conditioning circuit and current driver are explored. A signal conditioner using the MCP6004 operational amplifier as a Schmitt trigger was built in order to output a square wave with 50\% duty-cycle. The current driver was constructed using a MCP6004 operational amplifier which drives an 2N3904 BJT. The current driver receives the output voltage from the conditioner and converts it to a current signal. The output of LED driver was required to operated at approximately 20 kHz, 50\% duty-cycle, with a current of 100mA amplitude.  a sinusoidal wave form, at a frequency of 20.1 kHz, a duty cycle of 50.1\% and 150mA peak amplitude.
         
         
         %below is some of the older abstract
@@ -135,7 +135,8 @@
 \newline
 
 
-\bibitem{b3} Texas Instruments, "LM555 Datasheet", http://www.ti.com/lit/ds/symlink/lm555.pdf
+\bibitem{b3} ON Semiconductor. (2017) LM7805 [Online]. Available: 
+https://www.sparkfun.com/datasheets/Components/LM7805.pdf
 \newline
 
 \bibitem{b4}  N.W. Emanatoglu.(2017) Lab $\#3$; MOSFET based logic gates [Online]. Available:http://web.eece.maine.edu/~kotecki/ECE342/labs/ECE342\_2017\_Lab3\_Briefing.pdf
