@@ -1,15 +1,16 @@
 \begin{document}
 	
-	The IC buck converter replaces the entire circuit designed above and replaces it with an IC package. The filter, however still needed to be built around the load. The load used a potentiometer tied to the feedback pin of the IC to enable a variable voltage on the load. Certain limitations of the IC needed to be considered when designing the circuit. A block diagram of a typical Buck converter using this IC is provided below. 
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=.6\textwidth]{CircuitDevelopment/ICblock.png}
-		\caption{IC Buck converter block diagram [5]}
-		\label{fig:icblock}
-	\end{figure}
-	
-	The block diagram above shows the inside of the IC used in designing the final Buck Converter.
+The Voltage regulator used was a LM7805. The voltage regulator is used because the CMOS ring oscillator and LED driver were designed to run on a source voltage of 5V. The power supply provided, however, is a 9V DC battery. The voltage, therefore, needs to be reduced. The voltage regulator operates by taking an input voltage and step it down to some lower voltage by shedding the difference in energy between the two potentials in the form of heat. Figure \ref{fig:voltageregulator} shows the circuit configuration for the LM7805.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/voltageregulator}
+	\caption[Voltage regulator]{Configuration of voltage regulator\cite{b3}}
+	\label{fig:voltageregulator}
+\end{figure}
+
+The equivalent circuit model for the LM7805 is shown. Notably, the circuit was not included in simulations and was constructed during the Implementation phase.
+
 	
 	
 	

@@ -8,9 +8,9 @@ The current driver for this lab was created using an MCP6004 op amp. The op amp 
 		\label{fig:currentgeneric}
 	\end{figure}
 
-The key to operation of the current driver is the BJT transistor. A BJT transistor, in contrast with the metal oxide semiconducting field effect transistor (MOSFET), is capable of producing current by both types of Charge Carriers. This effectively allows the BJT to behave as a NPN or PNP transistor depending on the size of the input current. This also allows the BJT to use a smaller current signal to control a larger current. 
+The key to operation of the current driver is the BJT transistor. A BJT transistor, in contrast with the metal oxide semi-conducting field effect transistor (MOSFET), is capable of producing current by both types of Charge Carriers. This effectively allows the BJT to behave as a NPN or PNP transistor depending on the size of the input current. This also allows the BJT to use a smaller current signal to control a larger current. 
 
-The operation of a BJT is paramount for this lab. The MCP6004 is only capable of outputing around 20mA of current. The IR LED in use, however, has a forward current of 100mA \cite{LEDDATASHEET}. A much larger current has to generated in order for the LED to operate. 
+The operation of a BJT is paramount for this lab. The MCP6004 is only capable of outputting around 20mA of current. The IR LED in use, however, has a forward current of 100mA \cite{LEDDATASHEET}. A much larger current has to generated in order for the LED to operate. 
 
 The MCP6004 is used to set the node voltage for R$_{sense}$. The op amp is assumed to be ideal, so $V_- = V_+$. In order to ensure that the LED is forward biased, the node voltage should be less than the sum of the voltage drops from $V_{supply}$ over the BJT and the diode. The lab briefing \cite{b2} states to set $V_-$ less then 3V.
 
@@ -28,7 +28,7 @@ The circuit required no changes from design to simulation. The current through t
 	\label{fig:simcurrentlab4}
 \end{figure}
 
-The current through the LED matched the calculated value of 200mA
+The current through the LED matched the calculated value of 200mA. The LED is in an operational state.
 
 
 
