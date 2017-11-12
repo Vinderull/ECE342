@@ -2,9 +2,9 @@
 
 \begin{document}
 
-This section covers the design choices associated with the various circuits constructed. A common trait among all of the designs included is the use of  MOSFETS. MOSFETS are silicon based components that take advantage of the semiconducting properties of silicon in order to behave as a switch. The ability for a MOSFET to transition from "open" to "closed" is the foundation for digital circuits. In digital circuits, voltages are not represented as analog continuous signals, but instead as discrete binary values, where 1 represents logic high and 0 represents logic low. One of the properties investigated in this report is the real electrical characteristics of these digital logic circuits. These circuits do not behave ideally and the real switching time of the circuits can lead to problems during circuit implementation.
+This section covers the design choices associated with the various circuits constructed. The individual circuits designed were a Schmitt trigger configured op amp as the signal conditioner and an op amp driving a BJT for the current driver. The input waveform was generated using the ring oscillator from Lab 3. The supply voltage was created using a voltage regulator.
 
-The order in which the circuits are discussed is as follows: first, the resistively loaded NMOS, followed by the CMOS inverter, then the CMOS logic gate and finally the ring oscillator and the astable multivibrator. 
+The order in which the circuits are discussed is as follows: first, the ring oscillator, followed by the signal conditioner, then the current driver, and then finally the voltage regulator.. 
 
 \subsection{Ring Oscillator}
 \subfile{CircuitDevelopment/ring_oscillator.tex}
@@ -17,6 +17,35 @@ The order in which the circuits are discussed is as follows: first, the resistiv
 
 \subsection{Voltage Regulator}
 \subfile{CircuitDevelopment/voltageregulator.tex}
+
+The final simulated circuit is shown in Figure \ref{fig:finalschemlab4}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/FinalschemLab4}
+	\caption[Simulated circuit]{Simulated LED driver}
+	\label{fig:finalschemlab4}
+\end{figure}
+The summary of simulated results is shown in Table \ref{tab:simresults}.
+
+\begin{tabular}{|c|c|}
+	\caption{Simulated Results}
+	\label{tab:simresults}
+	\hline 
+	Component & Simulated Values \\ 
+	\hline 
+	Conditioned Voltage & 5V \\ 
+	\hline 
+	Conditioned Frequency & 20kHz \\ 
+	\hline 
+	Conditioned Duty-Cycle & 48\% \\ 
+	\hline 
+	Output Current & 200mA \\ 
+	\hline 
+	R$_{sense}$ & 12$\Omega$ \\ 
+	\hline 
+\end{tabular} 
+
+The simulated circuit operated as expected and provided enough current in order to drive the LED.
 	
 
 
