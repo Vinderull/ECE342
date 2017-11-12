@@ -43,7 +43,7 @@
         
           \vspace{.5cm}
         
-         \textbf{{\Large Ryan Dufour \\ Phil Robb \\ Joseph Arsenault\newline}}
+         \textbf{{\Large Joseph Arsenault \\ Ryan Dufour \\ Phil Robb \newline}}
     \vspace{1cm}
     
         
@@ -54,8 +54,7 @@
         %I re-worded it here, check it over to make sure it sounds not so choppy and details what is needed
         
         \noindent 
-        The design, simulation, and construction of a signal generator using MOSFET based logic gates are described. In task 3 of the optical uplink project, several inverting circuits are explored using NMOS and CMOS MOSFETS. An inverter based ring oscillator was constructed using the CD4007 CMOS integrated circuit. An inverter based astable multivibrated was built as well. The ring oscillator was chosen to be the signal generator for the optical uplink project. The output of the CMOS ring oscillator was required to operated at approximately 20 kHz, 50\% duty-cycle, with a 5V$_{pp}$ amplitude.  a sinusoidal wave form, at a frequency of 19.8 kHz, a duty cycle of 51\% and 4.9V$_{pp}$ amplitude. These measurements fall within acceptable tolerances of the desired specifications of 20 kHz, 50\% duty cycle and 5V$_{pp}$ amplitude.
-        
+        The design, simulation, and construction of an LED driver circuit are described. In task 4 of the optical uplink project, a signal conditioning circuit and current driver are explored. A signal conditioner using the MCP6004 operational amplifier as a Schmitt trigger was built in order to output a square wave with 50\% duty-cycle. The current driver was constructed using a MCP6004 operational amplifier to create a transconductance amplifier that takes the output from the conditioner and converts it to a current signal. The output of LED driver was required to operated at approximately 20 kHz, 50\% duty-cycle, with a current of 100mA amplitude.  a sinusoidal wave form, at a frequency of 20.1 kHz, a duty cycle of 50.1\% and 150mA peak amplitude.
         
         
         %below is some of the older abstract
@@ -111,6 +110,7 @@
  
     
   \section{Experimental Implementation}
+  	\subfile{ExperimentalImplementation/experimental.tex}
 
     
   \section{Discussion}
