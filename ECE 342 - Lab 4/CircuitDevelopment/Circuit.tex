@@ -6,18 +6,20 @@ This section covers the design choices associated with the various circuits cons
 
 The order in which the circuits are discussed is as follows: first, the ring oscillator, followed by the signal conditioner, then the current driver, and then finally the voltage regulator.. 
 
-\subsection{Ring Oscillator}
+\subsection{Ring oscillator}
 \subfile{CircuitDevelopment/ring_oscillator.tex}
 
-\subsection{Signal Conditioner}
+\subsection{Signal conditioner}
 \subfile{CircuitDevelopment/signal_conditioner.tex}
 
-\subsection{Current Driver}
+\subsection{Current driver}
 \subfile{CircuitDevelopment/current_driver.tex}
 
-\subsection{Voltage Regulator}
-\subfile{CircuitDevelopment/voltageregulator.tex}
+\subsection{Voltage regulator}
+\subfile{CircuitDevelopment/voltageregulator.tex}4
 
+
+\subsection{Simulated summary}
 The final simulated circuit is shown in Figure \ref{fig:finalschemlab4}.
 \begin{figure}
 	\centering
@@ -27,9 +29,11 @@ The final simulated circuit is shown in Figure \ref{fig:finalschemlab4}.
 \end{figure}
 The summary of simulated results is shown in Table \ref{tab:simresults}.
 
+\begin{table}[H]
+	\centering
+\caption{Simulated Results}
+\label{tab:simresults}
 \begin{tabular}{|c|c|}
-	\caption{Simulated Results}
-	\label{tab:simresults}
 	\hline 
 	Component & Simulated Values \\ 
 	\hline 
@@ -44,6 +48,7 @@ The summary of simulated results is shown in Table \ref{tab:simresults}.
 	R$_{sense}$ & 12$\Omega$ \\ 
 	\hline 
 \end{tabular} 
+\end{table}
 
 The simulated circuit operated as expected and provided enough current in order to drive the LED.
 	
