@@ -3,10 +3,11 @@
 \contentsline {subsection}{\numberline {2.1}Ring oscillator}{1}
 \contentsline {subsection}{\numberline {2.2}Signal conditioner}{3}
 \contentsline {subsection}{\numberline {2.3}Current driver}{3}
-\contentsline {subsection}{\numberline {2.4}Voltage regulator}{5}
+\contentsline {subsection}{\numberline {2.4}Voltage regulator}{4}
 \contentsline {subsection}{\numberline {2.5}Simulated summary}{5}
 \contentsline {section}{\numberline {3}Experimental Implementation}{6}
 \contentsline {subsection}{\numberline {3.1}Ring oscillator}{6}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.2}Signal conditioner}{6}
 \contentsline {subsection}{\numberline {3.3}Current driver}{8}
 \contentsline {section}{\numberline {4}Discussion}{8}
@@ -15,3 +16,10 @@
 \contentsline {subsection}{\numberline {4.3}AND gate}{9}
 \contentsline {subsection}{\numberline {4.4}Ring oscillator}{9}
 \contentsline {section}{\numberline {5}Conclusion}{10}
+=======
+\contentsline {subsection}{\numberline {3.2}Signal conditioner}{7}
+\contentsline {subsection}{\numberline {3.3}Current driver}{8}
+\contentsline {section}{\numberline {4}Discussion}{8}
+\contentsline {subsection}{\numberline {4.1}Ring oscillator}{8}
+\contentsline {section}{\numberline {5}Conclusion}{9}
+>>>>>>> 4d62f1e15f34356288c4dfcafb0028228b4cb062
