@@ -4,7 +4,7 @@ The current driver for this lab was created using an MCP6004 op amp. The op amp 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=.6\textwidth]{CircuitDevelopment/ledgeneric.png}
-		\caption{Generic current driver circuit \cite{b2}}
+		\caption{Generic current driver circuit \cite{b1}}
 		\label{fig:currentgeneric}
 	\end{figure}
 
@@ -21,7 +21,7 @@ The operation of a BJT is paramount for this lab. The MCP6004 is only capable of
 \end{figure}
 
 
-The MCP6004 is used to set the node voltage for R$_{sense}$. The op amp is assumed to be ideal, so $V_- = V_+$. In order to ensure that the LED is forward biased, the node voltage should be less than the sum of the voltage drops from $V_{supply}$ over the BJT and the diode. The lab briefing \cite{b2} states to set $V_-$ less then 3V.
+The MCP6004 is used to set the node voltage for R$_{sense}$. The op amp is assumed to be ideal, so $V_- = V_+$. In order to ensure that the LED is forward biased, the node voltage should be less than the sum of the voltage drops from $V_{supply}$ over the BJT and the diode \cite{b2}. The lab briefing \cite{b2} states to set $V_-$ less then 3V.
 
 In order to attain a suitable voltage, a voltage divider is placed at the input to the op amp. The source voltage is the output from the signal conditioner, and was found to be 5V. In order to be less than 3V, a 50/50 voltage divider was used in order to create an input of 2.5V. With this voltage, and the maximum forward current of 200mA, the value for R$_{sense}$ can solved using Ohm's Law. The final value for R$_{sense}$ is 13$\Omega$.
 
