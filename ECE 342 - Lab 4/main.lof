@@ -8,13 +8,8 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Voltage regulator}}{6}
 \contentsline {figure}{\numberline {9}{\ignorespaces Simulated circuit}}{6}
 \contentsline {figure}{\numberline {10}{\ignorespaces Final circuit}}{7}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {11}{\ignorespaces Experimental ring output}}{7}
-\contentsline {figure}{\numberline {12}{\ignorespaces Experimental signal conditioner}}{8}
-\contentsline {figure}{\numberline {13}{\ignorespaces Final schematic of current driver\relax }}{9}
-\contentsline {figure}{\numberline {14}{\ignorespaces Experimental output of current driver\relax }}{10}
-=======
 \contentsline {figure}{\numberline {11}{\ignorespaces Experimental ring output}}{8}
-\contentsline {figure}{\numberline {12}{\ignorespaces Experimental signal conditioner}}{9}
-\contentsline {figure}{\numberline {13}{\ignorespaces Final schematic of current driver\relax }}{10}
->>>>>>> 817b03b056fded344a86846fae4931aa342df7b3
+\contentsline {figure}{\numberline {12}{\ignorespaces Experimental signal conditioner schematic\relax }}{9}
+\contentsline {figure}{\numberline {13}{\ignorespaces Experimental signal conditioner}}{9}
+\contentsline {figure}{\numberline {14}{\ignorespaces Final schematic of current driver\relax }}{10}
+\contentsline {figure}{\numberline {15}{\ignorespaces Experimental output of current driver\relax }}{11}
