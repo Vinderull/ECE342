@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Circuit Development}{1}
 \contentsline {subsection}{\numberline {2.1}Ring oscillator}{1}
-\contentsline {subsection}{\numberline {2.2}Signal conditioner}{3}
+\contentsline {subsection}{\numberline {2.2}Signal conditioner}{2}
 \contentsline {subsection}{\numberline {2.3}Current driver}{4}
-\contentsline {subsection}{\numberline {2.4}Voltage regulator}{7}
+\contentsline {subsection}{\numberline {2.4}Voltage regulator}{6}
 \contentsline {subsection}{\numberline {2.5}Simulated summary}{7}
 \contentsline {section}{\numberline {3}Experimental Implementation}{8}
 \contentsline {subsection}{\numberline {3.1}Ring oscillator}{8}
