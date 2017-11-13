@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.12)  12 NOV 2017 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.12)  12 NOV 2017 19:33
 entering extended mode
 **./main.tex
 (main.tex
@@ -634,29 +634,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 File: Introduction/Block_Diagram_MFBP.png Graphic file (type png)
 <use Introduction/Block_Diagram_MFBP.png>
 Package pdftex.def Info: Introduction/Block_Diagram_MFBP.png  used on input lin
-e 16. on input line 16.
+e 14. on input line 14.
 Package pdftex.def Info: Requested size: 422.77664pt x 49.28229pt on input line
- 16.
-
-
-LaTeX Warning: Reference `fig:vtcideal' on page 1 undefined on input line 21.
-
-
-Overfull \hbox (5.079pt too wide) in paragraph at lines 21--22
-\OT1/cmr/m/n/10 the LED. The cur-rent driver will be cre-ated in a sub-se-quent
- lab. The volt-age trans-fer char-ac-ter-is-tics (VTC) 
- []
-
-
-LaTeX Warning: Reference `fig:vtcideal' on page 1 undefined on input line 26.
-
-
-Overfull \hbox (2.7734pt too wide) in paragraph at lines 26--27
-\OT1/cmr/m/n/10 Figure [] de-scribes the ideal VTC of an in-verter, where the v
-olt-ages for logic low and logic high are shown. 
- []
-
-) (CircuitDevelopment/Circuit.tex (CircuitDevelopment/ring_oscillator.tex
+ 14.
+) (CircuitDevelopment/Circuit.tex
+(CircuitDevelopment/ring_oscillator.tex
 <CircuitDevelopment/RingOscillatorCMOSexp.png, id=20, 1117.92656pt x 657.2053pt
 >
 File: CircuitDevelopment/RingOscillatorCMOSexp.png Graphic file (type png)
@@ -665,8 +647,7 @@ Package pdftex.def Info: CircuitDevelopment/RingOscillatorCMOSexp.png  used on
 input line 8. on input line 8.
 Package pdftex.def Info: Requested size: 234.8775pt x 138.07735pt on input line
  8.
-
-[1
+ [1
 
  <./Introduction/Block_Diagram_MFBP.png>]
 <CircuitDevelopment/ringoscsimlab4.jpg, id=25, 853.1875pt x 602.25pt>
@@ -676,8 +657,7 @@ Package pdftex.def Info: CircuitDevelopment/ringoscsimlab4.jpg  used on input l
 ine 18. on input line 18.
 Package pdftex.def Info: Requested size: 328.82707pt x 232.11967pt on input lin
 e 18.
-)
-(CircuitDevelopment/signal_conditioner.tex)
+) (CircuitDevelopment/signal_conditioner.tex)
 (CircuitDevelopment/current_driver.tex [2 <./CircuitDevelopment/RingOscillatorC
 MOSexp.png> <./CircuitDevelopment/ringoscsimlab4.jpg>]
 <CircuitDevelopment/ledgeneric.png, id=29, 373.395pt x 241.90375pt>
@@ -729,9 +709,19 @@ e 26.
  [5 <./CircuitDevelopment/voltageregulator.png (PNG copy)> <./CircuitDevelopmen
 t/FinalschemLab4.png>])
 (ExperimentalImplementation/experimental.tex
+<ExperimentalImplementation/FINAlexperimentalSchem.png, id=49, 1184.92688pt x 4
+49.42906pt>
+File: ExperimentalImplementation/FINAlexperimentalSchem.png Graphic file (type 
+png)
+<use ExperimentalImplementation/FINAlexperimentalSchem.png>
+Package pdftex.def Info: ExperimentalImplementation/FINAlexperimentalSchem.png 
+ used on input line 6. on input line 6.
+Package pdftex.def Info: Requested size: 328.82707pt x 124.72147pt on input lin
+e 6.
+
 (ExperimentalImplementation/ringosc.tex)
 (ExperimentalImplementation/signalconditioner.tex
-<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=49, 853.1875pt x 6
+<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=50, 853.1875pt x 6
 02.25pt>
 File: ExperimentalImplementation/conditioned_voltage_lab4.jpg Graphic file (typ
 e jpg)
@@ -742,8 +732,9 @@ Package pdftex.def Info: Requested size: 328.82707pt x 232.11967pt on input lin
 e 6.
 )
 (ExperimentalImplementation/currentdriver.tex)) [6 <./ExperimentalImplementatio
-n/conditioned_voltage_lab4.jpg>] (Discussion/Discussion.tex [7])
-(Conclusion/Conclusion.tex [8]) [9]
+n/FINAlexperimentalSchem.png>] (Discussion/Discussion.tex [7 <./ExperimentalImp
+lementation/conditioned_voltage_lab4.jpg>] [8]) (Conclusion/Conclusion.tex)
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#2$ Ac-tive Band-pass Fil-ters [
 On-line]. Avail-able: 
@@ -774,31 +765,27 @@ On-line]. Avail-
 
 [10
 
-] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3937 strings out of 493312
- 60545 string characters out of 3138901
- 122056 words of memory out of 3000000
- 7357 multiletter control sequences out of 15000+200000
+ 3942 strings out of 493312
+ 60816 string characters out of 3138901
+ 122065 words of memory out of 3000000
+ 7361 multiletter control sequences out of 15000+200000
  7021 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,41p,907b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
->
-Output written on main.pdf (13 pages, 377501 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on main.pdf (13 pages, 392163 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
