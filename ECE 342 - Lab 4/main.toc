@@ -9,6 +9,6 @@
 \contentsline {subsection}{\numberline {3.1}Ring oscillator}{7}
 \contentsline {subsection}{\numberline {3.2}Signal conditioner}{8}
 \contentsline {subsection}{\numberline {3.3}Current driver}{9}
-\contentsline {section}{\numberline {4}Discussion}{9}
+\contentsline {section}{\numberline {4}Discussion}{10}
 \contentsline {subsection}{\numberline {4.1}Ring oscillator}{10}
-\contentsline {section}{\numberline {5}Conclusion}{10}
+\contentsline {section}{\numberline {5}Conclusion}{11}
