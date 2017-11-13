@@ -3,11 +3,9 @@
 
 \begin{document}
 
-This report describes the design, implementation and test of an LED driver. 
+This report describes the design, implementation and test of an LED (light emmitting diode) driver. 
 
-
-
-\noindent This report describes the design, implementation and test of a signal generator using various NMOS and CMOS inverter designs. Two different signal generators were designed, an astable multivibrator and a ring oscillator. Notably,  negative metal oxide semiconducting field effect transistors (NMOS), complementary metal oxide semiconducting field effect transistors (CMOS), and finally the conjunction of the two to form an AND logic gate. Figure \ref{fig:blockdiagram2} demonstrates where in the optical uplink project the signal generator is placed. The signal generator creates the waveform that drives the LED that is detected by the photodetector. 
+\noindent This report describes design, implementation and test of an LED driver comprised of a ring oscillator, schmitt trigger, and a current driver. The ring oscillator is comprised of complementary metal oxide semiconducting field effect transistors (CMOS) inverters connected in series. Figure \ref{fig:blockdiagram2} demonstrates where in the optical uplink project the LED driver is placed. 
 
 
 
@@ -18,15 +16,8 @@ This report describes the design, implementation and test of an LED driver.
     \label{fig:blockdiagram2}
 \end{figure}
 
-The output from the the signal generator is not a square wave, nor does it output enough current to drive the LED. The current driver will be created in a subsequent lab. The voltage transfer characteristics (VTC) of an ideal inverter is shown in Figure \ref{fig:vtcideal}.
 
-
-
-
-\noindent     Figure \ref{fig:vtcideal} describes the ideal VTC of an inverter, where the voltages for logic low and logic high are shown. Both the ring oscillator and the astable multivibrator are created by cascading several CMOS inverters together,
-
-\noindent Section 2 of this report describes the design, and when relevant, the simulations of the NMOS, CMOS inverter, the AND gate, the ring oscillator, and finally the astable multivibrator. Experimental results are addressed in section 3. A discussion of the results, sources of error, and areas of possible improvement are outlined in section 4. Section 5 concludes this report. \newline
-
+The LED driver circuit supplies the LED with a controlled current. A voltage driven output to light the LED is not used due to increased sensitivity from temperature change. 
 
 
 

@@ -1,5 +1,5 @@
 \begin{document}
-The design of the CMOS ring oscillator consists of three CMOS inverters connected in series with the
+The CMOS ring oscillator consists of three CMOS inverters connected in series with the
 output of the last inverter connected to the input of the first inverter. The ring oscillator will also have a
 capacitor at each output connected to ground. The schematic for the CMOS ring oscillator can be seen in Figure \ref{fig:ringoscillatorcmosexp}.
 
@@ -20,8 +20,8 @@ The operation of the ring oscillator uses a series of inverters. The output of o
 	\label{fig:ringoscsimlab4}
 \end{figure}
 
-
-The ring oscillator circuit requires only a DC power source with a threshold voltage above what is required of the MOSFETS, and the oscillations will occur. To increase the frequency, the DC supply can be increased, causing an increase in current as well as frequency. 
+The output of the ring oscillator seen in Figure \ref{fig:ringoscsimlab4} is not a square wave, but instead a distorted sinusoid. However, the signal will be converted into a square wave by using a schmitt trigger. The resulting signal will be used to drive the LED driver circuit.
+ 
 
 
 
