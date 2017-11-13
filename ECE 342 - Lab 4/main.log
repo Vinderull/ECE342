@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  13 NOV 2017 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  13 NOV 2017 12:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -769,7 +769,8 @@ Package pdftex.def Info: ExperimentalImplementation/SignalConditionerExperiment
 alSchem.png used on input line 8.
 (pdftex.def)             Requested size: 281.85587pt x 170.88795pt.
 
-<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=67, 853.1875pt x 6
+[9 <./ExperimentalImplementation/vring_out.jpg>]
+<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=70, 853.1875pt x 6
 02.25pt>
 File: ExperimentalImplementation/conditioned_voltage_lab4.jpg Graphic file (typ
 e jpg)
@@ -777,9 +778,10 @@ e jpg)
 Package pdftex.def Info: ExperimentalImplementation/conditioned_voltage_lab4.jp
 g used on input line 17.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
- [9 <./ExperimentalImplementation/vring_out.jpg>])
+ [10 <./ExperimentalImplementation/SignalConditionerExperimentalSchem.png> <./E
+xperimentalImplementation/conditioned_voltage_lab4.jpg>])
 (ExperimentalImplementation/currentdriver.tex
-<ExperimentalImplementation/LEDDriverExperimentalSchem.png, id=71, 590.95781pt 
+<ExperimentalImplementation/LEDDriverExperimentalSchem.png, id=76, 590.95781pt 
 x 352.31625pt>
 File: ExperimentalImplementation/LEDDriverExperimentalSchem.png Graphic file (t
 ype png)
@@ -788,8 +790,6 @@ Package pdftex.def Info: ExperimentalImplementation/LEDDriverExperimentalSchem.
 png used on input line 6.
 (pdftex.def)             Requested size: 281.85587pt x 168.04007pt.
 
-[10 <./ExperimentalImplementation/SignalConditionerExperimentalSchem.png> <./Ex
-perimentalImplementation/conditioned_voltage_lab4.jpg>]
 <ExperimentalImplementation/expcurrentlab4.jpg, id=77, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/expcurrentlab4.jpg Graphic file (type jpg)
 
@@ -797,9 +797,9 @@ File: ExperimentalImplementation/expcurrentlab4.jpg Graphic file (type jpg)
 Package pdftex.def Info: ExperimentalImplementation/expcurrentlab4.jpg used on 
 input line 15.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
-)) [11 <./ExperimentalImplementation/LEDDriverExperimentalSchem.png> <./Experim
-entalImplementation/expcurrentlab4.jpg>] (Discussion/Discussion.tex) (Conclusio
-n/Conclusion.tex [12])
+ [11 <./ExperimentalImplementation/LEDDriverExperimentalSchem.png>])) (Discussi
+on/Discussion.tex [12 <./ExperimentalImplementation/expcurrentlab4.jpg>]) (Conc
+lusion/Conclusion.tex)
 [13]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#4$ LED driver [On-line]. Avail-
@@ -807,9 +807,9 @@ able:
  []
 
 
-Overfull \hbox (156.83519pt too wide) in paragraph at lines 134--135
-[]\OT1/cmr/m/n/10 NPTEL.(2017) Schmitt Trig-ger [On-line]. Avail-able: hhttp://
-www.nptel.ac.in/courses/117107094/lecturers/lecture[]18/lecture18[]page1.htm  
+Overfull \hbox (151.27962pt too wide) in paragraph at lines 134--135
+[]\OT1/cmr/m/n/10 NPTEL.(2017) Schmitt Trig-ger [On-line]. Avail-able: http://w
+ww.nptel.ac.in/courses/117107094/lecturers/lecture[]18/lecture18[]page1.htm  
  []
 
 
@@ -835,7 +835,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--148
 Here is how much of TeX's memory you used:
  4036 strings out of 493333
  62206 string characters out of 3139196
- 123702 words of memory out of 3000000
+ 122702 words of memory out of 3000000
  7433 multiletter control sequences out of 15000+200000
  7021 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -850,7 +850,7 @@ pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7
 .pfb>
-Output written on main.pdf (17 pages, 616592 bytes).
+Output written on main.pdf (17 pages, 616814 bytes).
 PDF statistics:
  123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

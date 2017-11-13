@@ -10,4 +10,4 @@
 \contentsline {subsection}{\numberline {3.2}Signal conditioner}{9}
 \contentsline {subsection}{\numberline {3.3}Current driver}{11}
 \contentsline {section}{\numberline {4}Discussion}{12}
-\contentsline {section}{\numberline {5}Conclusion}{12}
+\contentsline {section}{\numberline {5}Conclusion}{13}
