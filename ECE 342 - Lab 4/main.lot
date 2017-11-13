@@ -1,14 +1,5 @@
-<<<<<<< HEAD
 \contentsline {table}{\numberline {1}{\ignorespaces Simulated Results\relax }}{6}
-\contentsline {table}{\numberline {2}{\ignorespaces My caption\relax }}{7}
-\contentsline {table}{\numberline {3}{\ignorespaces Comparison of NMOS\relax }}{8}
-\contentsline {table}{\numberline {4}{\ignorespaces CMOS inverter comparison\relax }}{9}
-\contentsline {table}{\numberline {5}{\ignorespaces Truth Table: AND\relax }}{9}
-\contentsline {table}{\numberline {6}{\ignorespaces Comparison of ring oscillator results\relax }}{10}
-=======
-\contentsline {table}{\numberline {1}{\ignorespaces Simulated Results\relax }}{5}
-\contentsline {table}{\numberline {2}{\ignorespaces Ring oscillator comparisons\relax }}{7}
-\contentsline {table}{\numberline {3}{\ignorespaces My caption\relax }}{8}
-\contentsline {table}{\numberline {4}{\ignorespaces Simulated vs. experimental results\relax }}{8}
-\contentsline {table}{\numberline {5}{\ignorespaces Comparison of ring oscillator results\relax }}{9}
->>>>>>> 4d62f1e15f34356288c4dfcafb0028228b4cb062
+\contentsline {table}{\numberline {2}{\ignorespaces Ring oscillator comparisons\relax }}{8}
+\contentsline {table}{\numberline {3}{\ignorespaces My caption\relax }}{9}
+\contentsline {table}{\numberline {4}{\ignorespaces Simulated vs. experimental results\relax }}{10}
+\contentsline {table}{\numberline {5}{\ignorespaces Comparison of ring oscillator results\relax }}{10}
