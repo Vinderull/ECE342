@@ -5,7 +5,7 @@ The Schmitt trigger is an positive feedback configuration for a noninverting amp
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{schmitttransfer}
+	\includegraphics[width=0.45\linewidth]{CircuitDevelopment/schmitttransfer}
 	\caption[Transfer function of Schmitt Trigger]{Transfer Function of Schmitt Trigger \cite{schmitt}}
 	\label{fig:schmitttransfer}
 \end{figure}
@@ -13,7 +13,7 @@ The Schmitt trigger outputs two discrete voltages, which are set by the referenc
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{SignalConditionerSimulationSchem}
+	\includegraphics[width=0.6\linewidth]{CIrcuitDevelopment/SignalConditionerSimulationSchem}
 	\caption[Simulated signal conditioner circuit]{Simulated signal conditioner circuit}
 	\label{fig:signalconditionersimulationschem}
 \end{figure}
@@ -22,13 +22,12 @@ The input to the signal conditioner is the 5V peak sinuisoid from the ring oscil
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\linewidth]{Vconditioned_sim}
+	\includegraphics[width=0.6\linewidth]{CircuitDevelopment/Vconditioned_sim}
 	\caption[Simulated conditioned signal]{Simulated conditioned signal}
 	\label{fig:vconditionedsim}
 \end{figure}
 
-The output was simulated to have an
-
+The output was simulated by doing transient analysis in NGSpice integrated with Matlab. The signal was measured to have a 20 kHz frequency, a 48\% duty-cycle, and a 5V peak amplitude. The reason that the output does not switch instantaneously from high to low is because the op amp is slew rate limited. This output was then passed to a current driver.
 
 
 \end{document}
