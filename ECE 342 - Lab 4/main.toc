@@ -1,6 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Circuit Development}{1}
 \contentsline {subsection}{\numberline {2.1}Ring oscillator}{1}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.2}Signal conditioner}{3}
 \contentsline {subsection}{\numberline {2.3}Current driver}{3}
 \contentsline {subsection}{\numberline {2.4}Voltage regulator}{5}
@@ -12,3 +13,15 @@
 \contentsline {section}{\numberline {4}Discussion}{11}
 \contentsline {subsection}{\numberline {4.1}Ring oscillator}{12}
 \contentsline {section}{\numberline {5}Conclusion}{12}
+=======
+\contentsline {subsection}{\numberline {2.2}Signal conditioner}{2}
+\contentsline {subsection}{\numberline {2.3}Current driver}{4}
+\contentsline {subsection}{\numberline {2.4}Voltage regulator}{6}
+\contentsline {subsection}{\numberline {2.5}Simulated summary}{7}
+\contentsline {section}{\numberline {3}Experimental Implementation}{8}
+\contentsline {subsection}{\numberline {3.1}Ring oscillator}{8}
+\contentsline {subsection}{\numberline {3.2}Signal conditioner}{9}
+\contentsline {subsection}{\numberline {3.3}Current driver}{11}
+\contentsline {section}{\numberline {4}Discussion}{12}
+\contentsline {section}{\numberline {5}Conclusion}{13}
+>>>>>>> 91ccf326a4a9e5fe8f2d5e8685238627b256a498

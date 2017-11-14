@@ -1,6 +1,7 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Block diagram for optical uplink \cite {b1}\relax }}{1}
 \contentsline {figure}{\numberline {2}{\ignorespaces CMOS ring oscillator schematic\relax }}{2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Simulated CMOS ring oscillator output\relax }}{2}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4}{\ignorespaces Generic current driver circuit \cite {b1}\relax }}{3}
 \contentsline {figure}{\numberline {5}{\ignorespaces Current vs voltage}}{4}
 \contentsline {figure}{\numberline {6}{\ignorespaces Simulated LED driver}}{5}
@@ -13,3 +14,20 @@
 \contentsline {figure}{\numberline {13}{\ignorespaces Experimental signal conditioner}}{9}
 \contentsline {figure}{\numberline {14}{\ignorespaces Final schematic of current driver\relax }}{10}
 \contentsline {figure}{\numberline {15}{\ignorespaces Experimental output of current driver\relax }}{11}
+=======
+\contentsline {figure}{\numberline {4}{\ignorespaces Transfer function of Schmitt Trigger}}{3}
+\contentsline {figure}{\numberline {5}{\ignorespaces Simulated signal conditioner circuit}}{3}
+\contentsline {figure}{\numberline {6}{\ignorespaces Simulated conditioned signal}}{4}
+\contentsline {figure}{\numberline {7}{\ignorespaces Generic current driver circuit \cite {b1}\relax }}{4}
+\contentsline {figure}{\numberline {8}{\ignorespaces Current vs voltage}}{5}
+\contentsline {figure}{\numberline {9}{\ignorespaces Simulated LED driver}}{6}
+\contentsline {figure}{\numberline {10}{\ignorespaces Simulated current}}{6}
+\contentsline {figure}{\numberline {11}{\ignorespaces Voltage regulator}}{7}
+\contentsline {figure}{\numberline {12}{\ignorespaces Simulated circuit}}{7}
+\contentsline {figure}{\numberline {13}{\ignorespaces Final circuit}}{8}
+\contentsline {figure}{\numberline {14}{\ignorespaces Experimental ring output}}{9}
+\contentsline {figure}{\numberline {15}{\ignorespaces Experimental signal conditioner schematic\relax }}{10}
+\contentsline {figure}{\numberline {16}{\ignorespaces Experimental signal conditioner}}{10}
+\contentsline {figure}{\numberline {17}{\ignorespaces Final schematic of current driver\relax }}{11}
+\contentsline {figure}{\numberline {18}{\ignorespaces Experimental output of current driver\relax }}{12}
+>>>>>>> 91ccf326a4a9e5fe8f2d5e8685238627b256a498

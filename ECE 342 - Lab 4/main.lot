@@ -1,6 +1,14 @@
 \contentsline {table}{\numberline {1}{\ignorespaces LED driver specifications\relax }}{1}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {2}{\ignorespaces Simulated Results\relax }}{6}
 \contentsline {table}{\numberline {3}{\ignorespaces Ring oscillator comparisons\relax }}{8}
 \contentsline {table}{\numberline {4}{\ignorespaces My caption\relax }}{10}
 \contentsline {table}{\numberline {5}{\ignorespaces Simulated vs. experimental results\relax }}{11}
 \contentsline {table}{\numberline {6}{\ignorespaces Comparison of ring oscillator results\relax }}{12}
+=======
+\contentsline {table}{\numberline {2}{\ignorespaces Simulated Results\relax }}{7}
+\contentsline {table}{\numberline {3}{\ignorespaces Ring oscillator comparisons\relax }}{9}
+\contentsline {table}{\numberline {4}{\ignorespaces Comparison of implemented driver\relax }}{11}
+\contentsline {table}{\numberline {5}{\ignorespaces Driver specifications\relax }}{12}
+\contentsline {table}{\numberline {6}{\ignorespaces Simulated vs. experimental results\relax }}{13}
+>>>>>>> 91ccf326a4a9e5fe8f2d5e8685238627b256a498
