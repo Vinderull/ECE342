@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 NOV 2017 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 NOV 2017 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,7 +607,7 @@ File: CircuitDevelopment/FinalLEDdriverSChem.png Graphic file (type png)
 <use CircuitDevelopment/FinalLEDdriverSChem.png>
 Package pdftex.def Info: CircuitDevelopment/FinalLEDdriverSChem.png used on inp
 ut line 30.
-(pdftex.def)             Requested size: 234.8775pt x 161.27887pt.
+(pdftex.def)             Requested size: 281.85587pt x 193.53851pt.
  [4 <./CircuitDevelopment/IvsVled.png (PNG copy)>]
 <CircuitDevelopment/sim_current_lab4.jpg, id=47, 853.1875pt x 602.25pt>
 File: CircuitDevelopment/sim_current_lab4.jpg Graphic file (type jpg)
@@ -622,23 +622,23 @@ Overfull \hbox (0.19026pt too wide) in paragraph at lines 44--45
 f 200mA. The LED is in an op-er-a-tional state. 
  []
 
-) (./CircuitDevelopment/voltageregulator.tex
-<CircuitDevelopment/voltageregulator.png, id=48, 261.97874pt x 110.4125pt>
+) (./CircuitDevelopment/voltageregulator.tex [5 <./CircuitDevelopment/FinalLEDd
+riverSChem.png> <./CircuitDevelopment/sim_current_lab4.jpg>]
+<CircuitDevelopment/voltageregulator.png, id=52, 261.97874pt x 110.4125pt>
 File: CircuitDevelopment/voltageregulator.png Graphic file (type png)
 
 <use CircuitDevelopment/voltageregulator.png>
 Package pdftex.def Info: CircuitDevelopment/voltageregulator.png used on input 
 line 7.
 (pdftex.def)             Requested size: 234.8775pt x 98.99292pt.
- [5 <./CircuitDevelopment/FinalLEDdriverSChem.png> <./CircuitDevelopment/sim_cu
-rrent_lab4.jpg>])
+)
 <CircuitDevelopment/FinalschemLab4.png, id=53, 1211.27531pt x 422.32782pt>
 File: CircuitDevelopment/FinalschemLab4.png Graphic file (type png)
 
 <use CircuitDevelopment/FinalschemLab4.png>
 Package pdftex.def Info: CircuitDevelopment/FinalschemLab4.png used on input li
 ne 27.
-(pdftex.def)             Requested size: 328.82707pt x 114.64867pt.
+(pdftex.def)             Requested size: 352.31625pt x 122.83925pt.
  [6 <./CircuitDevelopment/voltageregulator.png (PNG copy)> <./CircuitDevelopmen
 t/FinalschemLab4.png>])
 (./ExperimentalImplementation/experimental.tex
@@ -649,7 +649,7 @@ png)
  <use ExperimentalImplementation/FINAlexperimentalSchem.png>
 Package pdftex.def Info: ExperimentalImplementation/FINAlexperimentalSchem.png 
 used on input line 6.
-(pdftex.def)             Requested size: 328.82707pt x 124.72147pt.
+(pdftex.def)             Requested size: 375.80544pt x 142.53783pt.
 
 (./ExperimentalImplementation/signalconditioner.tex
 <ExperimentalImplementation/SignalConditionerExperimentalSchem.png, id=58, 694.
@@ -662,9 +662,8 @@ Package pdftex.def Info: ExperimentalImplementation/SignalConditionerExperiment
 alSchem.png used on input line 8.
 (pdftex.def)             Requested size: 305.33789pt x 185.13022pt.
 
-[7 <./ExperimentalImplementation/FINAlexperimentalSchem.png> <./ExperimentalImp
-lementation/SignalConditionerExperimentalSchem.png>]
-<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=63, 853.1875pt x 6
+[7 <./ExperimentalImplementation/FINAlexperimentalSchem.png>]
+<ExperimentalImplementation/conditioned_voltage_lab4.jpg, id=62, 853.1875pt x 6
 02.25pt>
 File: ExperimentalImplementation/conditioned_voltage_lab4.jpg Graphic file (typ
 e jpg)
@@ -672,9 +671,10 @@ e jpg)
 Package pdftex.def Info: ExperimentalImplementation/conditioned_voltage_lab4.jp
 g used on input line 17.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
-)
+ [8 <./ExperimentalImplementation/SignalConditionerExperimentalSchem.png> <./Ex
+perimentalImplementation/conditioned_voltage_lab4.jpg>])
 (./ExperimentalImplementation/currentdriver.tex
-<ExperimentalImplementation/LEDDriverExperimentalSchem.png, id=64, 590.95781pt 
+<ExperimentalImplementation/LEDDriverExperimentalSchem.png, id=67, 590.95781pt 
 x 352.31625pt>
 File: ExperimentalImplementation/LEDDriverExperimentalSchem.png Graphic file (t
 ype png)
@@ -683,7 +683,6 @@ Package pdftex.def Info: ExperimentalImplementation/LEDDriverExperimentalSchem.
 png used on input line 6.
 (pdftex.def)             Requested size: 281.85587pt x 168.04007pt.
 
-[8 <./ExperimentalImplementation/conditioned_voltage_lab4.jpg>]
 <ExperimentalImplementation/expcurrentlab4.jpg, id=68, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/expcurrentlab4.jpg Graphic file (type jpg)
 
@@ -691,10 +690,10 @@ File: ExperimentalImplementation/expcurrentlab4.jpg Graphic file (type jpg)
 Package pdftex.def Info: ExperimentalImplementation/expcurrentlab4.jpg used on 
 input line 15.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
-))
-(./Discussion/Discussion.tex [9 <./ExperimentalImplementation/LEDDriverExperime
-ntalSchem.png> <./ExperimentalImplementation/expcurrentlab4.jpg>])
-(./Conclusion/Conclusion.tex) [10] [11]
+ [9 <./ExperimentalImplementation/LEDDriverExperimentalSchem.png>])) (./Discuss
+ion/Discussion.tex [10 <./ExperimentalImplementation/expcurrentlab4.jpg>]) (./C
+onclusion/Conclusion.tex)
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#4$ LED driver [On-line]. Avail-
 able: 
@@ -734,7 +733,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 Here is how much of TeX's memory you used:
  3881 strings out of 493089
  61021 string characters out of 6134842
- 121894 words of memory out of 5000000
+ 120895 words of memory out of 5000000
  7241 multiletter control sequences out of 15000+600000
  7021 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -749,7 +748,7 @@ mmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (15 pages, 461922 bytes).
+Output written on main.pdf (15 pages, 461975 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
