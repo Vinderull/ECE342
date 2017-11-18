@@ -7,5 +7,5 @@
 \contentsline {section}{\numberline {3}Experimental Implementation}{7}
 \contentsline {subsection}{\numberline {3.1}Signal conditioner}{7}
 \contentsline {subsection}{\numberline {3.2}Current driver}{8}
-\contentsline {section}{\numberline {4}Discussion}{9}
+\contentsline {section}{\numberline {4}Discussion}{10}
 \contentsline {section}{\numberline {5}Conclusion}{10}
