@@ -2,14 +2,8 @@
 \contentsline {section}{\numberline {2}Background}{1}
 \contentsline {section}{\numberline {3}Proposed Work}{1}
 \contentsline {section}{\numberline {4}Preliminary Results}{1}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Team Qualifications}{1}
-\contentsline {section}{\numberline {6}Cost Analysis}{1}
-\contentsline {section}{\numberline {7}Conclusion}{1}
-=======
 \contentsline {subsection}{\numberline {4.1}Signal conditioner}{2}
 \contentsline {subsection}{\numberline {4.2}Current driver}{2}
 \contentsline {section}{\numberline {5}Team Qualifications}{2}
 \contentsline {section}{\numberline {6}Cost Analysis}{2}
 \contentsline {section}{\numberline {7}Conclusion}{2}
->>>>>>> 0ff611ca66209b12578dc593e1fd4d4730651a9e
