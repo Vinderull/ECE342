@@ -2,76 +2,7 @@
 
 
 \begin{document}
-This section describes the simulation of the MFBP using NGSpice integrated with Matlab.The frequency response, including center frequency, bandwidth, and gain were simulated.
 
-The final circuit that was simulated is shown in Figure \ref{fig:simcircuit}. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = .30]{Simulations/Lab_2_simulated.png}
-    \caption{Simulated circuit of MFBP}
-    \label{fig:simcircuit}
-\end{figure}
-
-\noindent Figure \ref{fig:simcircuit} uses the same design structure as Figure \ref{fig:schem} seen in Section 2. 
-All of the simulated circuit values are summarized in Table \ref{tab:simcomp}.
-
-
-\begin{table}[H]
-\centering
-\caption{Simulated values}
-\label{tab:simcomp}
-\begin{tabular}{|l|l|}
-\hline
-Component     & Value        \\ \hline
-R$_1$         & 7k$\Omega$   \\ \hline
-R$_2$         & 2.2k$\Omega$ \\ \hline
-R$_3$         & 170k$\Omega$ \\ \hline
-C$_1$ = C$_2$ & 470pF        \\ \hline
-V$_{CC}$        & 12V          \\ \hline
-V$_{EE}$        & -12V         \\ \hline
-\end{tabular}
-\end{table}
-
-Table \ref{tab:simcomp} was simulated using the same values that were calculated in Section 2. These simulations were close to the required specifications.
-\newline 
-
-
-%%%%% TALK ABOUT GAIN, BANDWIDTH, AND CENTER FREQUENCY
-
-The frequency response was simulated using an AC sweep in NGSpice. Figure \ref{fig:sim_freqresp} below shows the frequency response. The simulation was performed from 100Hz to 1MHz.
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = .3]{Simulations/sim_frequency_gain_with_legend.jpg}
-    \caption{Simulated AC analysis of MFBP}
-    \label{fig:sim_freqresp}
-\end{figure}
-
-The center frequency in Figure \ref{fig:sim_freqresp} was found to be a little less than the required 20kHz. However, upon taking into account the frequency bandwidth, the MFBP is within specifications. The resistors available for design have a $\pm5\%$ tolerance about their nominal value. The available capacitor values have a$\pm10\%$ value about their nominal value. The effect of these tolerances on the performance is summarized in Figure \ref{fig:twosigma}. The simulation was performed in 10 iterations using Matlab random number generator to choose values that fell within the respective component tolerances[3].
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = .3]{Simulations/resp_two_sigma_variation.jpg}
-    \caption{Two-sigma variation}
-    \label{fig:twosigma}
-\end{figure}
-
-As Figure \ref{fig:twosigma} the tolerances could lower the center frequency quite significantly. Care should be taken when constructing the circuit to choose components that fall close to their nominal values. Table \ref{tab:simvalue} summarizes the simulated results of the circuit.
-
-\begin{table}[H]
-\centering
-\caption{Simulated results}
-\label{tab:simvalue}
-\begin{tabular}{|l|l|}
-\hline
-Value            & Simulated \\ \hline
-Center Frequency & 19.45 kHz \\ \hline
-Gain             & 65.1 dB   \\ \hline
-Bandwidth        & 1.89 kHz  \\ \hline
-\end{tabular}
-\end{table}
-
-The simulated results in Table \ref{tab:simvalue} fell within an acceptable margin of error for this simulation. 
-    
     
 
 
