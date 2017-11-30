@@ -2,55 +2,7 @@
 
 \begin{document}
 
-This section covers the design choices associated with the various circuits constructed. The individual circuits designed were a Schmitt trigger configured op amp as the signal conditioner and an op amp driving a BJT for the current driver. The input waveform was generated using the ring oscillator from Lab 3. A voltage regulator supplied a steady 5V from a 9V battery source.
-
-The order in which the circuits are discussed is as follows: first the signal conditioner, then the current driver, and then finally the voltage regulator.
-
-%\subsection{Ring oscillator}
-%\subfile{CircuitDevelopment/ring_oscillator.tex}
-
-\subsection{Signal conditioner}
-\subfile{CircuitDevelopment/signal_conditioner.tex}
-
-\subsection{Current driver}
-\subfile{CircuitDevelopment/current_driver.tex}
-
-\subsection{Voltage regulator}
-\subfile{CircuitDevelopment/voltageregulator.tex}
-
-
-\subsection{Simulated summary}
-The final simulated circuit is shown in Figure \ref{fig:finalschemlab4}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.75\linewidth]{CircuitDevelopment/FinalschemLab4}
-	\caption[Simulated circuit]{Simulated LED driver}
-	\label{fig:finalschemlab4}
-\end{figure}
-The simulated circuit did require any changes from calculations. One of the most significant margins of error for simulations is that the operation of the simulations is quite dependent on which simulation model for the 2N3904 is used. The "SP3" model from ON Semiconductor was utilized for these simulations \cite{spice}. Different models are capable of behaving in unexpected ways due to their interaction with the NGSpice simulation software. The summary of simulated results from this circuit is shown in Table \ref{tab:simresults}.
-
-\begin{table}[H]
-	\centering
-\caption{Simulated Results}
-\label{tab:simresults}
-\begin{tabular}{|c|c|}
-	\hline 
-	Component & Simulated Values \\ 
-	\hline 
-	Conditioned Voltage & 5V \\ 
-	\hline 
-	Conditioned Frequency & 20kHz \\ 
-	\hline 
-	Conditioned Duty-Cycle & 48\% \\ 
-	\hline 
-	Output Current & 200mA \\ 
-	\hline 
-	R$_{sense}$ & 12$\Omega$ \\ 
-	\hline 
-\end{tabular} 
-\end{table}
-The simulated signal conditioner outputted only a 48\% duty-cycle directly and is slightly less than the required 50\%. However, the final waveform through the LED operated with a 50\% duty-cycle as required by specifications. The simulated circuit operated as expected and provided enough current in order to drive the LED. The resulting waveform through the LED is the correct frequency and duty-cycle. 
+In both the defense and retail fields, tracking the movement of people or groups of people is paramount.
 	
 
 
