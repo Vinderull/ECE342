@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.30)  30 NOV 2017 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.30)  30 NOV 2017 10:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -607,25 +607,25 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/Users/Null_space/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (main.
-toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
+toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [1] (main.lof
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
-\tf@toc=\write3
-\openout3 = `main.toc'.
-
- [1] (main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-
-(main.lot)
+ (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [2] (Introduction/Introduction.tex
+
+[2] (Introduction/Introduction.tex
 <Introduction/blockdiagram.png, id=16, 648.4225pt x 67.25125pt>
 File: Introduction/blockdiagram.png Graphic file (type png)
 <use Introduction/blockdiagram.png>
@@ -634,16 +634,25 @@ on input line 11.
 Package pdftex.def Info: Requested size: 422.77664pt x 43.84926pt on input line
  11.
 ) (Background/Circuit.tex)
-(Proposed_work/Simulations.tex) (Preliminary_results/experimental.tex [1
-
- <./Introduction/blockdiagram.png (PNG copy)>]) (Team_qualifications/Discussion
-.tex
+(Proposed_work/Simulations.tex
+<Proposed_work/blockproposal.png, id=17, 420.82219pt x 122.70844pt>
+File: Proposed_work/blockproposal.png Graphic file (type png)
+<use Proposed_work/blockproposal.png>
+Package pdftex.def Info: Proposed_work/blockproposal.png  used on input line 8.
+ on input line 8.
+Package pdftex.def Info: Requested size: 328.82707pt x 95.88445pt on input line
+ 8.
+) (Preliminary_results/experimental.tex)
+(Team_qualifications/Discussion.tex
 Overfull \hbox (1.0513pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10 elec-tron-ics course, ECE 342, which an op-ti-cal up-link was s
 im-u-lated and de-signed by this team. This course 
  []
 
-) (Conclusion/Conclusion.tex) [2]
+[1
+
+ <./Introduction/blockdiagram.png (PNG copy)>]) (Conclusion/Conclusion.tex)
+[2 <./Proposed_work/blockproposal.png>]
 Overfull \hbox (151.27962pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/m/n/10 NPTEL.(2017) Schmitt Trig-ger [On-line]. Avail-able: http://w
 ww.nptel.ac.in/courses/117107094/lecturers/lecture[]18/lecture18[]page1.htm  
@@ -663,11 +672,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3858 strings out of 493312
- 57677 string characters out of 3138883
- 117988 words of memory out of 3000000
- 7304 multiletter control sequences out of 15000+200000
- 7021 words of font info for 27 fonts, out of 3000000 for 9000
+ 3862 strings out of 493312
+ 57827 string characters out of 3138883
+ 118988 words of memory out of 3000000
+ 7307 multiletter control sequences out of 15000+200000
+ 6416 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,5n,40p,1026b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
@@ -675,9 +684,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (6 pages, 105502 bytes).
+Output written on main.pdf (6 pages, 110696 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
