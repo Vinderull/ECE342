@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  30 NOV 2017 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  30 NOV 2017 10:59
 entering extended mode
 **./main.tex
 (main.tex
@@ -660,26 +660,32 @@ Overfull \hbox (1.0513pt too wide) in paragraph at lines 3--4
 im-u-lated and de-signed by this team. This course 
  []
 
-) (Conclusion/Conclusion.tex) [3 <./Preliminary_results/expcurrentlab4.jpg>]
-[4] [5
+) (Cost_Analysis/cost.tex <tablecost.png, id=26, 260.47313pt x 124.96687pt>
+File: tablecost.png Graphic file (type png)
+
+<use tablecost.png>
+Package pdftex.def Info: tablecost.png used on input line 8.
+(pdftex.def)             Requested size: 328.82707pt x 157.76228pt.
+ [3 <./Preliminary_results/expcurrentlab4.jpg>])
+(Conclusion/Conclusion.tex) [4 <./tablecost.png>] [5
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3916 strings out of 493333
- 57814 string characters out of 3139196
- 122520 words of memory out of 3000000
- 7346 multiletter control sequences out of 15000+200000
+ 3926 strings out of 493333
+ 57975 string characters out of 3139196
+ 122528 words of memory out of 3000000
+ 7351 multiletter control sequences out of 15000+200000
  6416 words of font info for 25 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,40p,1026b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,6n,40p,1026b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (8 pages, 165619 bytes).
+Output written on main.pdf (8 pages, 170800 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
