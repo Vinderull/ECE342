@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.30)  30 NOV 2017 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.30)  30 NOV 2017 10:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -636,33 +636,40 @@ Package pdftex.def Info: Requested size: 422.77664pt x 43.84926pt on input line
 LaTeX Warning: Reference `fig:finalexperimentalschem' on page 1 undefined on in
 put line 2.
 
-) (Team_qualifications/Discussion.tex) (Conclusion/Conclusion.tex [1
+) (Team_qualifications/Discussion.tex
+Overfull \hbox (1.0513pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 elec-tron-ics course, ECE 342, which an op-ti-cal up-link was s
+im-u-lated and de-signed by this team. This course 
+ []
 
- <./Introduction/blockdiagram.png (PNG copy)>]) [2]
-Overfull \hbox (151.27962pt too wide) in paragraph at lines 131--132
+[1
+
+ <./Introduction/blockdiagram.png (PNG copy)>]) (Conclusion/Conclusion.tex)
+[2]
+Overfull \hbox (151.27962pt too wide) in paragraph at lines 137--138
 []\OT1/cmr/m/n/10 NPTEL.(2017) Schmitt Trig-ger [On-line]. Avail-able: http://w
 ww.nptel.ac.in/courses/117107094/lecturers/lecture[]18/lecture18[]page1.htm  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 []\OT1/cmr/m/n/10 N.W. Em-anatoglu.(2017) Lab $#4$; LED Driver [On-line]. Avail
 -able: 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 []\OT1/cmr/m/n/10 Everlight Elec-tron-ics. (2017) 5mm In-frared LED. [On-line].
  Avail-able: 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 []\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) LM7805 [On-line]. Avail-able: 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 []\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) 2N3904 [On-line]. Avail-able: 
  []
 
@@ -686,7 +693,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (6 pages, 104466 bytes).
+Output written on main.pdf (6 pages, 105286 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
