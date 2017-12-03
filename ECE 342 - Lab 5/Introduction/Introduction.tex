@@ -3,7 +3,7 @@
 
 \begin{document}
 
-\noindent This report describes design, implementation and test of an LED driver comprised of a ring oscillator, Schmitt trigger, and a current driver. The ring oscillator is comprised of complementary metal oxide semiconducting field effect transistors (CMOS) inverters connected in series. Figure \ref{fig:blockdiagram2} demonstrates where in the optical uplink project the LED driver is placed. 
+\noindent This report describes design, implementation and test of two voltage amplifiers. One consisting of negative metal oxide semconducting field effect transistors (NMOS). The other comprised of bipolar junction transistors. Figure \ref{fig:blockdiagram2} demonstrates where in the optical uplink project the voltage amplifier is placed. 
 
 
 
@@ -13,7 +13,8 @@
     \caption{Block diagram for optical uplink \cite{b1}}
     \label{fig:blockdiagram2}
 \end{figure}
-The LED driver is required by the optical uplink project. The signal generator chosen for the overall design does not output a high enough current in order to operate the IR LED. In addition, the waveform from the signal generator is a distorted sinuisoid without a 50\% duty-cycle. For ideal operation, the LED should receive a 50\% duty-cycle square wave. In addition, it requires a forward voltage of at least 100mA in order to operate.. The specifications for this lab are summarized in Table \ref{tab:specifications}.
+
+The voltage amplifier is required by the optical uplink project. The output signal from the multi-feedback bandpass filter (MFBP) is in the hundreds of millivolt range. In order to make a more easily detectable signal, a voltage amplifier is required. This can achieved through the use of either a common source or common emitter amplifier. The specifications for this lab are summarized in Table \ref{tab:specifications}.
 
 \begin{table}[H]
 	\centering
@@ -22,17 +23,22 @@ The LED driver is required by the optical uplink project. The signal generator c
 	\begin{tabular}{|l|l|}
 		\hline
 		Specifications & Required       \\ \hline
-		Frequency      & 20kHz$\pm 5\%$ \\ \hline
-		Duty-cycle     & 50\%           \\ \hline
-		Amplitude      & $\geq$100mA    \\ \hline
+		Peak gain, with load      & 21 dB $\pm$ 1dB\% \\ \hline
+		Bias current for N$_1$     & ~1mA          \\ \hline
+		Lower cut-off frequency      & $\geq$100 mA    \\ \hline
+		Upper cut-off frequency    &  at least 200 kHz \\ \hline
+		R$_in$, small signal       &  at least 1 M$\Omega$ \\ \hline
+		R$_out$, small signal      &  at least 3 k$\Omega$ \\ \hline
+		2$^(nd)$ Harmonic distortion @ 1kHz  & <2\% \\ \hline
+		Supply voltages            &  $\pm$12 V
 	\end{tabular}
 \end{table}
 
 
-The LED driver circuit supplies the LED with a controlled current. A signal conditioner takes the output from a ring oscillator and creates a 50\% duty-cycle square wave. The square wave is then in turn recieved by a current driver. The current driver creates a sufficiently large current in order to operate the LED.  A voltage driven output to light the LED is not used due to increased sensitivity from temperature change. 
+The voltage amplifier circuit receives the voltage signal from the MFBP and increases the amplitude of the voltage wavefrom. The desired final output being 5 V. This is achieved with either the use of a NMOS common source amplifier or an NPN BJT common emitter amplifier.
 
 
-Section 2 of this report describes the design and simulations of the signal conditioner and the current driver. Experimental results are addressed in section 3. A discussion of the results, sources of error, and areas of possible improvement are outlined in section 4. Section 5 concludes this report. \newline
+Section 2 of this report describes the design and simulations of the common source amplifier and the common emitter amplifier. Experimental results are addressed in section 3. A discussion of the results, sources of error, and areas of possible improvement are outlined in section 4. Section 5 concludes this report. \newline
 
 
 
