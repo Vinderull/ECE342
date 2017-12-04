@@ -3,6 +3,6 @@
 \contentsline {subsection}{\numberline {2.1}NMOS common source}{2}
 \contentsline {subsection}{\numberline {2.2}BJT common emitter}{5}
 \contentsline {subsection}{\numberline {2.3}Simulated summary}{7}
-\contentsline {section}{\numberline {3}Experimental Implementation}{8}
-\contentsline {section}{\numberline {4}Discussion}{8}
+\contentsline {section}{\numberline {3}Experimental Implementation}{7}
+\contentsline {section}{\numberline {4}Discussion}{10}
 \contentsline {section}{\numberline {5}Conclusion}{10}
