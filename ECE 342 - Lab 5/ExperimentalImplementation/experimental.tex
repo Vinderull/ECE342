@@ -1,28 +1,50 @@
 \begin{document}
-The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
+The circuits required only minor changes from simulation to experimental implementation.	
+	
 
-\begin{figure}
+\subsection{NMOS amplifier}
+The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/NMOS_exp}
-	\caption[NMOS final circuit schematic]{}
-	\caption{}
+	\caption{NMOS final circuit schematic}
 	\label{fig:nmosexp}
 \end{figure}
 
 
-\begin{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/nmosamp.jpg}
+	\caption{NMOS experimental frequency response}
+	\label{fig:nmosexp}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/nmos_fft.jpg}
+	\caption{NMOS experimental FFT}
+	\label{fig:nmosexp}
+\end{figure}
+
+
+
+
+\subsection{BJT amplifier}
+
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/BJT_Exp}
-	\caption[BJT final schematic]{}
-	\caption{}
+	\caption{BJT final schematic}
 	\label{fig:bjtexp}
 \end{figure}
 
 
-\begin{table}[]
+\begin{table}[H]
 	\centering
 	\caption{BJT experimental values}
-	\label{my-label}
+	\label{tab:bjtexp}
 	\begin{tabular}{cc}
 		$Q_1, Q_2, Q_3$ & 2N3904        \\
 		$R_ref$         & 19.3k$\Omega$ \\
