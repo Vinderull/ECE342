@@ -19,9 +19,9 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.55\textwidth]{CircuitDevelopment/genericschem.png}
-		\caption{Generic common source amplifier circuit \cite{b1}}
-		\label{fig:currentgeneric}
+		\includegraphics[width=.55\textwidth]{CircuitDevelopment/smallsignal.png}
+		\caption{Equivalent small signal circuit}
+		\label{fig:smallsignalnmos}
 	\end{figure}
 	
 	The transconductance of this circuit is defined as Equation \ref{eq:trancond}
@@ -71,10 +71,25 @@
 	\label{fig:nmosfft}
 \end{figure}
 
-	This analysis was performed by inputting a 10 mV signal at 1 kHz. The measured distortion on the second harmonic is required to be less than 2\%. By inspection the distortion is found to be 1.5\%.
+	This analysis was performed by inputting a 10 mV signal at 1 kHz. The measured distortion on the second harmonic is required to be less than 2\%. By inspection the distortion is found to be 1.5\%. Table \ref{tab:nmossum}
+	
+	
+	\begin{table}[]
+		\centering
+		\caption{BJT experimental values}
+		\label{tab:nmossum}
+		\begin{tabular}{cc}
+			$Q_1, Q_2, Q_3$ & 2N3904        \\
+			$R_ref$         & 19.3k$\Omega$ \\
+			$R_C$           & 4.7k$\Omega$  \\
+			$R_B$           & 10k$\Omega$   \\
+			$R_E$           & 3.3k$\Omega$  \\
+			$R_L$           & 1k$\Omega$    \\
+			$C_B, C_C, C_E$ & 470nF        
+		\end{tabular}
+	\end{table}
+	
 	
 	
 \end{document}	
 	
-	
-\end{document}
