@@ -10,6 +10,9 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\caption{NMOS final circuit schematic}
 	\label{fig:nmosexp}
 \end{figure}
+Some of the resistor values had to be changed in order to meet specifications. The capacitors had to be increased as well due to the poor performance of the equivalent nominal value electrolytics. The implemented capacitors are parallel plate which operate better at higher frequencies. 
+
+Figure \ref{fig:nmosfreq} demonstrates the experimental frequency response of the NMOS amplifier. 
 
 
 
@@ -20,6 +23,8 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\label{fig:nmosfreq}
 \end{figure}
 
+The gain was just on the high end of the specification at 22 dB. The lower cutoff frequency is less than 1 kHz. The upper cutoff also meets spec by being greater than 200 kHz. The FFT of the circuit can by seen in Figure \ref{fig:nmosfft}.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/nmos_fft.jpg}
@@ -27,7 +32,7 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\label{fig:nmosfft}
 \end{figure}
 
-
+The second harmonic distortion was slightly too high at 5\%. This can be altered by the negative bias voltage, for the purpose of this lab, 5\% was deemed acceptable. Table \ref{tab:nmosexp} shows the summary of the experimental NMOS circuit.
 
 
 \begin{table}[H]
@@ -45,10 +50,13 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\end{tabular}
 \end{table}
 
+After minor alterations the circuit operated correctly.
+
 
 
 \subsection{BJT amplifier}
 
+The BJT required only a slight change of capacitor values, due to availability. Figure \ref{fig:bjtexp} shows the final circuit for the BJT amplifier circuit.
 
 \begin{figure}[H]
 	\centering
@@ -56,6 +64,8 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\caption{BJT final schematic}
 	\label{fig:bjtexp}
 \end{figure}
+
+The BJT was built using the provided components. The experimental frequency response of the circuit is shown in Figure \ref{fig:bjtexpfreq}.
 
 
 
@@ -65,7 +75,7 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\caption{BJT experimental frequency response}
 	\label{fig:bjtexpfreq}
 \end{figure}
-
+The gain was a little less than the simulated, at 24 dB, but the lower cutoff was quite higher at 6 kHz, far higher than the specified 1 kHz. The upper cutoff can not be measured exactly due to the limitations of the Digilent Discovery board's network analyzer. The measured values are only accurate up to 500 kHz. The measured FFT of the BJT can be seen in Figure \ref{fig:bjtexpfft}.
 
 \begin{figure}[H]
 	\centering
@@ -73,6 +83,8 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\caption{BJT experimental FFT}
 	\label{fig:bjtexpfft}
 \end{figure}
+
+The second harmonc distortion was significantly less than the NMOS while still being in spec, at roughly 1\%. Table \ref{tab:bjtexp} shows the summary of the BJT performance.
 
 
 
@@ -88,11 +100,11 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 		$R_B$           & 10k$\Omega$   \\ \hline 
 		$R_E$           & 3.3k$\Omega$  \\ \hline 
 		$R_L$           & 1k$\Omega$    \\ \hline
-		$C_B$, $C_C$, $C_E$ & 470nF     \\    \\ \hline
+		$C_B$, $C_C$, $C_E$ & 470nF     \\ \hline
 	\end{tabular}
 \end{table}
 
-In order to meet specifications, several minor changes to all circuits were made. The individual changes are discussed in their respective subsection as follows, the signal conditioner then the current driver.
+Overall, the BJT operated as expected, discussion and comparison of the two circuits can be found in Discussion.
 
 
 %\subsection{Ring oscillator}
