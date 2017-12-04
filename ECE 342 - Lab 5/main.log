@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  4 DEC 2017 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  4 DEC 2017 12:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -630,7 +630,7 @@ Package pdftex.def Info: Images/barcode.png used on input line 73.
 \openout5 = `main.lot'.
 
  [2] (Introduction/Introduction.tex
-<Introduction/Block_Diagram_MFBP.png, id=20, 490.83376pt x 57.21375pt>
+<Introduction/Block_Diagram_MFBP.png, id=21, 490.83376pt x 57.21375pt>
 File: Introduction/Block_Diagram_MFBP.png Graphic file (type png)
 
 <use Introduction/Block_Diagram_MFBP.png>
@@ -641,7 +641,7 @@ Package pdftex.def Info: Introduction/Block_Diagram_MFBP.png used on input line
 (CircuitDevelopment/NMOS-common-source.tex [1
 
  <./Introduction/Block_Diagram_MFBP.png>] <CircuitDevelopment/genericschem.png,
- id=29, 352.31625pt x 329.23pt>
+ id=30, 352.31625pt x 329.23pt>
 File: CircuitDevelopment/genericschem.png Graphic file (type png)
 
 <use CircuitDevelopment/genericschem.png>
@@ -649,7 +649,7 @@ Package pdftex.def Info: CircuitDevelopment/genericschem.png used on input line
  6.
 (pdftex.def)             Requested size: 258.36668pt x 241.43607pt.
 
-<CircuitDevelopment/smallsignal.png, id=30, 863.47594pt x 246.1697pt>
+<CircuitDevelopment/smallsignal.png, id=31, 863.47594pt x 246.1697pt>
 File: CircuitDevelopment/smallsignal.png Graphic file (type png)
 
 <use CircuitDevelopment/smallsignal.png>
@@ -657,7 +657,7 @@ Package pdftex.def Info: CircuitDevelopment/smallsignal.png used on input line
 31.
 (pdftex.def)             Requested size: 258.36668pt x 73.65614pt.
  [2 <./CircuitDevelopment/genericschem.png (PNG copy)>]
-<CircuitDevelopment/NMOS_sim.png, id=34, 535.2497pt x 500.62032pt>
+<CircuitDevelopment/NMOS_sim.png, id=35, 535.2497pt x 500.62032pt>
 File: CircuitDevelopment/NMOS_sim.png Graphic file (type png)
 
 <use CircuitDevelopment/NMOS_sim.png>
@@ -665,7 +665,7 @@ Package pdftex.def Info: CircuitDevelopment/NMOS_sim.png used on input line 58.
 
 (pdftex.def)             Requested size: 258.36668pt x 241.66237pt.
  [3 <./CircuitDevelopment/smallsignal.png>] <CircuitDevelopment/NMOS_bandwidth.
-jpg, id=38, 853.1875pt x 602.25pt>
+jpg, id=39, 853.1875pt x 602.25pt>
 File: CircuitDevelopment/NMOS_bandwidth.jpg Graphic file (type jpg)
 
 <use CircuitDevelopment/NMOS_bandwidth.jpg>
@@ -673,7 +673,7 @@ Package pdftex.def Info: CircuitDevelopment/NMOS_bandwidth.jpg used on input li
 ne 67.
 (pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
 
-<CircuitDevelopment/nmos_FFT.jpg, id=39, 853.1875pt x 602.25pt>
+<CircuitDevelopment/nmos_FFT.jpg, id=40, 853.1875pt x 602.25pt>
 File: CircuitDevelopment/nmos_FFT.jpg Graphic file (type jpg)
 
 <use CircuitDevelopment/nmos_FFT.jpg>
@@ -683,7 +683,7 @@ Package pdftex.def Info: CircuitDevelopment/nmos_FFT.jpg used on input line 76.
  [4 <./CircuitDevelopment/NMOS_sim.png> <./CircuitDevelopment/NMOS_bandwidth.jp
 g>])
 (CircuitDevelopment/BJT-common-emitter.tex [5 <./CircuitDevelopment/nmos_FFT.jp
-g>] <CircuitDevelopment/BJT_bandwidth.jpg, id=47, 853.1875pt x 602.25pt>
+g>] <CircuitDevelopment/BJT_bandwidth.jpg, id=48, 853.1875pt x 602.25pt>
 File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
 
 <use CircuitDevelopment/BJT_bandwidth.jpg>
@@ -698,7 +698,7 @@ e 35.
 (pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
  [6 <./CircuitDevelopment/BJT_bandwidth.jpg>])) (ExperimentalImplementation/exp
 erimental.tex
-<ExperimentalImplementation/NMOS_exp.png, id=51, 529.22719pt x 506.6428pt>
+<ExperimentalImplementation/NMOS_exp.png, id=52, 529.22719pt x 506.6428pt>
 File: ExperimentalImplementation/NMOS_exp.png Graphic file (type png)
 
 <use ExperimentalImplementation/NMOS_exp.png>
@@ -706,7 +706,7 @@ Package pdftex.def Info: ExperimentalImplementation/NMOS_exp.png used on input
 line 10.
 (pdftex.def)             Requested size: 328.82707pt x 314.7956pt.
  [7]
-<ExperimentalImplementation/nmosamp.jpg, id=55, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/nmosamp.jpg, id=56, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/nmosamp.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/nmosamp.jpg>
@@ -714,7 +714,7 @@ Package pdftex.def Info: ExperimentalImplementation/nmosamp.jpg used on input l
 ine 19.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [8 <./ExperimentalImplementation/NMOS_exp.png>]
-<ExperimentalImplementation/nmos_fft.jpg, id=59, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/nmos_fft.jpg, id=60, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/nmos_fft.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/nmos_fft.jpg>
@@ -723,7 +723,7 @@ line 28.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [9 <./ExperimentalImplementation/nmosamp.jpg> <./ExperimentalImplementation/nm
 os_fft.jpg>]
-<ExperimentalImplementation/BJT_Exp.png, id=63, 447.92343pt x 484.05844pt>
+<ExperimentalImplementation/BJT_Exp.png, id=64, 447.92343pt x 484.05844pt>
 File: ExperimentalImplementation/BJT_Exp.png Graphic file (type png)
 
 <use ExperimentalImplementation/BJT_Exp.png>
@@ -731,7 +731,7 @@ Package pdftex.def Info: ExperimentalImplementation/BJT_Exp.png used on input l
 ine 64.
 (pdftex.def)             Requested size: 328.82707pt x 355.36136pt.
  [10]
-<ExperimentalImplementation/bjt_outputexp.jpg, id=68, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/bjt_outputexp.jpg, id=69, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/bjt_outputexp.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/bjt_outputexp.jpg>
@@ -739,7 +739,7 @@ Package pdftex.def Info: ExperimentalImplementation/bjt_outputexp.jpg used on i
 nput line 75.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [11 <./ExperimentalImplementation/BJT_Exp.png>]
-<ExperimentalImplementation/bjt_fft.jpg, id=73, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/bjt_fft.jpg, id=74, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/bjt_fft.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/bjt_fft.jpg>
@@ -777,20 +777,21 @@ Here is how much of TeX's memory you used:
  7422 multiletter control sequences out of 15000+200000
  9326 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,41p,1017b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,41p,1019b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (18 pages, 626411 bytes).
+/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (18 pages, 633804 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
