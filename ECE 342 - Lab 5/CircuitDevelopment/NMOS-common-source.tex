@@ -14,7 +14,16 @@
 	\end{equation}
 	
 	Where k is the transconductance parameter, V$_{gs}$ is the gate-source voltage and V$_T$ is the threshold voltage. From the datasheet \cite{NMOS},  I$_D$ is 75 mA when V$_{gs}$ is 4.5 V. From Equation \ref{eq:k} k can be found to be 8.5 mA/V. Again using Equation \ref{eq:k}, the corresponding V$_{gs}$ for a bias current of 1 mA is found to be 1.85 V. 
-	Upon finding the voltage drop over the NMOS, the source resistance can then be found by KCL across the amplifier NMOS. R$_{s}$ is found to be 8.3 k$\Omega$, R$_{ref}$ can found to be 22.2 k$\Omega$. AC analysis of the circuit is then required in order to find the drain resistance. Figure \ref{fig:smallsignalnmos} shows the equivalent small signal model for the NMOS.
+	Upon finding the voltage drop over the NMOS, the source resistance can then be found by KCL across the amplifier NMOS. R$_{s}$ is found to be 8.3 k$\Omega$, R$_{ref}$ can found to be 22.2 k$\Omega$. The capacitor values are chosen such that their impendence is less than their corresponding resistor values. The impendence of the capacitor can be found by Equation \ref{eq:capz}
+	
+	\begin{equation}\label{eq:capz}
+	Z_c = \frac{1}{j\omega C},
+	\end{equation}
+	
+	where $\omega$ is the angular frequency of the input signal in rad/s. By setting Z$_c$ to be less than the corresponding R values, C can be solved to be 4.7 $\mu$F.
+	
+	
+	 AC analysis of the circuit is then required in order to find the drain resistance. Figure \ref{fig:smallsignalnmos} shows the equivalent small signal model for the NMOS.
 	
 	
 	\begin{figure}[H]
@@ -71,23 +80,27 @@
 	\label{fig:nmosfft}
 \end{figure}
 
-	This analysis was performed by inputting a 10 mV signal at 1 kHz. The measured distortion on the second harmonic is required to be less than 2\%. By inspection the distortion is found to be 1.5\%. Table \ref{tab:nmossum}
+	This analysis was performed by inputting a 10 mV signal at 1 kHz. The measured distortion on the second harmonic is required to be less than 2\%. By inspection the distortion is found to be 1.5\%. Table \ref{tab:nmossum} summarizes the NMOS simulation results.
 	
 	
-	\begin{table}[]
+	\begin{table}[H]
 		\centering
-		\caption{BJT experimental values}
-		\label{tab:nmossum}
+		\caption{NMOS summary}
 		\begin{tabular}{cc}
-			$Q_1, Q_2, Q_3$ & 2N3904        \\
-			$R_ref$         & 19.3k$\Omega$ \\
-			$R_C$           & 4.7k$\Omega$  \\
-			$R_B$           & 10k$\Omega$   \\
-			$R_E$           & 3.3k$\Omega$  \\
-			$R_L$           & 1k$\Omega$    \\
-			$C_B, C_C, C_E$ & 470nF        
+			$Q_1, Q_2, Q_3$ & 2N7000        \\ \hline
+			$R_ref$         & 19.3 k$\Omega$ \\ \hline
+			$R_D$           & 7.8 k$\Omega$  \\ \hline
+			$R_S$           & 8 k$\Omega$   \\ \hline
+			$R_G$           & 1 M$\Omega$  \\ \hline
+			$C_g$, $C_d$, $C_l$ & 4.7 $\mu$F   \\ \hline
+			Lower cutoff    &  500 Hz \\    \hline
+			Upper cutoff    & 10 MHz \\    \hline
+			
+			     
 		\end{tabular}
 	\end{table}
+
+After making slight alterations the circuit worked correctly in simulations.
 	
 	
 	

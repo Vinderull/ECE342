@@ -1,26 +1,34 @@
 \begin{document}
-The CMOS ring oscillator consists of three CMOS inverters connected in series with the
-output of the last inverter connected to the input of the first inverter. The ring oscillator will also have a
-capacitor at each output connected to ground. The schematic for the CMOS ring oscillator can be seen in Figure \ref{fig:ringoscillatorcmosexp}.
+The BJT operates similarly to the NMOS circuit. The difference being it is now an NPN transistor and is therefore a current controlled voltage source, as opposed to the NMOS which is a voltage controlled. The values for the BJT circuit were not solved for, but instead provided as part of the lab, which can be seen in Table \ref{tab:bjttab}
+
+\begin{table}[H]
+	\centering
+	\caption{BJT experimental values}
+	\label{tab:bjttab}
+	\begin{tabular}{cc}
+		$Q_1, Q_2, Q_3$ & 2N3904        \\
+		$R_ref$         & 19.3k$\Omega$ \\
+		$R_C$           & 4.7k$\Omega$  \\
+		$R_B$           & 10k$\Omega$   \\
+		$R_E$           & 3.3k$\Omega$  \\
+		$R_L$           & 1k$\Omega$    \\
+		$C_B, C_C, C_E$ & 500nF        
+	\end{tabular}
+\end{table}
+
+ The simulations of the BJT follow and were performed in Matlab integrated with NGspice. The frequency response of the circuit can be seen in Figure \ref{fig:bjtsimfreq}. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{CircuitDevelopment/RingOscillatorCMOSexp.png}
-	\caption{CMOS ring oscillator schematic}
-	\label{fig:ringoscillatorcmosexp}
+	\includegraphics[width=.55\textwidth]{CircuitDevelopment/BJT_bandwidth.jpg}
+	\caption{Simulated frequency response of BJT}
+	\label{fig:bjtsimfreq}
 \end{figure}
 
+Notably, the 3dB lower cutoff is greater than 1 kHz. The corresponding passband gain is significantly higher than 20 dB. This is not ideal, because the output could begin to saturated due to excessive gain.
 
-The operation of the ring oscillator uses a series of inverters. The output of one inverter inverts the input signal. Therefore, if there are a series of inverters, then each odd inverter will have the same inverted output as the first. In this instance, there are three stages of inverters used, with the output of the third inverter being fed back into the input of the first inverter. This feedback from the output to the input causes an oscillation. The simulated output of the ring oscillator is depicted in Figure \ref{fig:ringoscsimlab4}.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\linewidth]{CircuitDevelopment/ringoscsimlab4.jpg}
-	\caption{Simulated CMOS ring oscillator output}
-	\label{fig:ringoscsimlab4}
-\end{figure}
 
-The output of the ring oscillator seen in Figure \ref{fig:ringoscsimlab4} is not a square wave, but instead a distorted sinusoid. However, the signal will be converted into a square wave by using a schmitt trigger. The resulting signal will be used to drive the LED driver circuit.
  
 
 
