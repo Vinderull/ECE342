@@ -20,12 +20,19 @@ The BJT operates similarly to the NMOS circuit. The difference being it is now a
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.55\textwidth]{CircuitDevelopment/BJT_bandwidth.jpg}
+	\includegraphics[width=.55\textwidth]{CircuitDevelopment/BJT\_bandwidth.jpg}
 	\caption{Simulated frequency response of BJT}
 	\label{fig:bjtsimfreq}
 \end{figure}
 
-Notably, the 3dB lower cutoff is greater than 1 kHz. The corresponding passband gain is significantly higher than 20 dB. This is not ideal, because the output could begin to saturated due to excessive gain.
+Notably, the 3dB lower cutoff is greater than 1 kHz. The corresponding passband gain is significantly higher than 20 dB. This is not ideal, because the output could begin to saturate due to excessive gain. The FFT of the BJT can be seen in Figure \ref{fig:bjtFFT}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.55\textwidth]{CircuitDevelopment/BJT\_bandwidth.jpg}
+	\caption{Simulated FFT BJT circuit}
+	\label{fig:bjtFFT}
+\end{figure}
 
 
 

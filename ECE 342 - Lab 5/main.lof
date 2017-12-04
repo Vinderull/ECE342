@@ -1,12 +1,13 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Block diagram for optical uplink \cite {b1}\relax }}{1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Generic current driver circuit \cite {b1}\relax }}{2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Current vs voltage}}{2}
-\contentsline {figure}{\numberline {4}{\ignorespaces Simulated LED driver}}{3}
-\contentsline {figure}{\numberline {5}{\ignorespaces Simulated current}}{3}
-\contentsline {figure}{\numberline {6}{\ignorespaces CMOS ring oscillator schematic\relax }}{3}
-\contentsline {figure}{\numberline {7}{\ignorespaces Simulated CMOS ring oscillator output\relax }}{4}
-\contentsline {figure}{\numberline {8}{\ignorespaces Simulated circuit}}{4}
-\contentsline {figure}{\numberline {9}{\ignorespaces NMOS final circuit schematic}}{6}
-\contentsline {figure}{\numberline {10}{\ignorespaces \relax }}{6}
-\contentsline {figure}{\numberline {11}{\ignorespaces BJT final schematic}}{7}
-\contentsline {figure}{\numberline {12}{\ignorespaces \relax }}{7}
+\contentsline {figure}{\numberline {2}{\ignorespaces Generic common source amplifier circuit \cite {b1}\relax }}{2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Equivalent small signal circuit\relax }}{3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Simulated common source amplifier circuit\relax }}{4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Simulated frequency response of NMOS amplifier\relax }}{4}
+\contentsline {figure}{\numberline {6}{\ignorespaces Simulated FFT of second harmonic distortion\relax }}{5}
+\contentsline {figure}{\numberline {7}{\ignorespaces Simulated frequency response of BJT\relax }}{6}
+\contentsline {figure}{\numberline {8}{\ignorespaces Simulated FFT BJT circuit\relax }}{7}
+\contentsline {figure}{\numberline {9}{\ignorespaces Simulated circuit}}{7}
+\contentsline {figure}{\numberline {10}{\ignorespaces NMOS final circuit schematic}}{8}
+\contentsline {figure}{\numberline {11}{\ignorespaces \relax }}{8}
+\contentsline {figure}{\numberline {12}{\ignorespaces BJT final schematic}}{9}
+\contentsline {figure}{\numberline {13}{\ignorespaces \relax }}{9}
