@@ -15,38 +15,5 @@ The order in which the circuits are discussed is as follows: first the NMOS ampl
 
 
 
-\subsection{Simulated summary}
-The final simulated circuit is shown in Figure \ref{fig:finalschemlab4}.
-
-
-The simulated circuit did require any changes from calculations. One of the most significant margins of error for simulations is that the operation of the simulations is quite dependent on which simulation model for the 2N3904 is used. The "SP3" model from ON Semiconductor was utilized for these simulations \cite{spice}. Different models are capable of behaving in unexpected ways due to their interaction with the NGSpice simulation software. The summary of simulated results from this circuit is shown in Table \ref{tab:simresults}.
-
-\begin{table}[H]
-	\centering
-\caption{Simulated Results}
-\label{tab:simresults}
-\begin{tabular}{|c|c|}
-	\hline 
-	Component & Simulated Values \\ 
-	\hline 
-	Conditioned Voltage & 5V \\ 
-	\hline 
-	Conditioned Frequency & 20kHz \\ 
-	\hline 
-	Conditioned Duty-Cycle & 48\% \\ 
-	\hline 
-	Output Current & 200mA \\ 
-	\hline 
-	R$_{sense}$ & 12$\Omega$ \\ 
-	\hline 
-\end{tabular} 
-\end{table}
-The simulated signal conditioner outputted only a 48\% duty-cycle directly and is slightly less than the required 50\%. However, the final waveform through the LED operated with a 50\% duty-cycle as required by specifications. The simulated circuit operated as expected and provided enough current in order to drive the LED. The resulting waveform through the LED is the correct frequency and duty-cycle. 
-	
-
-
-
-
-
 
 \end{document}
