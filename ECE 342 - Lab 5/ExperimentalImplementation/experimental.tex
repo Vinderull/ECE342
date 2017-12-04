@@ -37,7 +37,7 @@ The second harmonic distortion was slightly too high at 5\%. This can be altered
 	\centering
 	\caption{NMOS experimental values}
 	\label{tab:nmosexp}
-	\begin{tabular}{|c|c|}
+	\begin{tabular}{|c|c|}  \hline
 		$Q_1, Q_2, Q_3$ & 2N7000        \\ \hline
 		$R_ref$         & 22 k$\Omega$ \\ \hline
 		$R_g$           & 1 M$\Omega$  \\ \hline
@@ -61,7 +61,7 @@ The BJT required only a slight change of capacitor values, due to availability. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/BJT_Exp}
+	\includegraphics[width=0.55\linewidth]{ExperimentalImplementation/BJT_Exp}
 	\caption{BJT final schematic}
 	\label{fig:bjtexp}
 \end{figure}
@@ -72,7 +72,7 @@ The BJT was built using the provided components. The experimental frequency resp
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/bjt_outputexp.jpg}
+	\includegraphics[width=0.6\linewidth]{ExperimentalImplementation/bjt_outputexp.jpg}
 	\caption{BJT experimental frequency response}
 	\label{fig:bjtexpfreq}
 \end{figure}
@@ -85,7 +85,7 @@ The gain was a little less than the simulated, at 24 dB, but the lower cutoff wa
 	\label{fig:bjtexpfft}
 \end{figure}
 
-The second harmonc distortion was significantly less than the NMOS while still being in spec, at roughly 1\%. Table \ref{tab:bjtexp} shows the summary of the BJT performance.
+The second harmonic distortion was significantly less than the NMOS while still being in spec, at roughly 1\%. Table \ref{tab:bjtexp} shows the summary of the BJT performance.
 
 
 
@@ -94,7 +94,6 @@ The second harmonc distortion was significantly less than the NMOS while still b
 	\centering
 	\caption{BJT experimental values}
 	\label{tab:bjtexp}
-	\begin{tabular}{|c|c|}
 	\begin{tabular}{|c|c|} \hline
 		$Q_1, Q_2, Q_3$ & 2N3904        \\ \hline
 		$R_ref$         & 19.3k$\Omega$ \\ \hline
