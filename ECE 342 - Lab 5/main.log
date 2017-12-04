@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  4 DEC 2017 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  4 DEC 2017 11:24
 entering extended mode
 **./main.tex
 (main.tex
@@ -520,7 +520,13 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subtable=\count104
 ) (main.aux
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `fig:nmosexp' multiply defined.
+
+
+LaTeX Warning: Label `fig:nmosexp' multiply defined.
+
+
+LaTeX Warning: Label `tab:bjtexp' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -761,9 +767,46 @@ File: ExperimentalImplementation/bjt_fft.jpg Graphic file (type jpg)
 Package pdftex.def Info: ExperimentalImplementation/bjt_fft.jpg used on input l
 ine 72.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
- [11 <./ExperimentalImplementation/bjt_outputexp.jpg> <./ExperimentalImplementa
-tion/bjt_fft.jpg>])
-(Discussion/Discussion.tex
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.91 		$C_B, C_C, C_E$ & 470nF        \hline
+                                            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.91 		$C_B, C_C, C_E$ & 470nF        \hline
+                                            
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.91 		$C_B, C_C, C_E$ & 470nF        \hline
+                                            
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.91 		$C_B, C_C, C_E$ & 470nF        \hline
+                                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[11 <./ExperimentalImplementation/bjt_outputexp.jpg> <./ExperimentalImplementat
+ion/bjt_fft.jpg>]) (Discussion/Discussion.tex
 
 LaTeX Warning: Reference `tab:specs' on page 12 undefined on input line 2.
 
@@ -800,10 +843,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3999 strings out of 493333
- 60067 string characters out of 3139196
- 125702 words of memory out of 3000000
- 7416 multiletter control sequences out of 15000+200000
+ 4001 strings out of 493333
+ 60094 string characters out of 3139196
+ 125732 words of memory out of 3000000
+ 7418 multiletter control sequences out of 15000+200000
  7021 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,41p,908b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -816,7 +859,7 @@ nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on main.pdf (17 pages, 607017 bytes).
+Output written on main.pdf (17 pages, 607359 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
