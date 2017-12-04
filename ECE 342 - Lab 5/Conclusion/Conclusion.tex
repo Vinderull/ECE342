@@ -1,8 +1,5 @@
 \begin{document}
-The design, simulation, and implementation of the LED driver have been explained. Lab specification required that the signal generator have a frequency of approximately 20kHz, a duty-cycle of approximately 50\%, and an amplitude of at least 100mA. The LED driver takes a sinuisoidal waveform of variable duty-cycle and outputs a 50\% durt-cycle square wave. The waveform is then converted to a suffeciently large driving current by the current driver. The LED driver was constructed using the following parts: a 10k$\Omega$, 100k$\Omega$, 470$\Omega$, 1k$\Omega$, 12$\Omega$ and a 10k$\Omega$ potentiometer; a MCP6004 quadrature operation amplifier; an IR1503 LED; and finally a 2N3904 BJT. A 9V battery supply is stepped down to 5V with an LM7805 voltage regulator. The frequency was 20.1kHz, with a duty-cycle of 50.1\%, and an amplitude of 150mA. 
-%%IMPORTANT LESSON
-An important lesson about the behavior circuits including both op amps and transistors was learned. The meshing of op amps and transistors provide novel solutions to real world problems
-
+	The design, simulation, and implementation of a voltage amplifier have been explained. The specifications required, for the purposes of use in the optical uplink project, are a lower cutoff frequency of $\le$ 1kHz, upper cutoff frequency of 200 kHz, and a peak gain of 21 dB ± 1 dB. Also, the 2nd Harmonic distortion for a 20 mVp-p sinusoidal signal at 1 kHz must be < 2\%. The sinusoidal source was 20 mV$_{P-P}$ at 1kHz, and the supply voltages were ±12V. This resulted in a lower cutoff frequency of approximately 600 Hz and the upper cutoff frequency was in the MHz range, which exceeds the required $\ge$ 200 kHz. The 2nd harmonic distortion was measured to be approximately 5\%. An important lesson was learned about the comparison between a voltage amplifier using NMOS components and a voltage amplifier using BJT components.
 
 
 \end{document}
