@@ -1,12 +1,38 @@
 \begin{document}
 The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
-	\includegraphics[width=0.8\linewidth]{ExperimentalImplementation/FINAlexperimentalSchem}
-	\caption[Final circuit]{Experimental design}
-	\label{fig:finalexperimentalschem}
+	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/NMOS_exp}
+	\caption[NMOS final circuit schematic]{}
+	\caption{}
+	\label{fig:nmosexp}
 \end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{ExperimentalImplementation/BJT_Exp}
+	\caption[BJT final schematic]{}
+	\caption{}
+	\label{fig:bjtexp}
+\end{figure}
+
+
+\begin{table}[]
+	\centering
+	\caption{BJT experimental values}
+	\label{my-label}
+	\begin{tabular}{cc}
+		$Q_1, Q_2, Q_3$ & 2N3904        \\
+		$R_ref$         & 19.3k$\Omega$ \\
+		$R_C$           & 4.7k$\Omega$  \\
+		$R_B$           & 10k$\Omega$   \\
+		$R_E$           & 3.3k$\Omega$  \\
+		$R_L$           & 1k$\Omega$    \\
+		$C_B, C_C, C_E$ & 470nF        
+	\end{tabular}
+\end{table}
 
 In order to meet specifications, several minor changes to all circuits were made. The individual changes are discussed in their respective subsection as follows, the signal conditioner then the current driver.
 
@@ -15,10 +41,5 @@ In order to meet specifications, several minor changes to all circuits were made
 %\subfile{ExperimentalImplementation/ringosc.tex}
 
 
-\subsection{Signal conditioner}
-\subfile{ExperimentalImplementation/signalconditioner.tex}
 
-\subsection{Current driver}
-\subfile{ExperimentalImplementation/currentdriver.tex}
-	
 \end{document}
