@@ -10,10 +10,7 @@ The final circuit is shown in Figure \ref{fig:finalexperimentalschem}.
 	\caption{NMOS final circuit schematic}
 	\label{fig:nmosexp}
 \end{figure}
-Some of the resistor values had to be changed in order to meet specifications. The capacitors had to be increased as well due to the poor performance of the equivalent nominal value electrolytics. The implemented capacitors are parallel plate which operate better at higher frequencies. 
-
-Figure \ref{fig:nmosfreq} demonstrates the experimental frequency response of the NMOS amplifier. 
-
+Some of the resistor values had to be changed in order to meet specifications. The capacitors had to be increased as well due to the poor performance of the equivalent nominal value electrolytics. The implemented capacitors are parallel plate which operate better at higher frequencies. Figure \ref{fig:nmosfreq} demonstrates the experimental frequency response of the NMOS amplifier. 
 
 
 \begin{figure}[H]
@@ -47,6 +44,9 @@ The second harmonic distortion was slightly too high at 5\%. This can be altered
 		$R_s$           & 8.2 k$\Omega$  \\ \hline
 		$R_L$           & 1k$\Omega$    \\ \hline
 		$C_B$, $C_C$, $C_E$ & 10 $\mu$F         \\ \hline   
+		Gain            & 21 dB   \\   \hline
+		Lower cutoff    & 600 Hz \\ \hline
+		Upper cutoff    & 10  MHz \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -101,6 +101,9 @@ The second harmonc distortion was significantly less than the NMOS while still b
 		$R_E$           & 3.3k$\Omega$  \\ \hline 
 		$R_L$           & 1k$\Omega$    \\ \hline
 		$C_B$, $C_C$, $C_E$ & 470nF     \\ \hline
+		Gain           & 25 dB          \\ \hline
+		Lower cutoff   & 6 kHz          \\ \hline
+		Upper cutoff   &  >500 kHz      \\ \hline
 	\end{tabular}
 \end{table}
 
