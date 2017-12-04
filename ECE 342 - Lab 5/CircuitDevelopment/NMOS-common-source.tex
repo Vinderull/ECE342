@@ -34,7 +34,7 @@
 	
 	\begin{equation}\label{eq:smallro}
 	
-	r_o = \frac{1}{\lamda I_{DS}},
+	r_o = \frac{1}{\lambda I_{DS}},
 	
 	\end{equation}
 	
@@ -44,44 +44,37 @@
 	\frac{v_o}{v_{in}} = g_mR_o,
 	\end{equation}
 	
-	where R$_o$ is the equivalent resistance of (R$_D$ || R$_L$). The load resistance is provided by the lab, but for this calculation can be assumed to nearly infinite, therefore R$_D$ is found to be around 2 k$\Omega$. The circuit was then simulated in NGSpice integrated with Matlab.
-	
-	
-	A BJT, in contrast with the metal oxide semi-conducting field effect transistor (MOSFET), is capable of producing current by both types of Charge Carriers. This effectively allows the BJT to behave as a NPN or PNP transistor depending on the size of the input current. This also allows the BJT to use a smaller current signal to control a larger current. 
-	
-	The electrical properties of a BJT are paramount for this lab. The MCP6004 is only capable of outputting around 20mA of current. The IR LED in use, however, has a forward current of 100mA \cite{LEDDATA}. A much larger current has to generated in order for the LED to operate. Figure \ref{fig:ivsvled} shows the IV curve for the IR1503 LED.
-	
+	where R$_o$ is the equivalent resistance of (R$_D$ || R$_L$). The load resistance is provided by the lab, but for this calculation can be assumed to nearly infinite, therefore R$_D$ is found to be around 2 k$\Omega$. The circuit was then simulated in NGSpice integrated with Matlab. The simulated circuit can be seen in Figure \ref{fig:NMOSsimcircuit}.
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.4\linewidth]{CircuitDevelopment/IvsVled}
-		\caption[Current vs voltage]{The IV characteristic of the IR1503 \cite{LEDDATA}}
-		\label{fig:ivsvled}
+		\includegraphics[width=.55\textwidth]{CircuitDevelopment/NMOS_sim.png}
+		\caption{Simulated common source amplifier circuit}
+		\label{fig:NMOSsimcircuit}
 	\end{figure}
+
+	A significant change was required in order to meet specs, the R$_D$ value calculated was off by a factor of 4. This is due to assumptions made during analysis, more detail is provided in discussion. In addition, the negative bias voltage was altered to -8 V in order to reduce harmonic distortion. The frequency of the NMOS is shown in Figure \ref{fig:NMOSfreq}.
 	
-	
-	The MCP6004 is used to set the node voltage for R$_{sense}$. The op amp is assumed to be ideal, so $V_- = V_+$. In order to ensure that the LED is forward biased, the node voltage should be less than the sum of the voltage drops from $V_{supply}$ over the BJT and the diode \cite{b2}. The lab briefing \cite{b2} states to set $V_-$ less then 3V.
-	
-	In order to attain a suitable voltage, a voltage divider is placed at the input to the op amp. The source voltage is the output from the signal conditioner, and was found to be 5V. In order to be less than 3V, a 50/50 voltage divider was used in order to create an input of 2.5V. With this voltage, and the maximum forward current of 200mA, the value for R$_{sense}$ can solved using Ohm's Law. The final value for R$_{sense}$ is 12$\Omega$. The simulated circuit for current driver is seen in Figure \ref{fig:finalleddriverschem}.
-	
-	\begin{figure}[H]
+\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{CircuitDevelopment/FinalLEDdriverSChem}
-		\caption[Simulated LED driver]{Simulated LED driver circuit}
-		\label{fig:finalleddriverschem}
-	\end{figure}
+		\includegraphics[width=.55\textwidth]{CircuitDevelopment/NMOS_bandwidth.jpg}
+		\caption{Simulated frequency response of NMOS amplifier}
+		\label{fig:NMOSfreq}
+\end{figure}
+
+	The NMOS met the specified gain at 21 dB with a 3dB lower cut off frequency well below the required 1 kHz. The FFT of NMOS can be seen in Figure \ref{fig:nmosfft}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.55\textwidth]{CircuitDevelopment/nmos_FFT.jpg}
+	\caption{Simulated FFT of second harmonic distortion}
+	\label{fig:nmosfft}
+\end{figure}
+
+	This analysis was performed by inputting a 10 mV signal at 1 kHz. The measured distortion on the second harmonic is required to be less than 2\%. By inspection the distortion is found to be 1.5\%.
 	
-	The circuit required no changes from design to simulation. The current through the LED can be seen in Figure \ref{fig:simcurrentlab4}. The simulation was performed using a transient analysis in NGSpice integrated with Matlab.
 	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.60\linewidth]{CircuitDevelopment/sim_current_lab4}
-		\caption[Simulated current]{Simulated current through the LED}
-		\label{fig:simcurrentlab4}
-	\end{figure}
-	
-	The current through the LED matched the calculated value of 200mA. The LED is in an operational state. The LED also operates with the correct frequency and duty-cycle from the signal conditioner.
-	
+\end{document}	
 	
 	
 \end{document}
