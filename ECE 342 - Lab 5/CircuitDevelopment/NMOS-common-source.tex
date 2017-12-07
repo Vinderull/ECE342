@@ -51,7 +51,7 @@
 	\frac{v_o}{v_{in}} = g_mR_o,
 	\end{equation}
 	
-	where R$_o$ is the equivalent resistance of (R$_D$ || R$_L$). The load resistance is provided by the lab, but for this calculation can be assumed to nearly infinite, therefore R$_D$ is found to be around 2 k$\Omega$. The circuit was then simulated in NGSpice integrated with Matlab. The simulated circuit can be seen in Figure \ref{fig:NMOSsimcircuit}.
+	where R$_o$ is the equivalent resistance of (R$_D$ $||$ R$_L$). The load resistance is provided by the lab, but for this calculation can be assumed to nearly infinite, therefore R$_D$ is found to be around 2 k$\Omega$. The circuit was then simulated in NGSpice integrated with Matlab. The simulated circuit can be seen in Figure \ref{fig:NMOSsimcircuit}.
 	
 	\begin{figure}[H]
 		\centering
@@ -60,7 +60,6 @@
 		\label{fig:NMOSsimcircuit}
 	\end{figure}
 
-	A significant change was required in order to meet specs, the R$_D$ value calculated was off by a factor of 4. This is due to assumptions made during analysis, more detail is provided in discussion. In addition, the negative bias voltage was altered to -8 V in order to reduce harmonic distortion. The frequency of the NMOS is shown in Figure \ref{fig:NMOSfreq}.
 	A significant change was required in order to meet specs, the R$_D$ value calculated was off by a factor of 4. This is due to assumptions made during analysis for the solution of the transconductance amplifier. The final R$_D$ was found by to be 7.8 k$\Omega$ more detail is provided in discussion. In addition, the negative bias voltage was altered to -8 V in order to reduce harmonic distortion. The frequency of the NMOS is shown in Figure \ref{fig:NMOSfreq}.
 	
 \begin{figure}[H]

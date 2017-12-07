@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  4 DEC 2017 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.16)  7 DEC 2017 16:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -518,7 +518,11 @@ Package caption Info: float package is loaded.
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count103
 \c@subtable=\count104
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:bjtsimfreq' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -533,8 +537,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen122
@@ -683,30 +686,41 @@ Package pdftex.def Info: CircuitDevelopment/nmos_FFT.jpg used on input line 76.
  [4 <./CircuitDevelopment/NMOS_sim.png> <./CircuitDevelopment/NMOS_bandwidth.jp
 g>])
 (CircuitDevelopment/BJT-common-emitter.tex [5 <./CircuitDevelopment/nmos_FFT.jp
-g>] <CircuitDevelopment/BJT_bandwidth.jpg, id=48, 853.1875pt x 602.25pt>
-File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
+g>]
 
-<use CircuitDevelopment/BJT_bandwidth.jpg>
-Package pdftex.def Info: CircuitDevelopment/BJT_bandwidth.jpg used on input lin
-e 26.
-(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
+LaTeX Warning: Reference `fig:bjtsimcir' on page 6 undefined on input line 21.
+
+<CircuitDevelopment/BJT_sim.png, id=48, 434.37282pt x 476.53032pt>
+File: CircuitDevelopment/BJT_sim.png Graphic file (type png)
+
+<use CircuitDevelopment/BJT_sim.png>
+Package pdftex.def Info: CircuitDevelopment/BJT_sim.png used on input line 25.
+(pdftex.def)             Requested size: 258.36668pt x 283.45544pt.
+
+<CircuitDevelopment/BJT_bandwidth.jpg, id=49, 853.1875pt x 602.25pt>
 File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
 
 <use CircuitDevelopment/BJT_bandwidth.jpg>
 Package pdftex.def Info: CircuitDevelopment/BJT_bandwidth.jpg used on input lin
 e 35.
 (pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
- [6 <./CircuitDevelopment/BJT_bandwidth.jpg>])) (ExperimentalImplementation/exp
-erimental.tex
-<ExperimentalImplementation/NMOS_exp.png, id=52, 529.22719pt x 506.6428pt>
+ [6 <./CircuitDevelopment/BJT_sim.png>]
+File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
+ <use CircuitDevelopment/BJT_bandwidth.jpg>
+Package pdftex.def Info: CircuitDevelopment/BJT_bandwidth.jpg used on input lin
+e 44.
+(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
+))
+(ExperimentalImplementation/experimental.tex
+<ExperimentalImplementation/NMOS_exp.png, id=54, 529.22719pt x 506.6428pt>
 File: ExperimentalImplementation/NMOS_exp.png Graphic file (type png)
 
 <use ExperimentalImplementation/NMOS_exp.png>
 Package pdftex.def Info: ExperimentalImplementation/NMOS_exp.png used on input 
 line 10.
 (pdftex.def)             Requested size: 328.82707pt x 314.7956pt.
- [7]
-<ExperimentalImplementation/nmosamp.jpg, id=56, 853.1875pt x 602.25pt>
+ [7 <./CircuitDevelopment/BJT_bandwidth.jpg>]
+<ExperimentalImplementation/nmosamp.jpg, id=58, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/nmosamp.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/nmosamp.jpg>
@@ -714,7 +728,7 @@ Package pdftex.def Info: ExperimentalImplementation/nmosamp.jpg used on input l
 ine 19.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [8 <./ExperimentalImplementation/NMOS_exp.png>]
-<ExperimentalImplementation/nmos_fft.jpg, id=60, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/nmos_fft.jpg, id=62, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/nmos_fft.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/nmos_fft.jpg>
@@ -723,7 +737,7 @@ line 28.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [9 <./ExperimentalImplementation/nmosamp.jpg> <./ExperimentalImplementation/nm
 os_fft.jpg>]
-<ExperimentalImplementation/BJT_Exp.png, id=64, 447.92343pt x 484.05844pt>
+<ExperimentalImplementation/BJT_Exp.png, id=66, 447.92343pt x 484.05844pt>
 File: ExperimentalImplementation/BJT_Exp.png Graphic file (type png)
 
 <use ExperimentalImplementation/BJT_Exp.png>
@@ -731,7 +745,7 @@ Package pdftex.def Info: ExperimentalImplementation/BJT_Exp.png used on input l
 ine 64.
 (pdftex.def)             Requested size: 258.36668pt x 279.21777pt.
  [10 <./ExperimentalImplementation/BJT_Exp.png>]
-<ExperimentalImplementation/bjt_outputexp.jpg, id=70, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/bjt_outputexp.jpg, id=72, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/bjt_outputexp.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/bjt_outputexp.jpg>
@@ -739,7 +753,7 @@ Package pdftex.def Info: ExperimentalImplementation/bjt_outputexp.jpg used on i
 nput line 75.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
 
-<ExperimentalImplementation/bjt_fft.jpg, id=71, 853.1875pt x 602.25pt>
+<ExperimentalImplementation/bjt_fft.jpg, id=73, 853.1875pt x 602.25pt>
 File: ExperimentalImplementation/bjt_fft.jpg Graphic file (type jpg)
 
 <use ExperimentalImplementation/bjt_fft.jpg>
@@ -748,7 +762,7 @@ ine 83.
 (pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
  [11 <./ExperimentalImplementation/bjt_outputexp.jpg> <./ExperimentalImplementa
 tion/bjt_fft.jpg>])
-(Discussion/Discussion.tex) [12] (Conclusion/Conclusion.tex) [13]
+(Discussion/Discussion.tex [12]) (Conclusion/Conclusion.tex) [13]
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#5$ Volt-age Am-pli-fier [On-lin
 e]. Avail-able: 
@@ -761,29 +775,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
 [14
 
-] (main.aux) ) 
+] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4009 strings out of 493333
- 60152 string characters out of 3139196
- 125696 words of memory out of 3000000
- 7420 multiletter control sequences out of 15000+200000
+ 4015 strings out of 493333
+ 60317 string characters out of 3139196
+ 125736 words of memory out of 3000000
+ 7425 multiletter control sequences out of 15000+200000
  9326 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,41p,1019b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (17 pages, 632704 bytes).
+ 39i,9n,41p,1081b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (17 pages, 633725 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
