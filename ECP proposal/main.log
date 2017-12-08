@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 DEC 2017 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 DEC 2017 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,13 +580,13 @@ Overfull \hbox (1.0513pt too wide) in paragraph at lines 3--4
 im-u-lated and de-signed by this team. This course 
  []
 
-) (./Cost_Analysis/cost.tex <tablecost.png, id=27, 260.47313pt x 124.96687pt>
+) [3 <./Preliminary_results/expcurrentlab4.jpg>] (./Cost_Analysis/cost.tex
+<tablecost.png, id=30, 260.47313pt x 124.96687pt>
 File: tablecost.png Graphic file (type png)
-
-<use tablecost.png>
+ <use tablecost.png>
 Package pdftex.def Info: tablecost.png used on input line 6.
 (pdftex.def)             Requested size: 328.82707pt x 157.76228pt.
- [3 <./Preliminary_results/expcurrentlab4.jpg>])
+)
 (./Conclusion/Conclusion.tex) [4 <./tablecost.png>] [5
 
 ]
@@ -612,7 +612,7 @@ Package pdftex.def Info: compcost.png used on input line 166.
 Here is how much of TeX's memory you used:
  3915 strings out of 493089
  59407 string characters out of 6134842
- 122190 words of memory out of 5000000
+ 121190 words of memory out of 5000000
  7287 multiletter control sequences out of 15000+600000
  7022 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -622,7 +622,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on main.pdf (10 pages, 209276 bytes).
+Output written on main.pdf (10 pages, 209684 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
