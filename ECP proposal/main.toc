@@ -3,5 +3,6 @@
 \contentsline {section}{\numberline {3}Proposed Work}{1}
 \contentsline {section}{\numberline {4}Preliminary Results}{2}
 \contentsline {section}{\numberline {5}Team Qualifications}{3}
-\contentsline {section}{\numberline {6}Cost Analysis}{3}
+\contentsline {section}{\numberline {6}Cost Analysis}{4}
 \contentsline {section}{\numberline {7}Conclusion}{4}
+\contentsline {section}{Appendices}{6}
