@@ -94,6 +94,10 @@
 
 
 \section{Introduction}
+
+
+Table \ref{tab:opticallink} shows the device specifications and measured performance of the Optical Link project.
+
 \begin{table}[H]
 	\centering
 	\caption{Performance summary of optical link project}
@@ -110,6 +114,23 @@
 		Frequency sensitivity to capacitor tolerance in ring oscillator (simulation) & -                                             &                                              &                                         \\ \hline
 	\end{tabular}
 \end{table}
+
+
+Table \ref{tab:simcompare} shows the comparison from simulated values and those measured in the final device.
+\begin{table}[H]
+	\centering
+	\caption{Simulated and measured comparison]}
+	\label{tab:simcompare}
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Parameter}} & \multicolumn{1}{c|}{\textbf{Specified Value}} & \multicolumn{1}{c|}{\textbf{Measured Value}} & \multicolumn{1}{c|}{\textbf{Simulated Value}} \\ \hline
+		Signal Frequency                         & 20 kHz $\pm$ 5\%                              & 20.8 kHz                                     & 20 kHz                                        \\ \hline
+		Duty cycle of signal                     & 50\% $\pm$ 5\%                                & 50.1 \%                                      & 48 \%                                         \\ \hline
+		LED Peak drive current                   & $<$200mA                                      & 150 mA                                       & 200 mA                                        \\ \hline
+	\end{tabular}
+\end{table}
+
+The circuit operated as expected and within specifications. A rather large modification that was required was the removal of the final voltage amplifier, Task 5. This circuit ended up introducing far too much noise into the final design and resulted in more harmonic distortion.
   
  
     
