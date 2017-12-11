@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2017 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2017 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,20 +506,15 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 56.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 57.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (2.4001pt too wide) in paragraph at lines 56--57
-[]\OT1/cmr/m/n/9 The de-sign, sim-u-la-tion and con-struc-tion of an am-pli-fie
-r cir-cuit are de-scribed. In task 5 of the op-ti-cal up-link project, 
- []
-
 <Images/barcode.png, id=1, 454.69875pt x 443.6575pt>
 File: Images/barcode.png Graphic file (type png)
  <use Images/barcode.png>
-Package pdftex.def Info: Images/barcode.png used on input line 73.
+Package pdftex.def Info: Images/barcode.png used on input line 79.
 (pdftex.def)             Requested size: 45.47253pt x 44.36835pt.
 
 [1
@@ -529,7 +524,7 @@ s/barcode.png>] (./main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [1] (./main.lof)
+ [1] (./main.lof [2])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -537,171 +532,334 @@ s/barcode.png>] (./main.toc)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [2]
+ [3]
 (./Introduction/Introduction.tex
-<Introduction/Block_Diagram_MFBP.png, id=22, 490.83376pt x 57.21375pt>
+<Introduction/Block_Diagram_MFBP.png, id=24, 490.83376pt x 57.21375pt>
 File: Introduction/Block_Diagram_MFBP.png Graphic file (type png)
 
 <use Introduction/Block_Diagram_MFBP.png>
 Package pdftex.def Info: Introduction/Block_Diagram_MFBP.png used on input line
- 12.
+ 15.
 (pdftex.def)             Requested size: 422.77664pt x 49.28229pt.
-) (./CircuitDevelopment/Circuit.tex
-(./CircuitDevelopment/NMOS-common-source.tex [1
 
- <./Introduction/Block_Diagram_MFBP.png>] <CircuitDevelopment/genericschem.png,
- id=31, 352.31625pt x 329.23pt>
-File: CircuitDevelopment/genericschem.png Graphic file (type png)
+Overfull \hbox (5.079pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/10 the LED. The cur-rent driver will be cre-ated in a sub-se-quent
+ lab. The volt-age trans-fer char-ac-ter-is-tics (VTC) 
+ []
 
-<use CircuitDevelopment/genericschem.png>
-Package pdftex.def Info: CircuitDevelopment/genericschem.png used on input line
- 6.
-(pdftex.def)             Requested size: 258.36668pt x 241.43607pt.
+<Introduction/VTC_IDEAL.png, id=25, 371.3875pt x 284.06125pt>
+File: Introduction/VTC_IDEAL.png Graphic file (type png)
 
-<CircuitDevelopment/smallsignal.png, id=32, 863.47594pt x 246.1697pt>
-File: CircuitDevelopment/smallsignal.png Graphic file (type png)
+<use Introduction/VTC_IDEAL.png>
+Package pdftex.def Info: Introduction/VTC_IDEAL.png used on input line 24.
+(pdftex.def)             Requested size: 281.85587pt x 215.58536pt.
+) (./CircuitDevelopment/Circuit.tex [1
 
-<use CircuitDevelopment/smallsignal.png>
-Package pdftex.def Info: CircuitDevelopment/smallsignal.png used on input line 
-31.
-(pdftex.def)             Requested size: 258.36668pt x 73.65614pt.
- [2 <./CircuitDevelopment/genericschem.png (PNG copy)>]
-<CircuitDevelopment/NMOS_sim.png, id=36, 535.2497pt x 500.62032pt>
-File: CircuitDevelopment/NMOS_sim.png Graphic file (type png)
+ <./Introduction/Block_Diagram_MFBP.png> <./Introduction/VTC_IDEAL.png (PNG cop
+y)>]
+(./CircuitDevelopment/NMOS/NMOS.tex
+<CircuitDevelopment/NMOS/DuelNMOS.png, id=30, 1090.0725pt x 644.4075pt>
+File: CircuitDevelopment/NMOS/DuelNMOS.png Graphic file (type png)
 
-<use CircuitDevelopment/NMOS_sim.png>
-Package pdftex.def Info: CircuitDevelopment/NMOS_sim.png used on input line 58.
+<use CircuitDevelopment/NMOS/DuelNMOS.png>
+Package pdftex.def Info: CircuitDevelopment/NMOS/DuelNMOS.png used on input lin
+e 33.
+(pdftex.def)             Requested size: 272.51746pt x 161.10147pt.
+ [2]
+<CircuitDevelopment/NMOS/voutvsrd_nmos_inverter.jpg, id=40, 853.1875pt x 602.25
+pt>
+File: CircuitDevelopment/NMOS/voutvsrd_nmos_inverter.jpg Graphic file (type jpg
+)
+ <use CircuitDevelopment/NMOS/voutvsrd_nmos_inverter.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/voutvsrd_nmos_inverter.jpg use
+d on input line 42.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
 
-(pdftex.def)             Requested size: 258.36668pt x 241.66237pt.
- [3 <./CircuitDevelopment/smallsignal.png>] <CircuitDevelopment/NMOS_bandwidth.
-jpg, id=40, 853.1875pt x 602.25pt>
-File: CircuitDevelopment/NMOS_bandwidth.jpg Graphic file (type jpg)
+<CircuitDevelopment/NMOS/VTC_single_NMOS.jpg, id=41, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/VTC_single_NMOS.jpg Graphic file (type jpg)
 
-<use CircuitDevelopment/NMOS_bandwidth.jpg>
-Package pdftex.def Info: CircuitDevelopment/NMOS_bandwidth.jpg used on input li
-ne 67.
-(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
+<use CircuitDevelopment/NMOS/VTC_single_NMOS.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/VTC_single_NMOS.jpg used on in
+put line 51.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
+ [3 <./CircuitDevelopment/NMOS/DuelNMOS.png> <./CircuitDevelopment/NMOS/voutvsr
+d_nmos_inverter.jpg>]
+<CircuitDevelopment/NMOS/tran_1k_nmos.jpg, id=46, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/tran_1k_nmos.jpg Graphic file (type jpg)
 
-<CircuitDevelopment/nmos_FFT.jpg, id=41, 853.1875pt x 602.25pt>
-File: CircuitDevelopment/nmos_FFT.jpg Graphic file (type jpg)
+<use CircuitDevelopment/NMOS/tran_1k_nmos.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/tran_1k_nmos.jpg used on input
+ line 63.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
 
-<use CircuitDevelopment/nmos_FFT.jpg>
-Package pdftex.def Info: CircuitDevelopment/nmos_FFT.jpg used on input line 76.
+<CircuitDevelopment/NMOS/tran_4k_nmos.jpg, id=47, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/tran_4k_nmos.jpg Graphic file (type jpg)
 
-(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
- [4 <./CircuitDevelopment/NMOS_sim.png> <./CircuitDevelopment/NMOS_bandwidth.jp
-g>])
-(./CircuitDevelopment/BJT-common-emitter.tex [5 <./CircuitDevelopment/nmos_FFT.
-jpg>] <CircuitDevelopment/BJT_sim.png, id=49, 434.37282pt x 476.53032pt>
-File: CircuitDevelopment/BJT_sim.png Graphic file (type png)
+<use CircuitDevelopment/NMOS/tran_4k_nmos.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/tran_4k_nmos.jpg used on input
+ line 72.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
+ [4 <./CircuitDevelopment/NMOS/VTC_single_NMOS.jpg> <./CircuitDevelopment/NMOS/
+tran_1k_nmos.jpg>]
+<CircuitDevelopment/NMOS/tran_100knmos.jpg, id=51, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/tran_100knmos.jpg Graphic file (type jpg)
 
-<use CircuitDevelopment/BJT_sim.png>
-Package pdftex.def Info: CircuitDevelopment/BJT_sim.png used on input line 25.
-(pdftex.def)             Requested size: 258.36668pt x 283.45544pt.
+<use CircuitDevelopment/NMOS/tran_100knmos.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/tran_100knmos.jpg used on inpu
+t line 81.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
 
-<CircuitDevelopment/BJT_bandwidth.jpg, id=50, 853.1875pt x 602.25pt>
-File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
+<CircuitDevelopment/NMOS/tran_4k_vdd_10.jpg, id=52, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/tran_4k_vdd_10.jpg Graphic file (type jpg)
 
-<use CircuitDevelopment/BJT_bandwidth.jpg>
-Package pdftex.def Info: CircuitDevelopment/BJT_bandwidth.jpg used on input lin
-e 35.
-(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
- [6 <./CircuitDevelopment/BJT_sim.png>]
-File: CircuitDevelopment/BJT_bandwidth.jpg Graphic file (type jpg)
- <use CircuitDevelopment/BJT_bandwidth.jpg>
-Package pdftex.def Info: CircuitDevelopment/BJT_bandwidth.jpg used on input lin
-e 44.
-(pdftex.def)             Requested size: 258.36668pt x 182.37646pt.
+<use CircuitDevelopment/NMOS/tran_4k_vdd_10.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/tran_4k_vdd_10.jpg used on inp
+ut line 90.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
+ [5 <./CircuitDevelopment/NMOS/tran_4k_nmos.jpg> <./CircuitDevelopment/NMOS/tra
+n_100knmos.jpg>]
+<CircuitDevelopment/NMOS/tran_4k_vdd_15.jpg, id=56, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/NMOS/tran_4k_vdd_15.jpg Graphic file (type jpg)
+
+<use CircuitDevelopment/NMOS/tran_4k_vdd_15.jpg>
+Package pdftex.def Info: CircuitDevelopment/NMOS/tran_4k_vdd_15.jpg used on inp
+ut line 100.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
+ [6 <./CircuitDevelopment/NMOS/tran_4k_vdd_10.jpg> <./CircuitDevelopment/NMOS/t
+ran_4k_vdd_15.jpg>])
+(./CircuitDevelopment/cd4007SIM/cd4007SIM.tex
+<CircuitDevelopment/cd4007SIM/cd4007_Inside.jpg, id=60, 247.6452pt x 192.9609pt
+>
+File: CircuitDevelopment/cd4007SIM/cd4007_Inside.jpg Graphic file (type jpg)
+ <use CircuitDevelopment/cd4007SIM/cd4007_Inside.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/cd4007_Inside.jpg used on
+ input line 10.
+(pdftex.def)             Requested size: 173.35043pt x 135.0717pt.
+
+<CircuitDevelopment/cd4007SIM/CMOSInevrter.png, id=61, 524.71031pt x 595.47469p
+t>
+File: CircuitDevelopment/cd4007SIM/CMOSInevrter.png Graphic file (type png)
+ <use CircuitDevelopment/cd4007SIM/CMOSInevrter.png>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/CMOSInevrter.png used on 
+input line 27.
+(pdftex.def)             Requested size: 183.65135pt x 208.41925pt.
+ [7 <./CircuitDevelopment/cd4007SIM/cd4007_Inside.jpg>]
+<CircuitDevelopment/cd4007SIM/VTCInverter.png, id=65, 669.2503pt x 538.26094pt>
+File: CircuitDevelopment/cd4007SIM/VTCInverter.png Graphic file (type png)
+<use CircuitDevelopment/cd4007SIM/VTCInverter.png>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/VTCInverter.png used on i
+nput line 37.
+(pdftex.def)             Requested size: 167.31216pt x 134.5649pt.
+ [8 <./CircuitDevelopment/cd4007SIM/CMOSInevrter.png> <./CircuitDevelopment/cd4
+007SIM/VTCInverter.png>]
+<CircuitDevelopment/cd4007SIM/cmos_vtc.jpg, id=69, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/cd4007SIM/cmos_vtc.jpg Graphic file (type jpg)
+
+<use CircuitDevelopment/cd4007SIM/cmos_vtc.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/cmos_vtc.jpg used on inpu
+t line 51.
+(pdftex.def)             Requested size: 213.29636pt x 150.56212pt.
+
+<CircuitDevelopment/cd4007SIM/Vout_cascade_cmos.jpg, id=70, 853.1875pt x 602.25
+pt>
+File: CircuitDevelopment/cd4007SIM/Vout_cascade_cmos.jpg Graphic file (type jpg
+)
+ <use CircuitDevelopment/cd4007SIM/Vout_cascade_cmos.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/Vout_cascade_cmos.jpg use
+d on input line 61.
+(pdftex.def)             Requested size: 255.95822pt x 180.67639pt.
+ [9 <./CircuitDevelopment/cd4007SIM/cmos_vtc.jpg> <./CircuitDevelopment/cd4007S
+IM/Vout_cascade_cmos.jpg>]
+<CircuitDevelopment/cd4007SIM/Aschtable.png, id=75, 869.49844pt x 621.82312pt>
+File: CircuitDevelopment/cd4007SIM/Aschtable.png Graphic file (type png)
+
+<use CircuitDevelopment/cd4007SIM/Aschtable.png>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/Aschtable.png used on inp
+ut line 88.
+(pdftex.def)             Requested size: 304.32901pt x 217.64134pt.
+
+<CircuitDevelopment/cd4007SIM/astable_DC.jpg, id=76, 853.1875pt x 602.25pt>
+File: CircuitDevelopment/cd4007SIM/astable_DC.jpg Graphic file (type jpg)
+
+<use CircuitDevelopment/cd4007SIM/astable_DC.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/astable_DC.jpg used on in
+put line 97.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
+ [10 <./CircuitDevelopment/cd4007SIM/Aschtable.png>]
+<CircuitDevelopment/cd4007SIM/astable_5_tolerance.jpg, id=80, 853.1875pt x 602.
+25pt>
+File: CircuitDevelopment/cd4007SIM/astable_5_tolerance.jpg Graphic file (type j
+pg)
+ <use CircuitDevelopment/cd4007SIM/astable_5_tolerance.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/astable_5_tolerance.jpg u
+sed on input line 106.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
+
+<CircuitDevelopment/cd4007SIM/astable_10_tolerance.jpg, id=81, 853.1875pt x 602
+.25pt>
+File: CircuitDevelopment/cd4007SIM/astable_10_tolerance.jpg Graphic file (type 
+jpg)
+ <use CircuitDevelopment/cd4007SIM/astable_10_tolerance.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/astable_10_tolerance.jpg 
+used on input line 115.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
+ [11 <./CircuitDevelopment/cd4007SIM/astable_DC.jpg> <./CircuitDevelopment/cd40
+07SIM/astable_5_tolerance.jpg>]
+<CircuitDevelopment/cd4007SIM/RingOscillatorCMOS.png, id=85, 1114.91531pt x 654
+.94687pt>
+File: CircuitDevelopment/cd4007SIM/RingOscillatorCMOS.png Graphic file (type pn
+g)
+ <use CircuitDevelopment/cd4007SIM/RingOscillatorCMOS.png>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/RingOscillatorCMOS.png us
+ed on input line 130.
+(pdftex.def)             Requested size: 334.47717pt x 196.48558pt.
+ [12 <./CircuitDevelopment/cd4007SIM/astable_10_tolerance.jpg> <./CircuitDevelo
+pment/cd4007SIM/RingOscillatorCMOS.png>]
+<CircuitDevelopment/cd4007SIM/ring_output_notol.jpg, id=89, 853.1875pt x 602.25
+pt>
+File: CircuitDevelopment/cd4007SIM/ring_output_notol.jpg Graphic file (type jpg
+)
+ <use CircuitDevelopment/cd4007SIM/ring_output_notol.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/ring_output_notol.jpg use
+d on input line 144.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
+
+<CircuitDevelopment/cd4007SIM/ring_5_tolerance_20it.jpg, id=90, 853.1875pt x 60
+2.25pt>
+File: CircuitDevelopment/cd4007SIM/ring_5_tolerance_20it.jpg Graphic file (type
+ jpg)
+ <use CircuitDevelopment/cd4007SIM/ring_5_tolerance_20it.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/ring_5_tolerance_20it.jpg
+ used on input line 153.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
+ [13 <./CircuitDevelopment/cd4007SIM/ring_output_notol.jpg>]
+<CircuitDevelopment/cd4007SIM/ring_10_tolerance_20it.jpg, id=94, 853.1875pt x 6
+02.25pt>
+File: CircuitDevelopment/cd4007SIM/ring_10_tolerance_20it.jpg Graphic file (typ
+e jpg)
+ <use CircuitDevelopment/cd4007SIM/ring_10_tolerance_20it.jpg>
+Package pdftex.def Info: CircuitDevelopment/cd4007SIM/ring_10_tolerance_20it.jp
+g used on input line 163.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
 ))
-(./ExperimentalImplementation/experimental.tex
-<ExperimentalImplementation/NMOS_exp.png, id=55, 529.22719pt x 506.6428pt>
-File: ExperimentalImplementation/NMOS_exp.png Graphic file (type png)
+(./ExperimentalImplementation/ExperimentalImplementation.tex [14 <./CircuitDeve
+lopment/cd4007SIM/ring_5_tolerance_20it.jpg> <./CircuitDevelopment/cd4007SIM/ri
+ng_10_tolerance_20it.jpg>]
+<ExperimentalImplementation/VTC_NMOS_EXP.jpg, id=98, 853.1875pt x 602.25pt>
+File: ExperimentalImplementation/VTC_NMOS_EXP.jpg Graphic file (type jpg)
 
-<use ExperimentalImplementation/NMOS_exp.png>
-Package pdftex.def Info: ExperimentalImplementation/NMOS_exp.png used on input 
-line 10.
-(pdftex.def)             Requested size: 328.82707pt x 314.7956pt.
- [7 <./CircuitDevelopment/BJT_bandwidth.jpg>]
-<ExperimentalImplementation/nmosamp.jpg, id=59, 853.1875pt x 602.25pt>
-File: ExperimentalImplementation/nmosamp.jpg Graphic file (type jpg)
+<use ExperimentalImplementation/VTC_NMOS_EXP.jpg>
+Package pdftex.def Info: ExperimentalImplementation/VTC_NMOS_EXP.jpg used on in
+put line 14.
+(pdftex.def)             Requested size: 298.6201pt x 210.79065pt.
 
-<use ExperimentalImplementation/nmosamp.jpg>
-Package pdftex.def Info: ExperimentalImplementation/nmosamp.jpg used on input l
-ine 19.
-(pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
- [8 <./ExperimentalImplementation/NMOS_exp.png>]
-<ExperimentalImplementation/nmos_fft.jpg, id=63, 853.1875pt x 602.25pt>
-File: ExperimentalImplementation/nmos_fft.jpg Graphic file (type jpg)
+<ExperimentalImplementation/nmos_waveform.jpg, id=99, 853.1875pt x 602.25pt>
+File: ExperimentalImplementation/nmos_waveform.jpg Graphic file (type jpg)
 
-<use ExperimentalImplementation/nmos_fft.jpg>
-Package pdftex.def Info: ExperimentalImplementation/nmos_fft.jpg used on input 
-line 28.
-(pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
- [9 <./ExperimentalImplementation/nmosamp.jpg> <./ExperimentalImplementation/nm
-os_fft.jpg>]
-<ExperimentalImplementation/BJT_Exp.png, id=67, 447.92343pt x 484.05844pt>
-File: ExperimentalImplementation/BJT_Exp.png Graphic file (type png)
-
-<use ExperimentalImplementation/BJT_Exp.png>
-Package pdftex.def Info: ExperimentalImplementation/BJT_Exp.png used on input l
-ine 64.
-(pdftex.def)             Requested size: 258.36668pt x 279.21777pt.
- [10 <./ExperimentalImplementation/BJT_Exp.png>]
-<ExperimentalImplementation/bjt_outputexp.jpg, id=73, 853.1875pt x 602.25pt>
-File: ExperimentalImplementation/bjt_outputexp.jpg Graphic file (type jpg)
-
-<use ExperimentalImplementation/bjt_outputexp.jpg>
-Package pdftex.def Info: ExperimentalImplementation/bjt_outputexp.jpg used on i
-nput line 75.
+<use ExperimentalImplementation/nmos_waveform.jpg>
+Package pdftex.def Info: ExperimentalImplementation/nmos_waveform.jpg used on i
+nput line 23.
 (pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
+ [15 <./ExperimentalImplementation/VTC_NMOS_EXP.jpg>]
+<ExperimentalImplementation/CMOS_VTC_exp.jpg, id=104, 853.1875pt x 602.25pt>
+File: ExperimentalImplementation/CMOS_VTC_exp.jpg Graphic file (type jpg)
 
-<ExperimentalImplementation/bjt_fft.jpg, id=74, 853.1875pt x 602.25pt>
-File: ExperimentalImplementation/bjt_fft.jpg Graphic file (type jpg)
+<use ExperimentalImplementation/CMOS_VTC_exp.jpg>
+Package pdftex.def Info: ExperimentalImplementation/CMOS_VTC_exp.jpg used on in
+put line 57.
+(pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
+ [16 <./ExperimentalImplementation/nmos_waveform.jpg>]
+Overfull \hbox (2.46793pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/10 The VTC, as seen in Fig-ure 26[], rep-re-sents logic low as 0
+V, and im-prove-ment over the 400mV of the NMOS 
+ []
 
-<use ExperimentalImplementation/bjt_fft.jpg>
-Package pdftex.def Info: ExperimentalImplementation/bjt_fft.jpg used on input l
-ine 83.
-(pdftex.def)             Requested size: 328.82707pt x 232.11967pt.
- [11 <./ExperimentalImplementation/bjt_outputexp.jpg> <./ExperimentalImplementa
-tion/bjt_fft.jpg>])
-(./Discussion/Discussion.tex [12]) (./Conclusion/Conclusion.tex) [13]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-[]\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#5$ Volt-age Am-pli-fier [On-lin
-e]. Avail-able: 
+<ExperimentalImplementation/cmos_waveform.jpg, id=108, 853.1875pt x 602.25pt>
+File: ExperimentalImplementation/cmos_waveform.jpg Graphic file (type jpg)
+
+<use ExperimentalImplementation/cmos_waveform.jpg>
+Package pdftex.def Info: ExperimentalImplementation/cmos_waveform.jpg used on i
+nput line 66.
+(pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
+ [17 <./ExperimentalImplementation/CMOS_VTC_exp.jpg> <./ExperimentalImplementat
+ion/cmos_waveform.jpg>]
+<ExperimentalImplementation/NAND_pinout.png, id=112, 469.755pt x 204.765pt>
+File: ExperimentalImplementation/NAND_pinout.png Graphic file (type png)
+
+<use ExperimentalImplementation/NAND_pinout.png>
+Package pdftex.def Info: ExperimentalImplementation/NAND_pinout.png used on inp
+ut line 80.
+(pdftex.def)             Requested size: 281.85587pt x 122.85992pt.
+ [18 <./ExperimentalImplementation/NAND_pinout.png>]
+<ExperimentalImplementation/RingOscillatorCMOSexp.png, id=117, 1117.92656pt x 6
+57.2053pt>
+File: ExperimentalImplementation/RingOscillatorCMOSexp.png Graphic file (type p
+ng)
+ <use ExperimentalImplementation/RingOscillatorCMOSexp.png>
+Package pdftex.def Info: ExperimentalImplementation/RingOscillatorCMOSexp.png u
+sed on input line 126.
+(pdftex.def)             Requested size: 328.82707pt x 193.3123pt.
+
+<ExperimentalImplementation/ring_oscillator_output.jpg, id=118, 853.1875pt x 60
+2.25pt>
+File: ExperimentalImplementation/ring_oscillator_output.jpg Graphic file (type 
+jpg)
+ <use ExperimentalImplementation/ring_oscillator_output.jpg>
+Package pdftex.def Info: ExperimentalImplementation/ring_oscillator_output.jpg 
+used on input line 135.
+(pdftex.def)             Requested size: 281.85587pt x 198.96365pt.
+ [19 <./ExperimentalImplementation/RingOscillatorCMOSexp.png> <./ExperimentalIm
+plementation/ring_oscillator_output.jpg>]) (./Discussion/Discussion.tex [20]
+Overfull \hbox (7.94025pt too wide) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/10 The dif-fer-ence in rise and fall times can be as-cribed to t
+he par-a-sitic ca-pac-i-tances from the board and jumper 
+ []
+
+[21]) (./Conclusion/Conclusion.tex) [22]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+[]\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#2$ Ac-tive Band-pass Fil-ters [
+On-line]. Avail-able: 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-[]\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) 2N7000 [On-line]. Avail-able: 
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+[]\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Re-sis-tively Loaded MOS-FET Gate [On
+-line]. Avail-able: 
  []
 
-[14
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10 N.W. Em-anatoglu.(2017) Lab $#3$; MOS-FET based logic gates [
+On-line]. Avail- 
+ []
+
+[23
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3884 strings out of 493089
- 59969 string characters out of 6134842
- 123934 words of memory out of 5000000
- 7248 multiletter control sequences out of 15000+600000
+ 3986 strings out of 493089
+ 64342 string characters out of 6134842
+ 123118 words of memory out of 5000000
+ 7332 multiletter control sequences out of 15000+600000
  9326 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,39p,1079b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,39p,928b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (17 pages, 620750 bytes).
+mmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (27 pages, 1314138 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 174 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
