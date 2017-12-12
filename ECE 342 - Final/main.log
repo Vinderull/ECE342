@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2017 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 DEC 2017 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,73 +594,73 @@ s ap-pen-dices as well as the fi-nal schematic and project
 
 ] [2
 
-] <finalfinal.pdf, id=23, 614.295pt x 794.97pt>
+] <finalfinal.pdf, id=23, 794.97pt x 614.295pt>
 File: finalfinal.pdf Graphic file (type pdf)
  <use finalfinal.pdf>
 Package pdftex.def Info: finalfinal.pdf used on input line 159.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf>
 Package pdftex.def Info: finalfinal.pdf used on input line 159.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- <finalfinal.pdf, id=26, page=1, 614.295pt x 794.97pt>
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+ <finalfinal.pdf, id=26, page=1, 794.97pt x 614.295pt>
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 1>
 Package pdftex.def Info: finalfinal.pdf, page1 used on input line 159.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
 File: finalfinal.pdf Graphic file (type pdf)
  <use finalfinal.pdf, page 1>
 Package pdftex.def Info: finalfinal.pdf, page1 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 1>
 Package pdftex.def Info: finalfinal.pdf, page1 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
 File: finalfinal.pdf Graphic file (type pdf)
  <use finalfinal.pdf, page 1>
 Package pdftex.def Info: finalfinal.pdf, page1 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
  [3]
 <finalfinal.pdf, id=30, page=2, 614.295pt x 794.97pt>
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 2>
 Package pdftex.def Info: finalfinal.pdf, page2 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
 File: finalfinal.pdf Graphic file (type pdf)
  <use finalfinal.pdf, page 2>
 Package pdftex.def Info: finalfinal.pdf, page2 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 1>
 Package pdftex.def Info: finalfinal.pdf, page1 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [4 <./finalfinal.pdf>]
-<finalfinal.pdf, id=44, page=3, 614.295pt x 794.97pt>
+(pdftex.def)             Requested size: 615.04005pt x 475.25821pt.
+ [4 <./finalfinal.pdf, page is rotated 90 degrees>] <finalfinal.pdf, id=44, pag
+e=3, 614.295pt x 794.97pt>
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 3>
 Package pdftex.def Info: finalfinal.pdf, page3 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
 File: finalfinal.pdf Graphic file (type pdf)
  <use finalfinal.pdf, page 3>
 Package pdftex.def Info: finalfinal.pdf, page3 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 2>
 Package pdftex.def Info: finalfinal.pdf, page2 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
  [5 <./finalfinal.pdf>]
 File: finalfinal.pdf Graphic file (type pdf)
 
 <use finalfinal.pdf, page 3>
 Package pdftex.def Info: finalfinal.pdf, page3 used on input line 159.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+(pdftex.def)             Requested size: 475.25821pt x 615.04005pt.
  [6 <./finalfinal.pdf>]
 <Lab_1.pdf, id=56, 614.295pt x 794.97pt>
 File: Lab_1.pdf Graphic file (type pdf)
@@ -2091,7 +2091,7 @@ m/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 9.pfb>
-Output written on main.pdf (99 pages, 6624485 bytes).
+Output written on main.pdf (99 pages, 6624545 bytes).
 PDF statistics:
  840 PDF objects out of 1000 (max. 8388607)
  490 compressed objects within 5 object streams
