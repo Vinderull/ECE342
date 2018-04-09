@@ -21,30 +21,55 @@ This design was chosen due to the fact that every stage, with the exclusion of t
     \end{center}
 \end{figure}
 
-The circuits will be simulated in MicroCap 11. The values for the components will initially be the values calculated in circuit development. The generic bias conditions for the ALD1106 and 1107 are summarized in Table \ref{tab:bias}. This section will describe simulations and alteration of the aforementioned circuits which will be used in experimentation. All simulations were performed in MicroCap 11. A CSV file was exported from MicroCap and the data was plotted in Matlab. All values are equivalent to circuits simulated in MicroCap. 
+The circuits will be simulated in MicroCap 11. The values for the components will initially be the values calculated in circuit development. The generic bias conditions for the ALD1106 and 1107 are summarized in Table \ref{tab:bias}. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.85]{Simulations/nuribias.png}
+		\caption{Typical ALD bias conditions \cite{b3}}
+		\label{tab:bias}
+	\end{center}
+\end{figure}
+
+Here the typical bias conditions for the constraining MOSFETs can be seen. For the purposes of this lab, the bias current of 400 $\mu$A was chosen.
 
 \subsection{Resistively Loaded Differential Amplifier}
 
-The resistively loaded amplifier stage requires a current mirror in order to generate the chosen bias current of 400 $\mu$A. This was achieved by setting R$_{ref}$ to 20k$\Omega$
+The resistively loaded amplifier stage requires a current mirror in order to generate the chosen bias current of 400 $\mu$A. This was achieved by applying Ohm's Law. The  V$_{gs}$ of the simple current mirror needs to be -3V. In order to  have the correct  current R$_{ref}$ was set to 20k$\Omega$. The simulated resistive load differential pair can be seen in Figure \ref{fig:ResLoadSim}.
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.85]{Simulations/ResLoadedSimulated.png}
+    \includegraphics[scale=.85]{Simulations/simdiff.png}
     \caption{Simulated resistive load differential amplifier}
     \label{fig:ResLoadSim}
     \end{center}
 \end{figure}
 
-The resistive load differential gain can be seen in Figure \ref{fig:adsimresist}.
+In addition, the current through the load resistors needs to be half of the bias current. As a result, the resistance values can be found by applying KVL, which leads to R$_{drain}$ of 15k$\Omega$.  The differential gain of the circuit can be found by Equation \ref{eq:Adsimresist} 
+\begin{equation}\label{eq:Adsimresist}
+A_d = g_m R_d,
+\end{equation}
+
+where g$_m$ is the transconductance of the amplifying NMOS and R$_d$ is the drain resistance and was calculated to be 16 dB. The output is double ended due to it feeding another amplifier stage. The simulated gain can be seen in  Figure \ref{fig:adsimresist}.
 
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.30]{Simulations/Ad_resist_double.png}
+    \includegraphics[scale=.30]{Simulations/gainfirststage.png}
     \caption{Simulated resistive load differential gain}
     \label{fig:adsimresist}
     \end{center}
 \end{figure}
-This was measured by performing an AC analysis in Microcap from 100Hz to 1MHz. This was performed by grounding one of the inputs whilest measuring the voltage differentially from the output nodes. Similarly, the Acm can be seen in Figure \ref{fig:acmresistsim}.
+This was measured by performing an AC analysis in Microcap from 100Hz to 1MHz. This was performed by grounding one of the inputs whilest measuring the voltage differentially from the output nodes. The simulated value was marginally higher at 16.2 dB. The simulated phase can be seen in Figure  \ref{fig:firststagephase}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/phasefirststage.png}
+		\caption{Simulated resistive load differential phase}
+		\label{fig:firststagephase}.
+	\end{center}
+\end{figure}
+
+
 
 
 \begin{figure}[H]
