@@ -127,8 +127,97 @@ This stage can be seen to only be 180 degree stable until 100 kHz. This is the m
 
 \subsection{Common Source Amplifier}
 
-The common source amplifier
+The common source amplifier features an active load which serves as a biasing network. The common source allows for the output loading effects of the active load to be ignored due to the near infinite input impedence seen at the gate of the common source. The simulated circuit can be seen in Figure \ref{fig:simcs}.
 
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/simcs.png}
+		\caption{Simulated common source amplifier}
+		\label{fig:simcs}
+	\end{center}
+\end{figure} 
+
+The voltage gain of a common source amplifier can be expressed in Equation \ref{eq:csgain}
+
+
+\begin{equation}
+A_{vo} = -\frac{g_mR_d}{1+g_mR_s},
+\label{eqn:csgain}
+\end{equation}
+
+where R$_s$ is the resistance seen at the source of the amplfying transistor which in this case is the r$_o$ of the active load. The gain can be calculated to be 23 dB. The active load features source degeneration, this resistor value should be large enough to ensure that with grounded inputs the common source output node is 0V. The resistor that achieved this is 1 k$\Omega$. The simulated gain can be seen in Figure \ref{fig:gaincs}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/gaincommonsource.png}
+		\caption{Simulated common source amplifier gain}
+		\label{fig:gaincs}
+	\end{center}
+\end{figure} 
+
+The gain is slightly less than the calculated 23 dB at 20.5 dB. The phase the common source stage can be seen in Figure \ref{fig:csphase}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/phasecommonsource.png}
+		\caption{Simulated common source amplifier phase}
+		\label{fig:csphase}
+	\end{center}
+\end{figure} 
+
+The common source, similar to that of the active load, is 180 degree stable until 100 kHz.  The common source is then fed to an output stage. The output stage will be covered in more detail in a later task. For the purposes of this lab the output stage can be treated as an emitter follower.
+
+\subsection{Output Stage}
+
+Due to the design of this stage is mostly beyond the scope of this task, the largest deisgn consideration was choosing resistors values great enough to ensure that the base emitter voltages of remain less than 0.7V. These values were changed in Microcap until the correct bias conditions were found. The resistor values were found to be 100 k$\Omega$. The simulated gain can be seen in Figure \ref{fig:outputgain}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/gainlaststage.png}
+		\caption{Simulated output stage gain}
+		\label{fig:outputgain}
+	\end{center}
+\end{figure} 
+
+The gain can be seen to be a little less than one, this is expected by the emitter follower nature of the stage. The Ideal emitter follower has a voltage gain of 1 V/V. The simulated phase can be seen in Figure \ref{fig:outputphase}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/phaselaststage.png}
+		\caption{Simulated output stage phase}
+		\label{fig:outputphase}
+	\end{center}
+\end{figure} 
+
+The output stage remains 180 degree stable until 1 MHz, which is a decade higher than the previous two stages. The overall gain of the circuit can be seen in Figure \ref{fig:overallgain}. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/gain_overall.png}
+		\caption{Simulated overall gain}
+		\label{fig:overallgain}
+	\end{center}
+\end{figure} 
+
+The gain can be seen to be much greater than the required 46 dB at 75 dB. Care is necessary when building this circuit as very little input could result in a railed output. The final phase can be seen in Figure \ref{fig:overallphase}.
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/phaseoverall.png}
+		\caption{Simulated overall phase}
+		\label{fig:overallphase}
+	\end{center}
+\end{figure} 
+
+The final output can be seen to be 180 degree stable until 100 kHz, which is required by the specifications.
+
+The DC bias conditions measured in Microcap can be seen in Table \ref{tab:simdcbias}.
+
+
+
+
+	
 
 \begin{figure}[H]
     \begin{subfigure}[b]{0.45\textwidth}
@@ -152,25 +241,26 @@ The common source amplifier
 Proceeding from the common mode gain, the CMRR can be was calculated in Matlab and was found to be constant. The summary of simulated active load values can be seen in Table \ref{tab:simactiveload}.
 
 
-
 \begin{table}[H]
-\centering
-\caption{Active load differential amplifier simulated results}
-\label{tab:simactiveload}
-\begin{tabular}{|c|c|}
-\hline
-\multicolumn{2}{|c|}{\begin{tabular}[c]{@{}c@{}}Simulated active loaded \\ differential amplifer\end{tabular}} \\ \hline
-Components/Nodes                                              & Values                                              \\ \hline
-$V_{ref_1}$                                                   & -3.07 V                                                    \\ \hline
-$V_{ref_2}$                                                   & -.51 V                                                    \\ \hline
-$I_{bias}$                                                    & 401 $\mu$A                                                    \\ \hline
-$I_{ref_1}$                                                   & 200 $\mu$A                                                    \\ \hline
-$I_{ref_2}$                                                   & 199 $\mu$A                                                    \\ \hline
-\end{tabular}
+	\centering
+	\caption{DC bias values}
+	\label{tab:simactiveloadl}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{DC Bias Conditions} &         \\ \hline
+		Vref                        & -3.003V \\ \hline
+		D1                          & 1.284V  \\ \hline
+		D2                          & 1.284V  \\ \hline
+		D3                          & 2.78V   \\ \hline
+		D4                          & 2.78V   \\ \hline
+		S                           & .972V   \\ \hline
+		S1                          & -1.34V  \\ \hline
+		OutCS                       & -82mV   \\ \hline
+		Out                         & -11.4mV \\ \hline
+	\end{tabular}
 \end{table}
 
-The DC values were found by performing DC analysis in Microcap. The values are extremely comparable to the calculated values.
-
+The DC bias conditions match that of this found in previous tasks. Notably the output of both the CS  and final stage is not 0V, which is what is expected. This is due to body effect and channel length modulation effects, this voltage is known as the offset voltage.
 
 
 
