@@ -1,0 +1,1064 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 APR 2018 02:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip44
+\absleftindent=\skip45
+\absrightindent=\skip46
+\absparindent=\skip47
+\absparsep=\skip48
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+
+LaTeX Warning: Command \@arrayparboxrestore  has changed.
+               Check if current package is valid.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks24
+\footnotemargin=\dimen114
+\c@pp@next@reset=\count101
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read1
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
+(./main.aux
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `fig:blue_led' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blue_led' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen123
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package ragged2e Info: ABD: executing \RaggedRight on input line 29.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 29.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+<Images/barcode.png, id=1, 454.69875pt x 443.6575pt>
+File: Images/barcode.png Graphic file (type png)
+ <use Images/barcode.png>
+Package pdftex.def Info: Images/barcode.png used on input line 70.
+(pdftex.def)             Requested size: 45.47253pt x 44.36835pt.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Image
+s/barcode.png>] (./main.toc
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [1]
+(./main.lof [2])
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [3] (./Introduction/Introduction.tex
+<Introduction/genericopamp.png, id=23, 334.24875pt x 154.5775pt>
+File: Introduction/genericopamp.png Graphic file (type png)
+
+<use Introduction/genericopamp.png>
+Package pdftex.def Info: Introduction/genericopamp.png used on input line 9.
+(pdftex.def)             Requested size: 150.41054pt x 69.55922pt.
+) [1
+
+ <./Introduction/genericopamp.png>]
+(./Simulations/simulations.tex
+<Simulations/default_circ.png, id=30, 806.01125pt x 460.72125pt>
+File: Simulations/default_circ.png Graphic file (type png)
+
+<use Simulations/default_circ.png>
+Package pdftex.def Info: Simulations/default_circ.png used on input line 9.
+(pdftex.def)             Requested size: 362.7017pt x 207.32265pt.
+
+<Simulations/simcircuit.png, id=31, 666.49pt x 328.22626pt>
+File: Simulations/simcircuit.png Graphic file (type png)
+
+<use Simulations/simcircuit.png>
+Package pdftex.def Info: Simulations/simcircuit.png used on input line 18.
+(pdftex.def)             Requested size: 299.91772pt x 147.70044pt.
+ [2 <./Simulations/default_circ.png> <./Simulations/simcircuit.png>]
+<Simulations/nuribias.png, id=37, 910.40125pt x 361.35pt>
+File: Simulations/nuribias.png Graphic file (type png)
+
+<use Simulations/nuribias.png>
+Package pdftex.def Info: Simulations/nuribias.png used on input line 28.
+(pdftex.def)             Requested size: 318.6452pt x 126.4744pt.
+
+<Simulations/simdiff.png, id=38, 200.75pt x 228.855pt>
+File: Simulations/simdiff.png Graphic file (type png)
+
+<use Simulations/simdiff.png>
+Package pdftex.def Info: Simulations/simdiff.png used on input line 41.
+(pdftex.def)             Requested size: 170.63829pt x 194.52765pt.
+
+
+LaTeX Warning: Reference `eq:drainresist' on page 3 undefined on input line 47.
+
+
+[3 <./Simulations/nuribias.png> <./Simulations/simdiff.png>]
+<Simulations/gainfirststage.png, id=46, 513.92pt x 404.51125pt>
+File: Simulations/gainfirststage.png Graphic file (type png)
+
+<use Simulations/gainfirststage.png>
+Package pdftex.def Info: Simulations/gainfirststage.png used on input line 64.
+(pdftex.def)             Requested size: 154.17719pt x 121.35431pt.
+
+<Simulations/phasefirststage.png, id=47, 516.93124pt x 395.4775pt>
+File: Simulations/phasefirststage.png Graphic file (type png)
+
+<use Simulations/phasefirststage.png>
+Package pdftex.def Info: Simulations/phasefirststage.png used on input line 73.
+
+(pdftex.def)             Requested size: 155.08057pt x 118.64417pt.
+
+Overfull \hbox (5.24576pt too wide) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 Task 3. This cir-cuit can be seen in Fig-ure 8[]. This mod-i-fi
+-ca-tion al-lows for the sin-gle ended out-put to achieve 
+ []
+
+[4 <./Simulations/gainfirststage.png> <./Simulations/phasefirststage.png>]
+<Simulations/simactive.png, id=54, 147.55125pt x 194.7275pt>
+File: Simulations/simactive.png Graphic file (type png)
+
+<use Simulations/simactive.png>
+Package pdftex.def Info: Simulations/simactive.png used on input line 88.
+(pdftex.def)             Requested size: 125.41913pt x 165.51913pt.
+
+
+LaTeX Warning: Reference `eq:Adsimactive' on page 5 undefined on input line 94.
+
+
+
+LaTeX Warning: Reference `eq:ro' on page 5 undefined on input line 100.
+
+<Simulations/gainsecondstage.png, id=55, 533.995pt x 406.51875pt>
+File: Simulations/gainsecondstage.png Graphic file (type png)
+
+<use Simulations/gainsecondstage.png>
+Package pdftex.def Info: Simulations/gainsecondstage.png used on input line 112
+.
+(pdftex.def)             Requested size: 160.19974pt x 121.95656pt.
+
+<Simulations/phase_secondstage.png, id=56, 526.96875pt x 398.48875pt>
+File: Simulations/phase_secondstage.png Graphic file (type png)
+
+<use Simulations/phase_secondstage.png>
+Package pdftex.def Info: Simulations/phase_secondstage.png used on input line 1
+21.
+(pdftex.def)             Requested size: 158.09184pt x 119.54755pt.
+ [5 <./Simulations/simactive.png> <./Simulations/gainsecondstage.png>]
+<Simulations/simcs.png, id=63, 101.37875pt x 211.79124pt>
+File: Simulations/simcs.png Graphic file (type png)
+
+<use Simulations/simcs.png>
+Package pdftex.def Info: Simulations/simcs.png used on input line 134.
+(pdftex.def)             Requested size: 65.8954pt x 137.66267pt.
+ [6 <./Simulations/phase_secondstage.png> <./Simulations/simcs.png>]
+<Simulations/gaincommonsource.png, id=69, 520.94624pt x 401.5pt>
+File: Simulations/gaincommonsource.png Graphic file (type png)
+
+<use Simulations/gaincommonsource.png>
+Package pdftex.def Info: Simulations/gaincommonsource.png used on input line 15
+2.
+(pdftex.def)             Requested size: 208.3748pt x 160.59715pt.
+
+<Simulations/phasecommonsource.png, id=70, 519.9425pt x 405.515pt>
+File: Simulations/phasecommonsource.png Graphic file (type png)
+
+<use Simulations/phasecommonsource.png>
+Package pdftex.def Info: Simulations/phasecommonsource.png used on input line 1
+62.
+(pdftex.def)             Requested size: 207.97331pt x 162.20311pt.
+ [7 <./Simulations/gaincommonsource.png> <./Simulations/phasecommonsource.png>]
+
+<Simulations/gainlaststage.png, id=76, 541.02126pt x 404.51125pt>
+File: Simulations/gainlaststage.png Graphic file (type png)
+
+<use Simulations/gainlaststage.png>
+Package pdftex.def Info: Simulations/gainlaststage.png used on input line 176.
+(pdftex.def)             Requested size: 216.40466pt x 161.80162pt.
+
+<Simulations/phaselaststage.png, id=77, 520.94624pt x 400.49625pt>
+File: Simulations/phaselaststage.png Graphic file (type png)
+
+<use Simulations/phaselaststage.png>
+Package pdftex.def Info: Simulations/phaselaststage.png used on input line 186.
+
+(pdftex.def)             Requested size: 208.3748pt x 160.19566pt.
+
+<Simulations/gain_overall.png, id=78, 521.95pt x 408.52625pt>
+File: Simulations/gain_overall.png Graphic file (type png)
+
+<use Simulations/gain_overall.png>
+Package pdftex.def Info: Simulations/gain_overall.png used on input line 196.
+(pdftex.def)             Requested size: 208.77629pt x 163.4076pt.
+ [8 <./Simulations/gainlaststage.png> <./Simulations/phaselaststage.png>]
+<Simulations/phaseoverall.png, id=84, 514.92375pt x 404.51125pt>
+File: Simulations/phaseoverall.png Graphic file (type png)
+
+<use Simulations/phaseoverall.png>
+Package pdftex.def Info: Simulations/phaseoverall.png used on input line 207.
+(pdftex.def)             Requested size: 205.96585pt x 161.80162pt.
+ [9 <./Simulations/gain_overall.png> <./Simulations/phaseoverall.png>]) (./Expe
+rimentalImplementation/experimental.tex
+Overfull \hbox (4.57916pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10 This sec-tion de-tails the ex-per-i-men-tal im-ple-men-ta-tion 
+of the two dif-fer-en-tial am-pli-fiers, the re-sis-tively loaded 
+ []
+
+<ExperimentalImplementation/ResLoadedExp.png, id=91, 266.4354pt x 255.8358pt>
+File: ExperimentalImplementation/ResLoadedExp.png Graphic file (type png)
+
+<use ExperimentalImplementation/ResLoadedExp.png>
+Package pdftex.def Info: ExperimentalImplementation/ResLoadedExp.png used on in
+put line 19.
+(pdftex.def)             Requested size: 199.82605pt x 191.87637pt.
+ [10]
+<ExperimentalImplementation/VTC_res_cascode.png, id=95, 834.11626pt x 340.27126
+pt>
+File: ExperimentalImplementation/VTC_res_cascode.png Graphic file (type png)
+ <use ExperimentalImplementation/VTC_res_cascode.png>
+Package pdftex.def Info: ExperimentalImplementation/VTC_res_cascode.png used on
+ input line 51.
+(pdftex.def)             Requested size: 375.34885pt x 153.12064pt.
+ [11 <./ExperimentalImplementation/ResLoadedExp.png (PNG copy)>]
+<ExperimentalImplementation/Ad_cascode_res_double.png, id=99, 524.96124pt x 398
+.48875pt>
+File: ExperimentalImplementation/Ad_cascode_res_double.png Graphic file (type p
+ng)
+ <use ExperimentalImplementation/Ad_cascode_res_double.png>
+Package pdftex.def Info: ExperimentalImplementation/Ad_cascode_res_double.png u
+sed on input line 63.
+(pdftex.def)             Requested size: 211.38832pt x 160.46283pt.
+
+<ExperimentalImplementation/Ad_cascode_res_single.png, id=100, 521.95pt x 400.4
+9625pt>
+File: ExperimentalImplementation/Ad_cascode_res_single.png Graphic file (type p
+ng)
+ <use ExperimentalImplementation/Ad_cascode_res_single.png>
+Package pdftex.def Info: ExperimentalImplementation/Ad_cascode_res_single.png u
+sed on input line 70.
+(pdftex.def)             Requested size: 211.38832pt x 162.20009pt.
+
+<ExperimentalImplementation/Acm_100m_double.png, id=101, 512.91624pt x 404.5112
+5pt>
+File: ExperimentalImplementation/Acm_100m_double.png Graphic file (type png)
+ <use ExperimentalImplementation/Acm_100m_double.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_100m_double.png used on
+ input line 84.
+(pdftex.def)             Requested size: 211.38832pt x 166.70863pt.
+
+<ExperimentalImplementation/Acm_100msingle.png, id=102, 524.96124pt x 403.5075p
+t>
+File: ExperimentalImplementation/Acm_100msingle.png Graphic file (type png)
+ <use ExperimentalImplementation/Acm_100msingle.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_100msingle.png used on 
+input line 91.
+(pdftex.def)             Requested size: 211.38832pt x 162.48376pt.
+ [12 <./ExperimentalImplementation/VTC_res_cascode.png> <./ExperimentalImplemen
+tation/Ad_cascode_res_double.png> <./ExperimentalImplementation/Ad_cascode_res_
+single.png>]
+<ExperimentalImplementation/Acm_1_double.png, id=109, 533.995pt x 403.5075pt>
+File: ExperimentalImplementation/Acm_1_double.png Graphic file (type png)
+
+<use ExperimentalImplementation/Acm_1_double.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_1_double.png used on in
+put line 105.
+(pdftex.def)             Requested size: 211.38832pt x 159.73158pt.
+
+<ExperimentalImplementation/Acm_1_single.png, id=110, 530.98375pt x 402.50375pt
+>
+File: ExperimentalImplementation/Acm_1_single.png Graphic file (type png)
+ <use ExperimentalImplementation/Acm_1_single.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_1_single.png used on in
+put line 112.
+(pdftex.def)             Requested size: 211.38832pt x 160.24321pt.
+
+<ExperimentalImplementation/CMRR_cascode_resist_double.png, id=111, 816.04875pt
+ x 658.25925pt>
+File: ExperimentalImplementation/CMRR_cascode_resist_double.png Graphic file (t
+ype png)
+
+<use ExperimentalImplementation/CMRR_cascode_resist_double.png>
+Package pdftex.def Info: ExperimentalImplementation/CMRR_cascode_resist_double.
+png used on input line 127.
+(pdftex.def)             Requested size: 211.38832pt x 170.51057pt.
+
+<ExperimentalImplementation/CMRR_cascode_single_resist.png, id=112, 828.09375pt
+ x 655.85025pt>
+File: ExperimentalImplementation/CMRR_cascode_single_resist.png Graphic file (t
+ype png)
+
+<use ExperimentalImplementation/CMRR_cascode_single_resist.png>
+Package pdftex.def Info: ExperimentalImplementation/CMRR_cascode_single_resist.
+png used on input line 134.
+(pdftex.def)             Requested size: 211.38832pt x 167.41473pt.
+ [13 <./ExperimentalImplementation/Acm_100m_double.png> <./ExperimentalImplemen
+tation/Acm_100msingle.png> <./ExperimentalImplementation/Acm_1_double.png> <./E
+xperimentalImplementation/Acm_1_single.png>]
+File: ExperimentalImplementation/VTC_res_cascode.png Graphic file (type png)
+
+<use ExperimentalImplementation/VTC_res_cascode.png>
+Package pdftex.def Info: ExperimentalImplementation/VTC_res_cascode.png used on
+ input line 179.
+(pdftex.def)             Requested size: 375.34885pt x 153.12064pt.
+ [14 <./ExperimentalImplementation/CMRR_cascode_resist_double.png> <./Experimen
+talImplementation/CMRR_cascode_single_resist.png>]
+<ExperimentalImplementation/Resist_Ad_simple_doubleended.png, id=125, 820.86674
+pt x 653.44125pt>
+File: ExperimentalImplementation/Resist_Ad_simple_doubleended.png Graphic file 
+(type png)
+
+<use ExperimentalImplementation/Resist_Ad_simple_doubleended.png>
+Package pdftex.def Info: ExperimentalImplementation/Resist_Ad_simple_doubleende
+d.png used on input line 190.
+(pdftex.def)             Requested size: 211.38832pt x 168.26549pt.
+
+<ExperimentalImplementation/Ad_resist_simple_singleended.png, id=126, 837.72975
+pt x 682.34924pt>
+File: ExperimentalImplementation/Ad_resist_simple_singleended.png Graphic file 
+(type png)
+
+<use ExperimentalImplementation/Ad_resist_simple_singleended.png>
+Package pdftex.def Info: ExperimentalImplementation/Ad_resist_simple_singleende
+d.png used on input line 197.
+(pdftex.def)             Requested size: 211.38832pt x 172.17989pt.
+
+<ExperimentalImplementation/Acm_resistive_double_ended_100m_simple.png, id=127,
+ 834.11626pt x 673.91776pt>
+File: ExperimentalImplementation/Acm_resistive_double_ended_100m_simple.png Gra
+phic file (type png)
+
+<use ExperimentalImplementation/Acm_resistive_double_ended_100m_simple.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_resistive_double_ended_
+100m_simple.png used on input line 211.
+(pdftex.def)             Requested size: 211.38832pt x 170.78244pt.
+
+<ExperimentalImplementation/Acm_resist_single_ended_100m_simple.png, id=128, 85
+3.38824pt x 671.50874pt>
+File: ExperimentalImplementation/Acm_resist_single_ended_100m_simple.png Graphi
+c file (type png)
+
+<use ExperimentalImplementation/Acm_resist_single_ended_100m_simple.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_resist_single_ended_100
+m_simple.png used on input line 218.
+(pdftex.def)             Requested size: 211.38832pt x 166.32956pt.
+
+[15 <./ExperimentalImplementation/Resist_Ad_simple_doubleended.png> <./Experime
+ntalImplementation/Ad_resist_simple_singleended.png>]
+<ExperimentalImplementation/Acm_double_ended_resist_simple_1v.png, id=135, 838.
+93425pt x 683.55376pt>
+File: ExperimentalImplementation/Acm_double_ended_resist_simple_1v.png Graphic 
+file (type png)
+
+<use ExperimentalImplementation/Acm_double_ended_resist_simple_1v.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_double_ended_resist_sim
+ple_1v.png used on input line 232.
+(pdftex.def)             Requested size: 211.38832pt x 172.2335pt.
+
+<ExperimentalImplementation/Acm_resist_single_1v_simple.png, id=136, 852.18375p
+t x 669.09975pt>
+File: ExperimentalImplementation/Acm_resist_single_1v_simple.png Graphic file (
+type png)
+
+<use ExperimentalImplementation/Acm_resist_single_1v_simple.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_resist_single_1v_simple
+.png used on input line 239.
+(pdftex.def)             Requested size: 211.38832pt x 165.96768pt.
+
+<ExperimentalImplementation/CMRR_resist_simple_double.pdf, id=137, 614.295pt x 
+794.97pt>
+File: ExperimentalImplementation/CMRR_resist_simple_double.pdf Graphic file (ty
+pe pdf)
+ <use ExperimentalImplementation/CMRR_resist_simple_double.pdf>
+Package pdftex.def Info: ExperimentalImplementation/CMRR_resist_simple_double.p
+df used on input line 254.
+(pdftex.def)             Requested size: 211.38832pt x 273.56139pt.
+
+<ExperimentalImplementation/resistive_single_CMRR_simple.png, id=138, 525.965pt
+ x 401.5pt>
+File: ExperimentalImplementation/resistive_single_CMRR_simple.png Graphic file 
+(type png)
+ <use ExperimentalImplementation/resistive_single_CMRR_simple.png>
+Package pdftex.def Info: ExperimentalImplementation/resistive_single_CMRR_simpl
+e.png used on input line 261.
+(pdftex.def)             Requested size: 211.38832pt x 161.36295pt.
+
+[16 <./ExperimentalImplementation/Acm_resistive_double_ended_100m_simple.png> <
+./ExperimentalImplementation/Acm_resist_single_ended_100m_simple.png> <./Experi
+mentalImplementation/Acm_double_ended_resist_simple_1v.png> <./ExperimentalImpl
+ementation/Acm_resist_single_1v_simple.png>]
+<ExperimentalImplementation/ActiveLoadedExp.png, id=146, 266.4354pt x 255.8358p
+t>
+File: ExperimentalImplementation/ActiveLoadedExp.png Graphic file (type png)
+ <use ExperimentalImplementation/ActiveLoadedExp.png>
+Package pdftex.def Info: ExperimentalImplementation/ActiveLoadedExp.png used on
+ input line 285.
+(pdftex.def)             Requested size: 226.47115pt x 217.46146pt.
+ [17 <./ExperimentalImplementation/CMRR_resist_simple_double.pdf> <./Experiment
+alImplementation/resistive_single_CMRR_simple.png>]
+<ExperimentalImplementation/Active_VTC.png, id=153, 817.0525pt x 335.2525pt>
+File: ExperimentalImplementation/Active_VTC.png Graphic file (type png)
+
+<use ExperimentalImplementation/Active_VTC.png>
+Package pdftex.def Info: ExperimentalImplementation/Active_VTC.png used on inpu
+t line 295.
+(pdftex.def)             Requested size: 367.67023pt x 150.86223pt.
+
+<ExperimentalImplementation/Adb_active.png, id=154, 805.0075pt x 325.215pt>
+File: ExperimentalImplementation/Adb_active.png Graphic file (type png)
+
+<use ExperimentalImplementation/Adb_active.png>
+Package pdftex.def Info: ExperimentalImplementation/Adb_active.png used on inpu
+t line 306.
+(pdftex.def)             Requested size: 399.29463pt x 161.31192pt.
+ [18 <./ExperimentalImplementation/ActiveLoadedExp.png (PNG copy)> <./Experimen
+talImplementation/Active_VTC.png>]
+<ExperimentalImplementation/Acm_active_100m.png, id=159, 527.9725pt x 400.49625
+pt>
+File: ExperimentalImplementation/Acm_active_100m.png Graphic file (type png)
+ <use ExperimentalImplementation/Acm_active_100m.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_active_100m.png used on
+ input line 320.
+(pdftex.def)             Requested size: 211.38832pt x 160.34843pt.
+
+<ExperimentalImplementation/Acm_active_1v.png, id=160, 521.95pt x 405.515pt>
+File: ExperimentalImplementation/Acm_active_1v.png Graphic file (type png)
+
+<use ExperimentalImplementation/Acm_active_1v.png>
+Package pdftex.def Info: ExperimentalImplementation/Acm_active_1v.png used on i
+nput line 327.
+(pdftex.def)             Requested size: 211.38832pt x 164.23267pt.
+
+<ExperimentalImplementation/Active_CMRR_Both.png, id=161, 832.91174pt x 677.531
+25pt>
+File: ExperimentalImplementation/Active_CMRR_Both.png Graphic file (type png)
+ <use ExperimentalImplementation/Active_CMRR_Both.png>
+Package pdftex.def Info: ExperimentalImplementation/Active_CMRR_Both.png used o
+n input line 339.
+(pdftex.def)             Requested size: 281.85587pt x 229.27205pt.
+ [19 <./ExperimentalImplementation/Adb_active.png> <./ExperimentalImplementatio
+n/Acm_active_100m.png> <./ExperimentalImplementation/Acm_active_1v.png>])
+(./Discussion/Discussion.tex [20 <./ExperimentalImplementation/Active_CMRR_Both
+.png>]) (./Conclusion/Conclusion.tex [21]) [22]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[]\OT1/cmr/m/n/10 All About Cir-cuits. (2018) Single-ended dif-fer-en-tial am-p
+li-fiers [On-line]: 
+ []
+
+[23
+
+] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4023 strings out of 493089
+ 66146 string characters out of 6134842
+ 126173 words of memory out of 5000000
+ 7376 multiletter control sequences out of 15000+600000
+ 7021 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,13n,38p,1204b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (27 pages, 1153790 bytes).
+PDF statistics:
+ 215 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -6,7 +6,7 @@ Three different op amp topologies were provided as part of the lab. The chosen c
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.85]{Simulations/default_circ.png}
+    \includegraphics[scale=.45]{Simulations/default_circ.png}
     \caption{Generic schematic for chosen topology \cite{b2}}
     \label{fig:default}
     \end{center}
@@ -15,7 +15,7 @@ This design was chosen due to the fact that every stage, with the exclusion of t
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.85]{Simulations/simcircuit.png}
+    \includegraphics[scale=.45]{Simulations/simcircuit.png}
     \caption{Simulated op amp circuit}
     \label{fig:simcircuit}
     \end{center}
@@ -25,7 +25,7 @@ The circuits will be simulated in MicroCap 11. The values for the components wil
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.85]{Simulations/nuribias.png}
+		\includegraphics[scale=.35]{Simulations/nuribias.png}
 		\caption{Typical ALD bias conditions \cite{b3}}
 		\label{tab:bias}
 	\end{center}
@@ -118,7 +118,7 @@ where  $\lambda$ is the channel length modulation parameter. The output resistan
 This simulation was performed in the same manner as the resistive load. The differential gain is found to be much high than resistive load at 38 dB and consistent with the calculated value of 35 dB. The phase of the active load can be seen in Figure \ref{fig:activephase}.
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/phasesecondstage.png}
+		\includegraphics[scale=.30]{Simulations/phase_secondstage.png}
 		\caption{Simulated active load differential phase}
 		\label{fig:activephase}
 	\end{center}
@@ -131,13 +131,13 @@ The common source amplifier features an active load which serves as a biasing ne
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/simcs.png}
+		\includegraphics[scale=.65]{Simulations/simcs.png}
 		\caption{Simulated common source amplifier}
 		\label{fig:simcs}
 	\end{center}
 \end{figure} 
 
-The voltage gain of a common source amplifier can be expressed in Equation \ref{eq:csgain}
+The voltage gain of a common source amplifier can be expressed in Equation \ref{eqn:csgain}
 
 
 \begin{equation}
@@ -149,7 +149,7 @@ where R$_s$ is the resistance seen at the source of the amplfying transistor whi
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/gaincommonsource.png}
+		\includegraphics[scale=.40]{Simulations/gaincommonsource.png}
 		\caption{Simulated common source amplifier gain}
 		\label{fig:gaincs}
 	\end{center}
@@ -159,7 +159,7 @@ The gain is slightly less than the calculated 23 dB at 20.5 dB. The phase the co
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/phasecommonsource.png}
+		\includegraphics[scale=.40]{Simulations/phasecommonsource.png}
 		\caption{Simulated common source amplifier phase}
 		\label{fig:csphase}
 	\end{center}
@@ -173,7 +173,7 @@ Due to the design of this stage is mostly beyond the scope of this task, the lar
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/gainlaststage.png}
+		\includegraphics[scale=.40]{Simulations/gainlaststage.png}
 		\caption{Simulated output stage gain}
 		\label{fig:outputgain}
 	\end{center}
@@ -183,7 +183,7 @@ The gain can be seen to be a little less than one, this is expected by the emitt
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/phaselaststage.png}
+		\includegraphics[scale=.40]{Simulations/phaselaststage.png}
 		\caption{Simulated output stage phase}
 		\label{fig:outputphase}
 	\end{center}
@@ -193,7 +193,7 @@ The output stage remains 180 degree stable until 1 MHz, which is a decade higher
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/gain_overall.png}
+		\includegraphics[scale=.40]{Simulations/gain_overall.png}
 		\caption{Simulated overall gain}
 		\label{fig:overallgain}
 	\end{center}
@@ -204,47 +204,20 @@ The gain can be seen to be much greater than the required 46 dB at 75 dB. Care i
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.30]{Simulations/phaseoverall.png}
+		\includegraphics[scale=.40]{Simulations/phaseoverall.png}
 		\caption{Simulated overall phase}
 		\label{fig:overallphase}
 	\end{center}
 \end{figure} 
 
 The final output can be seen to be 180 degree stable until 100 kHz, which is required by the specifications.
-
 The DC bias conditions measured in Microcap can be seen in Table \ref{tab:simdcbias}.
-
-
-
-
-	
-
-\begin{figure}[H]
-    \begin{subfigure}[b]{0.45\textwidth}
-    \centering
-    \includegraphics[scale=.30]{Simulations/Acm_active_double.png}
-    \caption{Simulated active load common mode gain}
-    \label{fig:activeAcsim}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-    \centering
-    \includegraphics[scale=.30]{Simulations/CMRR_active_double.png}
-    \caption{Simulated active load CMRR}
-    \label{fig:activeCMRRsim}
-\end{subfigure}
-    \caption{Simulated Acm and CMRR active load}
-    \label{fig:acmcmrrsimactive}
-\end{figure} 
-
-
-Proceeding from the common mode gain, the CMRR can be was calculated in Matlab and was found to be constant. The summary of simulated active load values can be seen in Table \ref{tab:simactiveload}.
 
 
 \begin{table}[H]
 	\centering
 	\caption{DC bias values}
-	\label{tab:simactiveloadl}
+	\label{tab:simdcbias}
 	\begin{tabular}{|l|l|}
 		\hline
 		\textbf{DC Bias Conditions} &         \\ \hline
