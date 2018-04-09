@@ -44,7 +44,14 @@ The resistively loaded amplifier stage requires a current mirror in order to gen
     \end{center}
 \end{figure}
 
-In addition, the current through the load resistors needs to be half of the bias current. As a result, the resistance values can be found by applying KVL, which leads to R$_{drain}$ of 15k$\Omega$.  The differential gain of the circuit can be found by Equation \ref{eq:Adsimresist} 
+In addition, the current through the load resistors needs to be half of the bias current. As a result, the resistance values can be found by applying KVL which can be seen in Equation \ref{eq:drainresist} 
+
+\begin{equation}
+V_{o_1} = V_{DD} - \frac{1}{2}I_{bias} R_d,
+\label{eqn:drainresist}
+\end{equation}
+
+where V$_{DD}$ is the supply voltage. This leads to R$_{drain}$ of 15k$\Omega$.  The differential gain of the circuit can be found by Equation \ref{eq:Adsimresist} 
 \begin{equation}\label{eq:Adsimresist}
 A_d = g_m R_d,
 \end{equation}
@@ -69,73 +76,58 @@ This was measured by performing an AC analysis in Microcap from 100Hz to 1MHz. T
 	\end{center}
 \end{figure}
 
+The phase can be seen to be 180 degrees stable until 1 MHz. This is desirable for an input stage, which is why the differential pair was chosen as the first stage. This stage was then cascaded with an active load differential pair.
 
 
+\subsection{Active Load Differential Pair}
+The next stage of op amp is the active load differential pair. This circuit is identical to that designed in Task 3.  This circuit can be seen in Figure \ref{fig:ActiveLoadSim}. This modification allows for the single ended output to achieve gain that is comparable to that of the active load with a double ended output.
 
-\begin{figure}[H]
-    \begin{subfigure}[b]{0.45\textwidth}
-    \centering
-    \includegraphics[scale=.30]{Simulations/Acm_resist_double.png}
-    \caption{Simulated resistive load common mode gain}
-    \label{fig:acmresistsim}
-\end{subfigure}
-    \hfill
-     \begin{subfigure}[b]{0.45\textwidth}
-    \centering
-    \includegraphics[scale=.30]{Simulations/Acm_resist_double.png}
-    \caption{Simulated CMRR resistive load}
-    \label{fig:cmrrsimres}
-\end{subfigure}
-    \caption{Simulated Acm and CMRR resistive load}
-    \label{fig:acmcmrrsim}
-\end{figure} 
-
-The Acm was measured by applying a differential signal to both inputs and measuring the differential outputs.
-The simulation shows a constant Acm due to The Rss value being held constant by the simulation. The CMRR can be seen in Figure \ref{fig:cmrrsimres}. The CMRR if found by calculating the ratio of Ad to Acm and is seen to be similar to the calculated value.
-
-
-\begin{table}[H]
-\centering
-\caption{Active load differential amplifier simulated results}
-\label{my-label}
-\begin{tabular}{|c|c|}
-\hline
-\multicolumn{2}{|c|}{\begin{tabular}[c]{@{}c@{}}Simulated resistively loaded \\ differential amplifier\end{tabular}} \\ \hline
-Components/Nodes                                              & Values                                              \\ \hline
-$V_{ref_1}$                                                   & -3.09 V                                               \\ \hline
-$V_{ref_2}$                                                   & -.55 V                                                    \\ \hline
-$I_{bias}$                                                    & 401 $\mu$A                                                    \\ \hline
-$I_{ref_1}$                                                   &  199 $\mu$A                                                   \\ \hline
-$I_{ref_2}$                                                   & 202 $\mu$A                                                    \\ \hline
-\end{tabular}
-\end{table}
-
-
-
-
-\subsection{Active load differential amplifier}
-The active load amplifier schematic is shown in Figure \ref{fig:ActiveLoadSim}. Rref did not need changing for simulations.
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.85]{Simulations/ActiveLoadedSimulated.png}
+    \includegraphics[scale=.85]{Simulations/simactive.png}
     \caption{Simulated active load differential amplifier}
     \label{fig:ActiveLoadSim}
     \end{center}
-\end{figure}'
+\end{figure}
 
-The differential gain for the active load can be seen in Figure \ref{fig:activeAdsim}.
+The differential gain for an actively loaded differential pair can be seen with Equation \ref{eq:Adsimactive}
+\begin{equation}
+A_d = g_{m_N}(r_{o_P}||r_{o_N}),
+\label{eqn:Ad_Active_Load}
+\end{equation}
+
+where  r$_o$ is the small signal output resistance of a MOSFET which is found by the Equation \ref{eq:ro}
+
+\begin{equation}
+r_o = \frac{1}{\lambda I_{DS}},
+\label{eqn:ro}
+\end{equation}
+
+where  $\lambda$ is the channel length modulation parameter. The output resistance for NMOS is found to be 172k$\Omega$ and PMOS is found to be 162k$\Omega$. he differential gain was calculated to be 35 dB. The simulated differential gain for the active load can be seen in Figure \ref{fig:activeAdsim}.
 
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.30]{Simulations/Ad_active_double.png}
+    \includegraphics[scale=.30]{Simulations/gainsecondstage.png}
     \caption{Simulated active load differential gain}
     \label{fig:activeAdsim}
     \end{center}
 \end{figure}
-This simulation was performed in the same manner as the resistive load. The differential gain is found to be much high than resistive load. The common mode gain was simulated in the same manner as the resitive load, with a differential signal being applied at both inputs with the voltage at the outputs being measured differentially. The Acm and CMRR can be seen in Figure \ref{fig:acmcmrrsimactive}.
 
+This simulation was performed in the same manner as the resistive load. The differential gain is found to be much high than resistive load at 38 dB and consistent with the calculated value of 35 dB. The phase of the active load can be seen in Figure \ref{fig:activephase}.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.30]{Simulations/phasesecondstage.png}
+		\caption{Simulated active load differential phase}
+		\label{fig:activephase}
+	\end{center}
+\end{figure}
+This stage can be seen to only be 180 degree stable until 100 kHz. This is the minimum required by the lab specifications. This stage is then passed to an active loaded common source stage.
+
+\subsection{Common Source Amplifier}
+
+The common source amplifier
 
 
 \begin{figure}[H]
