@@ -11,11 +11,11 @@ Three different op amp topologies were provided as part of the lab. The chosen c
     \label{fig:default}
     \end{center}
 \end{figure}
-This design was chosen due to the fact that every stage, with the exclusion of the output stage, was designed as part of a previous task. The stages can be broken down as such: a simple current mirror, a resistively loaded differential pair, an active loaded differential pair, an active load common source amplifier and finally a BJT amplifier output stage. The final simulated circuit can be seen in Figure \ref{fig:simcircuit}
+This design was chosen due to the fact that every stage, with the exclusion of the output stage, was designed as part of a previous task. The stages can be broken down as such: a simple current mirror, a resistively loaded differential pair, an active loaded differential pair, an active load common source amplifier and finally a BJT amplifier output stage. The final simulated circuit can be seen in Figure \ref{fig:simcircuit}.
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.45]{Simulations/simcircuit.png}
+    \includegraphics[scale=.55]{Simulations/simcircuit.png}
     \caption{Simulated op amp circuit}
     \label{fig:simcircuit}
     \end{center}
@@ -169,7 +169,14 @@ The common source, similar to that of the active load, is 180 degree stable unti
 
 \subsection{Output Stage}
 
-Due to the design of this stage is mostly beyond the scope of this task, the largest deisgn consideration was choosing resistors values great enough to ensure that the base emitter voltages of remain less than 0.7V. These values were changed in Microcap until the correct bias conditions were found. The resistor values were found to be 100 k$\Omega$. The simulated gain can be seen in Figure \ref{fig:outputgain}.
+Due to the design of this stage is mostly beyond the scope of this task, the largest deisgn consideration was choosing resistors values great enough to ensure that the base emitter voltages of remain less than 0.7V. These values were changed in Microcap until the correct bias conditions were found. The resistor values were found to be 100 k$\Omega$. The output gain can be expressed through Equation \ref{eq:efollower}
+
+\begin{equation}
+A_{vo} = \frac{g_mR_E}{g_mR_E + 1},
+\label{eq:efollower}
+\end{equation}
+
+where R$_E$ is the resistance seen at the emitter of the BJT and g$_m$ is the transconductance on the  BJT. The gain can be calculated to be 0.96 V/V. The simulated gain can be seen in Figure \ref{fig:outputgain}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -220,7 +227,7 @@ The DC bias conditions measured in Microcap can be seen in Table \ref{tab:simdcb
 	\label{tab:simdcbias}
 	\begin{tabular}{|l|l|}
 		\hline
-		\textbf{DC Bias Conditions} &         \\ \hline
+		\textbf{Simulated Values} &         \\ \hline
 		Vref                        & -3.003V \\ \hline
 		D1                          & 1.284V  \\ \hline
 		D2                          & 1.284V  \\ \hline
@@ -230,10 +237,15 @@ The DC bias conditions measured in Microcap can be seen in Table \ref{tab:simdcb
 		S1                          & -1.34V  \\ \hline
 		OutCS                       & -82mV   \\ \hline
 		Out                         & -11.4mV \\ \hline
+		A$_d$ First Stage   &  16.2 dB \\ \hline
+		A$_d$ Second Stage & 38 dB \\ \hline
+		A$_{vo}$ Common source & 20.5 dB \\ \hline
+		A$_{vo}$ Output Stage & -.1 dB \\ \hline
+		A$_d$     Final &  75dB \\ \hline
 	\end{tabular}
 \end{table}
 
-The DC bias conditions match that of this found in previous tasks. Notably the output of both the CS  and final stage is not 0V, which is what is expected. This is due to body effect and channel length modulation effects, this voltage is known as the offset voltage.
+The DC bias conditions match that of this found in previous tasks. Notably the output of both the CS  and final stage is not 0V. This is due to body effect and channel length modulation effects, this voltage is known as the offset voltage.
 
 
 

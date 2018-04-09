@@ -1,57 +1,23 @@
 \begin{document}
 
-This lab served as an introduction to differential amplifiers. Specifically, it highlighted the advantages and disadvantages of a resistively loaded and active loaded differential amplifier. All tasks for the lab were completed. However, multiple issues arose during the experimentation process. 
-
-When the circuit was functioning correctly, only a few minor deviations were noticeable from the calculated to the experimental results. These differences are most likely due to the equations used during calculations, which did not take every factor of the MOSFETS and circuits into considerations. The values that resulted from these calculations were ideal ones, that were close to what the values actually were. The final values can be seen in Table \ref{tab:FinalRes} below. 
+This lab served as the culmination of all prior tasks. The operation amplifier includes a current mirror, both types of differential pairs active and resistive as well as a common source amplifier. The final values can be seen in Table \ref{tab:FinalRes} below. 
 
 \begin{table}[H]
 \centering
-\caption{Final values for resistively loaded differential amplifier}
+\caption{Final values for operational amplifier}
 \label{tab:FinalRes}
 \begin{tabular}{|c|c|c|}
 \hline
-\multicolumn{3}{|c|}{Resitively Loaded Differential Amplifier Results} \\ \hline
+\multicolumn{3}{|c|}{Operational Amplifier Results} \\ \hline
 Components/Nodes          & Simulated          & Experimental          \\ \hline
-$V_{ref_1}$               & -3.09 V                   & -3.13 V                      \\ \hline
-$V_{ref_2}$               & -.056 V                   & -.062 V                      \\ \hline
-$I_{bias}$                & 401$\mu$A                   & 397 $\mu$A                      \\ \hline
-$I_{ref_1}$               & 199$\mu$A                   & 197 $\mu$A                      \\ \hline
-$I_{ref_2}$               & 202 $\mu$A                    &  196 $\mu$A                     \\ \hline
-R$_{ref}$                 & 8.125k$\Omega$               & 14.4kk$\Omega$                     \\ \hline
-R$_{D_1}$                 & 15k$\Omega$                   & 14.9k$\Omega$                      \\ \hline
-R$_{D_2}$                 & 15k$\Omega$                   & 14.9k$\Omega$                      \\ \hline
-Ad                       & 23.5 dB             & 18 dB \\ \hline
-Acm                      & -20.7.5 dB            & -55 \\ \hline
-CMRR 1V                    & 40 dB               & 90dB \\ \hline
+$V_{ref}$               & -3.03 V                   & ??                     \\ \hline
+$I_{bias}$                & 400$\mu$A                   & ?? $\mu$A                      \\ \hline
+R$_{ref}$                 & 20k$\Omega$               & ??                 \\ \hline
+R$_{D_1}$                 & 15k$\Omega$                   & ??                     \\ \hline
+R$_{D_2}$                 & 15k$\Omega$                   &  ??                      \\ \hline
+Ad                       & 75 dB             & ?? \\ \hline
 \end{tabular}
 \end{table}
 
-The amplifier did work as expected, but the gain was lacking as seen in the experimental section. One of the most significant observations from this experiment has been the impact of the two different current mirrors on the amplifier. The simple current mirror had the widest compliance range, providing more wiggle room in terms of operation. Current mirrors suffering from wide mismatch would benefit from a change to the simple topology as it would provide a wider range of operation. The cascode suffered from a more narrow range of operation, this however, is not without benefit. The cascode was able to produce a max differentially gain of 18.5dB while the simple current mirror only produced a max gain of 18dB. In addition the cascode featured better CMRR compared to the simple, 90dB compared to 67dB. Overall the cascode provided much better gain performance at the cost of a restricted compliance range.
-
-
-An active loaded amplifier performed better in terms of gain which is seen in Table \ref{tab:FinalActive}.
-
-\begin{table}[H]
-\centering
-\caption{Final values for active loaded differential amplifier}
-\label{tab:FinalActive}
-\begin{tabular}{|c|c|c|}
-\hline
-\multicolumn{3}{|c|}{Active Loaded Differential Amplifier Results} \\ \hline
-Components/Nodes          & Simulated          & Experimental          \\ \hline
-$V_{ref_1}$               &  -3.07 V                  & -3.05 V                      \\ \hline
-$V_{ref_2}$               &   -.051 V                 & -.048 V                       \\ \hline
-$I_{bias}$                &     401 $\mu$A               &    398 $\mu$A                   \\ \hline
-$I_{ref_1}$               & 200 $\mu$A                   &  202 $\mu$A                     \\ \hline
-$I_{ref_2}$               & 199 $\mu$A                   &  203 $\mu$A                     \\ \hline
-R$_{ref}$                 & 8.125k$\Omega$     & 14.4k$\Omega$  
-\\ \hline
-Ad                       & 29.3 dB             & 30 dB \\ \hline
-Acm                      & -19.5 dB            & -29dB \\ \hline
-CMRR 1V                   & 49 dB               & 59dB \\ \hline
-\end{tabular}
-\end{table}
-
-An advantage of the active load amplifier is less passive elements in the circuit are used. Also, the gain is much higher for the single stage analyzed in the lab. Finally, the CMRR is much larger in the single-ended active load, than the single-ended resistive load. The tradeoff, again, being a extremely restricted compliance range compared to the resistive load. This is due to transistor mismatch.
-
+The final circuit is still in a state of needing modifications. FINAL STUFF GOES HERE ONCE CIRCUIT IS WORKING.
 \end{document}

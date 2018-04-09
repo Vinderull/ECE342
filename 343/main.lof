@@ -1,33 +1,17 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces General operational amplifier symbol \cite {b1}\relax }}{1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Generic schematic for chosen topology \cite {b2}\relax }}{2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Simulated op amp circuit\relax }}{2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Simulated op amp circuit\relax }}{3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Typical ALD bias conditions \cite {b3}\relax }}{3}
-\contentsline {figure}{\numberline {5}{\ignorespaces Simulated resistive load differential amplifier\relax }}{3}
+\contentsline {figure}{\numberline {5}{\ignorespaces Simulated resistive load differential amplifier\relax }}{4}
 \contentsline {figure}{\numberline {6}{\ignorespaces Simulated resistive load differential gain\relax }}{4}
-\contentsline {figure}{\numberline {7}{\ignorespaces Simulated resistive load differential phase\relax }}{4}
+\contentsline {figure}{\numberline {7}{\ignorespaces Simulated resistive load differential phase\relax }}{5}
 \contentsline {figure}{\numberline {8}{\ignorespaces Simulated active load differential amplifier\relax }}{5}
-\contentsline {figure}{\numberline {9}{\ignorespaces Simulated active load differential gain\relax }}{5}
+\contentsline {figure}{\numberline {9}{\ignorespaces Simulated active load differential gain\relax }}{6}
 \contentsline {figure}{\numberline {10}{\ignorespaces Simulated active load differential phase\relax }}{6}
-\contentsline {figure}{\numberline {11}{\ignorespaces Simulated common source amplifier\relax }}{6}
+\contentsline {figure}{\numberline {11}{\ignorespaces Simulated common source amplifier\relax }}{7}
 \contentsline {figure}{\numberline {12}{\ignorespaces Simulated common source amplifier gain\relax }}{7}
-\contentsline {figure}{\numberline {13}{\ignorespaces Simulated common source amplifier phase\relax }}{7}
-\contentsline {figure}{\numberline {14}{\ignorespaces Simulated output stage gain\relax }}{8}
-\contentsline {figure}{\numberline {15}{\ignorespaces Simulated output stage phase\relax }}{8}
-\contentsline {figure}{\numberline {16}{\ignorespaces Simulated overall gain\relax }}{9}
-\contentsline {figure}{\numberline {17}{\ignorespaces Simulated overall phase\relax }}{9}
-\contentsline {figure}{\numberline {18}{\ignorespaces Experimental active load differential amplifier\relax }}{11}
-\contentsline {figure}{\numberline {19}{\ignorespaces Experimental VTC of cascode resistive load amplifier\relax }}{12}
-\contentsline {figure}{\numberline {20}{\ignorespaces Differential gain, Ad, Cascode resistive load\relax }}{12}
-\contentsline {figure}{\numberline {21}{\ignorespaces Common mode gain, Acm, cascode resistive load\relax }}{13}
-\contentsline {figure}{\numberline {22}{\ignorespaces Common mode gain, Acm, cascode resistive load\relax }}{13}
-\contentsline {figure}{\numberline {23}{\ignorespaces CMRR cascode resistive load\relax }}{14}
-\contentsline {figure}{\numberline {24}{\ignorespaces Experimental VTC of simple current mirror resistive load amplifier\relax }}{15}
-\contentsline {figure}{\numberline {25}{\ignorespaces Differential gain, Ad, simple resistive load\relax }}{15}
-\contentsline {figure}{\numberline {26}{\ignorespaces Common mode gain, Acm at 100mV, simple resistive load\relax }}{16}
-\contentsline {figure}{\numberline {27}{\ignorespaces Common mode gain, Acm at 1V, simple resistive load\relax }}{16}
-\contentsline {figure}{\numberline {28}{\ignorespaces Common mode gain, CMRR, simple current resistive load\relax }}{17}
-\contentsline {figure}{\numberline {29}{\ignorespaces Experimental active load differential amplifier\relax }}{18}
-\contentsline {figure}{\numberline {30}{\ignorespaces Experimental VTC of active load\relax }}{18}
-\contentsline {figure}{\numberline {31}{\ignorespaces Ad, double ended\relax }}{19}
-\contentsline {figure}{\numberline {32}{\ignorespaces Common mode gain, Acm, active load\relax }}{19}
-\contentsline {figure}{\numberline {33}{\ignorespaces CMRR active load differential amplifier\relax }}{20}
+\contentsline {figure}{\numberline {13}{\ignorespaces Simulated common source amplifier phase\relax }}{8}
+\contentsline {figure}{\numberline {14}{\ignorespaces Simulated output stage gain\relax }}{9}
+\contentsline {figure}{\numberline {15}{\ignorespaces Simulated output stage phase\relax }}{9}
+\contentsline {figure}{\numberline {16}{\ignorespaces Simulated overall gain\relax }}{10}
+\contentsline {figure}{\numberline {17}{\ignorespaces Simulated overall phase\relax }}{10}
