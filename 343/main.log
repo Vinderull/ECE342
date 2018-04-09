@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 APR 2018 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 APR 2018 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,7 +681,15 @@ Overfull \hbox (4.57916pt too wide) in paragraph at lines 6--7
 of the two dif-fer-en-tial am-pli-fiers, the re-sis-tively loaded 
  []
 
-) (./Discussion/Discussion.tex [11]) (./Conclusion/Conclusion.tex) [12]
+<ExperimentalImplementation/task4.png, id=92, 981.6675pt x 456.70625pt>
+File: ExperimentalImplementation/task4.png Graphic file (type png)
+
+<use ExperimentalImplementation/task4.png>
+Package pdftex.def Info: ExperimentalImplementation/task4.png used on input lin
+e 12.
+(pdftex.def)             Requested size: 294.50252pt x 137.01292pt.
+ [11 <./ExperimentalImplementation/task4.png>]) (./Discussion/Discussion.tex) (
+./Conclusion/Conclusion.tex) [12]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 []\OT1/cmr/m/n/10 All About Cir-cuits. (2018) Single-ended dif-fer-en-tial am-p
 li-fiers [On-line]: 
@@ -695,10 +703,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3892 strings out of 493089
- 59818 string characters out of 6134842
- 122937 words of memory out of 5000000
- 7263 multiletter control sequences out of 15000+600000
+ 3898 strings out of 493089
+ 60008 string characters out of 6134842
+ 121947 words of memory out of 5000000
+ 7268 multiletter control sequences out of 15000+600000
  9326 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,38p,789b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -713,10 +721,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (16 pages, 323180 bytes).
+Output written on main.pdf (16 pages, 367244 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
