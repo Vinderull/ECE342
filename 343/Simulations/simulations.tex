@@ -11,7 +11,7 @@ Three different op amp topologies were provided as part of the lab. The chosen c
     \label{fig:default}
     \end{center}
 \end{figure}
-This design was chosen due to the fact that every stage, with the exclusion of the output stage, was designed as part of a previous task. The stages can be broken down as such: a simple current mirror, a resistively loaded differential pair, an active loaded differential pair, an active load common source amplifier and finally a BJT amplifier output stage. The final simulated circuit can be seen in Figure \ref{fig:simcircuit}.
+This design was chosen due to the fact that every stage, with the exclusion of the output stage, was designed as part of lab 2 and 3. The stages can be broken down as such: a simple current mirror, a resistively loaded differential pair, an active loaded differential pair, an active load common source amplifier and finally a BJT amplifier output stage. The final simulated circuit can be seen in Figure \ref{fig:simcircuit}.
 
 \begin{figure}[H]
     \begin{center}
@@ -44,7 +44,7 @@ The resistively loaded amplifier stage requires a current mirror in order to gen
     \end{center}
 \end{figure}
 
-In addition, the current through the load resistors needs to be half of the bias current. As a result, the resistance values can be found by applying KVL which can be seen in Equation \ref{eq:drainresist} 
+In addition, the current through the load resistors needs to be half of the bias current. As a result, the resistance values can be found by applying KVL which can be seen in Equation \ref{eqn:drainresist} 
 
 \begin{equation}
 V_{o_1} = V_{DD} - \frac{1}{2}I_{bias} R_d,
