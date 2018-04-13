@@ -4,12 +4,6 @@
 \contentsline {subsection}{\numberline {2.2}Active Load Differential Pair}{5}
 \contentsline {subsection}{\numberline {2.3}Common Source Amplifier}{6}
 \contentsline {subsection}{\numberline {2.4}Output Stage}{8}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {3}Experimental Implementation}{11}
 \contentsline {section}{\numberline {4}Discussion}{15}
 \contentsline {section}{\numberline {5}Conclusion}{16}
-=======
-\contentsline {section}{\numberline {3}Experimental Implementation}{10}
-\contentsline {section}{\numberline {4}Discussion}{14}
-\contentsline {section}{\numberline {5}Conclusion}{15}
->>>>>>> 9550c19dc3fef276d1bcfe4a2f5004105e3607d0
