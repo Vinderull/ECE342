@@ -14,11 +14,29 @@ The experimental circuit can be seen Figure \ref{fig:expercircuit}.
 		\label{fig:expercircuit}
 	\end{center}
 \end{figure}
-The 20 k$\Omega$ reference resistor achieved the desired current of 397 $\mu$A. The resistive loads were matched at 15.04 k$\Omega$.  This resulted in a difference of 30mV between the drains of the amplifying transistors. WORKING CIRCUIT STUFF GOES HERE.
+The simulated circuit, when constructed, failed to meet both the final differential gain output of 46 dB as well as the CMRR of 60 dB. As a result the final circuit design was changed to the op amp design #1, which can be seen in Figure \ref{fig:expercircuit}. Further details on why design was changed can be found in the Discussion section.
 
-\textbf{NOTE TO TA: The circuit stopped working during the final stages of testing over the weekend. As a result we currently have no graphs to put here as all attempts to rebuild
-	have continued to lead to inoperable circuits. Apologies -- Lab group \#9.}
-	
+The DC bias conditions were measured using a DT830B DVM. Nodal voltages were measured in reference to ground and current was measured by wiring the DVM in series while in ammeter mode. The bias conditions were measured while both input nodes to the circuit were grounded. The final measured values can be seen in Table \ref{tab:expdc}.
+
+
+\begin{table}[H]
+	\centering
+	\caption{Experimental DC values}
+	\label{tab:expdc}
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{DC Bias Conditions} &           \\ \hline
+		Vref                        & -3.03V    \\ \hline
+		Iref                        & 396$\mu$A \\ \hline
+		D1                          & 2.01V     \\ \hline
+		D2                          & 1.99V     \\ \hline
+		S                           & -2.04V    \\ \hline
+		OutCS                       & 100mV      \\ \hline
+	\end{tabular}
+\end{table}
+
+Notably, the voltage at the "OutCS" node should be zero. In the default state, the offset at that node was measured to be 2.5V. A potentiometer was used as the source degeneration resistance for the common source amplifier. This pot was varied until the offset was nulled out and the final resistance value required was found to be 1.5k$\Omega$.
+ 
 \end{document}
 
 
