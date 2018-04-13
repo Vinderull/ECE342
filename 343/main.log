@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 APR 2018 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 APR 2018 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,24 +615,24 @@ File: Simulations/gainsecondstage.png Graphic file (type png)
 <use Simulations/gainsecondstage.png>
 Package pdftex.def Info: Simulations/gainsecondstage.png used on input line 112
 .
-(pdftex.def)             Requested size: 160.19974pt x 121.95656pt.
-
-<Simulations/phase_secondstage.png, id=54, 526.96875pt x 398.48875pt>
+(pdftex.def)             Requested size: 213.59421pt x 162.60461pt.
+ [5 <./Simulations/simactive.png>]
+<Simulations/phase_secondstage.png, id=59, 526.96875pt x 398.48875pt>
 File: Simulations/phase_secondstage.png Graphic file (type png)
 
 <use Simulations/phase_secondstage.png>
 Package pdftex.def Info: Simulations/phase_secondstage.png used on input line 1
 21.
-(pdftex.def)             Requested size: 158.09184pt x 119.54755pt.
- [5 <./Simulations/simactive.png> <./Simulations/gainsecondstage.png>]
-<Simulations/simcs.png, id=61, 101.37875pt x 211.79124pt>
+(pdftex.def)             Requested size: 210.78375pt x 159.39267pt.
+
+<Simulations/simcs.png, id=60, 101.37875pt x 211.79124pt>
 File: Simulations/simcs.png Graphic file (type png)
 
 <use Simulations/simcs.png>
 Package pdftex.def Info: Simulations/simcs.png used on input line 134.
 (pdftex.def)             Requested size: 65.8954pt x 137.66267pt.
- [6 <./Simulations/phase_secondstage.png> <./Simulations/simcs.png>]
-<Simulations/gaincommonsource.png, id=67, 520.94624pt x 401.5pt>
+ [6 <./Simulations/gainsecondstage.png> <./Simulations/phase_secondstage.png>]
+<Simulations/gaincommonsource.png, id=66, 520.94624pt x 401.5pt>
 File: Simulations/gaincommonsource.png Graphic file (type png)
 
 <use Simulations/gaincommonsource.png>
@@ -640,60 +640,59 @@ Package pdftex.def Info: Simulations/gaincommonsource.png used on input line 15
 2.
 (pdftex.def)             Requested size: 208.3748pt x 160.59715pt.
 
-<Simulations/phasecommonsource.png, id=68, 519.9425pt x 405.515pt>
+<Simulations/phasecommonsource.png, id=67, 519.9425pt x 405.515pt>
 File: Simulations/phasecommonsource.png Graphic file (type png)
 
 <use Simulations/phasecommonsource.png>
 Package pdftex.def Info: Simulations/phasecommonsource.png used on input line 1
 62.
 (pdftex.def)             Requested size: 207.97331pt x 162.20311pt.
- [7 <./Simulations/gaincommonsource.png> <./Simulations/phasecommonsource.png>]
-
-<Simulations/gainlaststage.png, id=74, 541.02126pt x 404.51125pt>
+ [7 <./Simulations/simcs.png> <./Simulations/gaincommonsource.png>]
+<Simulations/gainlaststage.png, id=73, 541.02126pt x 404.51125pt>
 File: Simulations/gainlaststage.png Graphic file (type png)
 
 <use Simulations/gainlaststage.png>
 Package pdftex.def Info: Simulations/gainlaststage.png used on input line 183.
 (pdftex.def)             Requested size: 216.40466pt x 161.80162pt.
-
-<Simulations/phaselaststage.png, id=75, 520.94624pt x 400.49625pt>
+ [8 <./Simulations/phasecommonsource.png>]
+<Simulations/phaselaststage.png, id=78, 520.94624pt x 400.49625pt>
 File: Simulations/phaselaststage.png Graphic file (type png)
 
 <use Simulations/phaselaststage.png>
 Package pdftex.def Info: Simulations/phaselaststage.png used on input line 193.
 
 (pdftex.def)             Requested size: 208.3748pt x 160.19566pt.
- [8 <./Simulations/gainlaststage.png> <./Simulations/phaselaststage.png>]
-<Simulations/gain_overall.png, id=81, 521.95pt x 408.52625pt>
+
+<Simulations/gain_overall.png, id=79, 521.95pt x 408.52625pt>
 File: Simulations/gain_overall.png Graphic file (type png)
 
 <use Simulations/gain_overall.png>
 Package pdftex.def Info: Simulations/gain_overall.png used on input line 203.
 (pdftex.def)             Requested size: 208.77629pt x 163.4076pt.
-
-<Simulations/phaseoverall.png, id=82, 514.92375pt x 404.51125pt>
+ [9 <./Simulations/gainlaststage.png> <./Simulations/phaselaststage.png>]
+<Simulations/phaseoverall.png, id=85, 514.92375pt x 404.51125pt>
 File: Simulations/phaseoverall.png Graphic file (type png)
 
 <use Simulations/phaseoverall.png>
 Package pdftex.def Info: Simulations/phaseoverall.png used on input line 214.
 (pdftex.def)             Requested size: 205.96585pt x 161.80162pt.
- [9 <./Simulations/gain_overall.png> <./Simulations/phaseoverall.png>]) (./Expe
-rimentalImplementation/experimental.tex
+ [10 <./Simulations/gain_overall.png> <./Simulations/phaseoverall.png>]) (./Exp
+erimentalImplementation/experimental.tex
 Overfull \hbox (4.57916pt too wide) in paragraph at lines 6--7
 \OT1/cmr/m/n/10 This sec-tion de-tails the ex-per-i-men-tal im-ple-men-ta-tion 
 of the two dif-fer-en-tial am-pli-fiers, the re-sis-tively loaded 
  []
 
 
-<ExperimentalImplementation/final_schem.png, id=88, 849.77475pt x 498.06075pt>
+<ExperimentalImplementation/final_schem.png, id=92, 849.77475pt x 498.06075pt>
 File: ExperimentalImplementation/final_schem.png Graphic file (type png)
 
 <use ExperimentalImplementation/final_schem.png>
 Package pdftex.def Info: ExperimentalImplementation/final_schem.png used on inp
 ut line 10.
 (pdftex.def)             Requested size: 339.90387pt x 199.22076pt.
- [10 <./ExperimentalImplementation/final_schem.png>]
-<ExperimentalImplementation/Ad_final.png, id=93, 540.0175pt x 401.5pt>
+ [11 <./ExperimentalImplementation/final_schem.png>]
+<ExperimentalImplementation/Ad_final.png, id=96, 540.0175pt x 401.5pt>
 File: ExperimentalImplementation/Ad_final.png Graphic file (type png)
 
 <use ExperimentalImplementation/Ad_final.png>
@@ -706,8 +705,8 @@ File: ExperimentalImplementation/Ad_final.png Graphic file (type png)
 Package pdftex.def Info: ExperimentalImplementation/Ad_final.png used on input 
 line 51.
 (pdftex.def)             Requested size: 216.00316pt x 160.59715pt.
- [11 <./ExperimentalImplementation/Ad_final.png>]
-<ExperimentalImplementation/Ad_phase.png, id=98, 534.99875pt x 400.49625pt>
+ [12 <./ExperimentalImplementation/Ad_final.png>]
+<ExperimentalImplementation/Ad_phase.png, id=101, 534.99875pt x 400.49625pt>
 File: ExperimentalImplementation/Ad_phase.png Graphic file (type png)
 
 <use ExperimentalImplementation/Ad_phase.png>
@@ -715,7 +714,7 @@ Package pdftex.def Info: ExperimentalImplementation/Ad_phase.png used on input
 line 61.
 (pdftex.def)             Requested size: 213.9957pt x 160.19566pt.
 
-<ExperimentalImplementation/Acm_100mv.png, id=99, 520.94624pt x 406.51875pt>
+<ExperimentalImplementation/Acm_100mv.png, id=102, 520.94624pt x 406.51875pt>
 File: ExperimentalImplementation/Acm_100mv.png Graphic file (type png)
 
 <use ExperimentalImplementation/Acm_100mv.png>
@@ -723,31 +722,31 @@ Package pdftex.def Info: ExperimentalImplementation/Acm_100mv.png used on input
  line 74.
 (pdftex.def)             Requested size: 211.38832pt x 164.95554pt.
 
-<ExperimentalImplementation/Acm_1v.png, id=100, 519.9425pt x 404.51125pt>
+<ExperimentalImplementation/Acm_1v.png, id=103, 519.9425pt x 404.51125pt>
 File: ExperimentalImplementation/Acm_1v.png Graphic file (type png)
 
 <use ExperimentalImplementation/Acm_1v.png>
 Package pdftex.def Info: ExperimentalImplementation/Acm_1v.png used on input li
 ne 81.
 (pdftex.def)             Requested size: 211.38832pt x 164.45573pt.
- [12 <./ExperimentalImplementation/Ad_phase.png>]
-<ExperimentalImplementation/CMRR_fin.png, id=105, 538.01pt x 402.50375pt>
+ [13 <./ExperimentalImplementation/Ad_phase.png>]
+<ExperimentalImplementation/CMRR_fin.png, id=108, 538.01pt x 402.50375pt>
 File: ExperimentalImplementation/CMRR_fin.png Graphic file (type png)
 
 <use ExperimentalImplementation/CMRR_fin.png>
 Package pdftex.def Info: ExperimentalImplementation/CMRR_fin.png used on input 
 line 94.
 (pdftex.def)             Requested size: 215.20018pt x 160.99864pt.
- [13 <./ExperimentalImplementation/Acm_100mv.png> <./ExperimentalImplementation
+ [14 <./ExperimentalImplementation/Acm_100mv.png> <./ExperimentalImplementation
 /Acm_1v.png> <./ExperimentalImplementation/CMRR_fin.png>]) (./Discussion/Discus
-sion.tex)
-(./Conclusion/Conclusion.tex) [14]
+sion.tex) [15]
+(./Conclusion/Conclusion.tex) [16]
 Underfull \hbox (badness 10000) in paragraph at lines 126--127
 []\OT1/cmr/m/n/10 All About Cir-cuits. (2018) Single-ended dif-fer-en-tial am-p
 li-fiers [On-line]: 
  []
 
-[15
+[17
 
 ] (./main.aux)
 
@@ -760,7 +759,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3937 strings out of 493089
  61185 string characters out of 6134842
- 122072 words of memory out of 5000000
+ 124074 words of memory out of 5000000
  7302 multiletter control sequences out of 15000+600000
  9326 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -776,10 +775,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (18 pages, 425731 bytes).
+Output written on main.pdf (20 pages, 422247 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
