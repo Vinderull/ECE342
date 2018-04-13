@@ -2,7 +2,7 @@
 
 
 \begin{document}
-This report describes the design, construction, and analysis of an discrete component operational amplifier. The topology chosen includes a simple current mirror that sinks current to a resistively loaded amplifier which in turn is cascaded with an actively loaded differential pair which outputs single-endedly to a common source amplifier stage. This common source stage is then passed to an output Bipolar Junction Transistor (BJT) amplifier stage. The metal oxide semiconducting field effect transistors (MOSFET) in use are the ALD1106 for NMOS and the ALD1107 for PMOS. The general schematic for a generic op amp is shown in Figure \ref{fig:gen_schem}.
+This report describes the design, construction, and analysis of a discrete component operational amplifier. The topology chosen includes a cascoded current mirror that sinks current to an actively loaded differential pair amplifier which outputs single-endedly to a common source amplifier stage. This common source stage is then passed to an output Bipolar Junction Transistor (BJT) amplifier stage. The metal oxide semiconducting field effect transistors (MOSFET) in use are the ALD1106 for NMOS and the ALD1107 for PMOS. The general schematic for a generic op amp is shown in Figure \ref{fig:gen_schem}.
 
 \begin{figure}[H]
     \begin{center}
@@ -35,9 +35,9 @@ The input stage of an operational amplifier consists of a differential amplifier
 desirable for their increased immunity to noise and that DC coupling of stages is possible without disturbing bias conditions. Each one of these designs will have some
 advantage as well as some disadvantage over the other circuits. The primary function of the input
 differential pair will be to provide a high common mode rejection ratio (CMRR). The differential gain,
-Ad, need not be high, as long as the common mode gain, Acm, is very small. This in turn is passed to an active load differential pair where the bulk of the differential gain will be achieved single endedly. The common source provides a final gain stage while reducing the effects of the output impedence of active load stage. 
+$A_d$, need not be high, as long as the common mode gain, $A_{cm}$, is very small. This in turn is passed to an active load differential pair where the bulk of the differential gain will be achieved single endedly. The common source provides a final gain stage while reducing the effects of the output impedence of active load stage. 
 
 
-\noindent Section 2 of this report describes the design, and when relevant, the simulations of the experiments. Experimental results and implementation are addressed in Section 3. A discussion of the results, sources of error, and areas of possible improvement are outlined in Section 4. Section 5 concludes this report. \newline
+\noindent Section 2 of this report describes the design, and when relevant, the simulations of the experiments. Experimental results and implementation are addressed in Section 3, including reasoning as to why a different circuit than the one outlined previously was constructed. A discussion of the results, sources of error, and areas of possible improvement are outlined in Section 4. Section 5 concludes this report. \newline
 
 \end{document}
