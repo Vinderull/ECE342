@@ -1,0 +1,31 @@
+\begin{document}
+
+This lab served as the culmination of all prior tasks. The operation amplifier includes a current mirror, both types of differential pairs active and resistive as well as a common source amplifier. The final values can be seen in Table \ref{tab:FinalRes} below. 
+
+\begin{table}[H]
+\centering
+\caption{Final values for operational amplifier}
+\label{tab:FinalRes}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{Operational Amplifier Results} \\ \hline
+Values          & Simulated          & Experimental          \\ \hline
+$V_{ref}$               & -3.003 V                   & -2.97V                     \\ \hline
+$I_{bias}$                & 400$\mu$A                   & 396$\mu$A $\mu$A                      \\ \hline
+R$_{ref}$                 & 20k$\Omega$               & 15k$\Omega$                \\ \hline
+R$_{D_1}$                 & 15k$\Omega$                   & N/A                  \\ \hline
+R$_{D_2}$                 & 15k$\Omega$                   &  N/A                     \\ \hline
+Ad                       & 75 dB             &  67dB  \\ \hline
+S node                    & 1V                          & -2.04V \\ \hline
+D1                          & 2.78V                     & 2.01V   \\ \hline
+D2                         & 2.78V                      & 1.99V  \\ \hline
+Ad                         & 75 dB                      & 67 dB \\ \hline
+CMRR                   & N/A                          & 75dB \\ \hline
+\end{tabular}
+\end{table}
+The final experimental circuit required a different op amp design. The simulated circuit failed to meet specifications despite many minor alterations. A problem encountered with the simulated design was that due to mismatch in both resistors and transistors, the gain was did not meet spec. The discrepency between resistor values resulted in a consistently positive Acm, which always led to a CMRR that failed to meet the final specifications. In addition, due to consistantly mismatched transistors the final differential gain could only achieve at most 30 dB. Because of these reasons the design was switched to the active load with a cascoded current mirror.
+
+The cascode with active load design featured several advantages over the orginal design. The experimental was able to achieve 67 dB of differential gain, which is more than 20 dB greater than the specification. This is because the cascoded current mirror affords more amplification at the expense of operation range. In addition, the lack of resistors meant that the Acm was no longer vulnerable to resistor mismatch. This can be seen by the Acm of the final circuit being a negative value, which resulted in a CMRR that was 10dB higher than the specification of 60 dB.
+
+A problem that was encountered is that the final circuit is not unity gain stable. This because of the fact final output stage was implemented without the required capacitor. This will be remedied in Task 5. The solution is to find the node that is contributing the smallest pole frequency. After this is found the unity gain frequency should be set to the second pole frequency via choice placement of a capacitor. This modification will ensure that the amplifier remains unity gain stable. It should be noted however that the implemented amplifier provides gain until past 150kHz, thus meeting the specification required by the lab.
+\end{document}

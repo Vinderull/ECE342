@@ -1,0 +1,134 @@
+\documentclass{article}
+\usepackage{fullpage} % sets more standardized margins
+\usepackage{graphicx} % some graphics functions I use 
+\usepackage{abstract} % abstract function
+\usepackage{amsmath}  % math stuff
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{subfiles}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{verbatim}
+
+
+\renewcommand{\absnamepos}{flushleft} % left justifies abstract
+\setlength{\absleftindent}{0pt}
+\setlength{\absrightindent}{0pt}
+%\captionsetup[figure]{font=small,skip=0pt}
+
+
+% % %
+% Set up IEEE style paragraphing
+% % %
+\setlength{\parskip}{1em} % The \par command now skips a line between paragraphs, eliminates warnings from using the \par or \\ commands
+\setlength{\parindent}{0em} % Left justifies paragraphs after a \par command 
+
+
+\begin{document}
+
+\pagenumbering{gobble} % Turn off page numbering for titles and tables
+
+
+\begin{titlepage}
+    \begin{center}
+        
+         \vspace*{1.5cm}
+        
+    %Berkay suggested this title in the meeting
+         \textbf{{\Huge Task 4: Operational Amplifier}}
+        
+         \vspace{0.5cm}
+         \textbf{Discrete Amplifier}
+        
+          \vspace{.5cm}
+        
+         \textbf{{\Large Joseph Arsenault \\ Ryan Dufour \\ Phil Robb \newline}}
+    \vspace{1cm}
+    
+        
+        
+        \begin{abstract}
+        
+        
+        
+        \noindent   The design, simulation, and construction of experiments to measure the performance of an operation amplifier is explored. The operational amplifier consists of four discrete stages: a cascoded current mirror, an actively loaded differential pair, a common source amplifier, and finally a Bipolar Junction Transistor class B amplifier. The operational amplifier was designed to operate with a bias current of 400$\mu$A using the ALD1106 and ALD1107 series MOSFETS. The common mode rejection ratio was 75 dB, the common mode gain, Acm, for 100mV input was -10 dB, the Acm for 1 V input was -9 dB and differential gain, Ad, was found to be 67 dB.
+        
+        
+        \end{abstract}
+        
+        
+        \vspace{03cm}
+        \textbf{
+        Electrical and Computer Engineering\\
+        University of Maine\\
+        ECE - 343\\\ \today}
+    \vspace{.5cm}
+        \begin{figure}[H]
+        \centering
+        \includegraphics[scale = 0.1]{Images/barcode.png}
+\end{figure}
+    \end{center}
+\end{titlepage}
+
+
+\tableofcontents
+
+\newpage
+
+\newpage
+\listoffigures
+\newpage 
+\clearpage
+
+\pagenumbering{arabic} % Turn on page numbering
+
+
+
+\section{Introduction}
+\subfile{Introduction/Introduction}
+  
+ 
+  %\section{Circuit Development}
+    %\subfile{CircuitDevelopment/Circuit.tex}
+  
+  \section{Circuit Development}
+    \subfile{Simulations/simulations.tex}
+    
+  %\subfile{CircuitDevelopment/cd4007SIM.tex}
+
+   % \subfile{CircuitDevelopment/NMOS.tex}
+     
+ 
+    
+  \section{Experimental Implementation}
+    \subfile{ExperimentalImplementation/experimental.tex}
+    
+  \section{Discussion}
+     \subfile{Discussion/Discussion.tex}
+    
+    
+    \section{Conclusion}
+        \subfile{Conclusion/Conclusion.tex}
+
+    
+
+
+
+\clearpage
+
+\appendix
+
+\begin{thebibliography}{00}
+
+\bibitem{b1} All About Circuits. (2018) Single-ended differential amplifiers [Online]: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-8/single-ended-differential-amplifiers/
+
+\bibitem{b2} N. W. Emanatoglu. (2018) Task 4 [Online]
+
+\bibitem{b3} N. W. Emanatoglu. (2018) Task 4 briefing [Online]
+ 
+
+\end{thebibliography}
+
+\end{document}
