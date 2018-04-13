@@ -3,9 +3,7 @@
 
 \begin{document}
 
-This section details the experimental implementation of the two differential amplifiers, the resistively loaded and active loaded. The power supplies and analysis were implemented using the Digilent Analog Discovery kit.
-
-The experimental circuit can be seen Figure \ref{fig:expercircuit}.
+This section details the experimental implementation of the two differential amplifiers, the resistively loaded and active loaded. The power supplies and analysis were implemented using the Digilent Analog Discovery kit. The experimental circuit can be seen Figure \ref{fig:expercircuit}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -46,7 +44,7 @@ Notably, the voltage at the "OutCS" node should be zero. In the default state, t
 	\end{center}
 \end{figure}
 
-The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. The final differential gain can be seen in Figure \ref{fig:finalAD}.
+The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. In order to prevent the op amp from saturating, a 1000:1 voltage divider was added at the signal input. The channel 1 probe was connected after the voltage divider to compensate for the 60dB drop from the voltage divider. Channel 2 was connected at the final output of the operational amplifier. The final differential gain can be seen in Figure \ref{fig:finalAD}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -115,7 +113,7 @@ The common mode gain is still negative, which is desired. The Acm is -10dB this 
  	\end{tabular}
  \end{table}
 
-The experimental values all met specifications.
+The experimental values all met specifications. Further discussion of the op amp and why the changes were made between the design's. 
 
 
  
