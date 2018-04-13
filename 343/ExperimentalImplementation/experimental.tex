@@ -9,7 +9,7 @@ The experimental circuit can be seen Figure \ref{fig:expercircuit}.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.40]{ExperimentalImplementation/task4.png}
+		\includegraphics[scale=.40]{ExperimentalImplementation/final_schem.png}
 		\caption{Experimental operational amplifier}
 		\label{fig:expercircuit}
 	\end{center}
@@ -46,12 +46,7 @@ Notably, the voltage at the "OutCS" node should be zero. In the default state, t
 	\end{center}
 \end{figure}
 
-The range of operation is extremely 
-
-
-
-
- The final differential gain can be seen in Figure \ref{fig:finalAD}.
+The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. The final differential gain can be seen in Figure \ref{fig:finalAD}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -71,8 +66,56 @@ The max differential gain can be seen to be 67 dB. This is more than 20 dB great
 	\end{center}
 \end{figure}
 
-The phase can be seen to return to unity after 100kHz. This is also a result of the lack of frequency compensation. Notably, the phase mirrored that of the simulated design quite well. 
+The phase can be seen to return to unity after 100kHz. This is also a result of the lack of frequency compensation. Notably, the phase mirrored that of the simulated design quite well. The final design spec is that the circuit must achieve a CMRR of at least 60 dB. In order to find the CMRR the common mode gain must be found by applying a signal to both inputs while measuring the output gain via the Analog Discoveries Network analyzer mode. The common mode gain for both 100mV and 1V can be seen in Figure \ref{fig:acmexp}.
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ExperimentalImplementation/Acm_100mv.png}
+		\caption{Common mode gain, Acm at 100mV}
+		\label{fig:blue_led}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{ExperimentalImplementation/Acm_1v.png}
+		\caption{Acm, single ended}
+		\label{fig:blue_led}
+	\end{subfigure}
+	\caption{Common mode gain, Acm at 1V}
+	\label{fig:acmexp}
+\end{figure} 
+
+The common mode gain is still negative, which is desired. The Acm is -10dB this is, however, much lower than what was found in Task 3, which was found to be on the order of -60 dB. This is mostly due to the fact that a significant portion of the op amps gain is now coming from the common source stage and not just the active load differential pair. The CMRR is then found by finding the difference between the differential gain and the common mode gain in Matlab.
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.40]{ExperimentalImplementation/CMRR_fin.png}
+		\caption{Experimental common mode rejection ratio}
+		\label{fig:cmrr}
+	\end{center}
+\end{figure}
+
+ As expected, the CMRR was much cleaner when the input signal was 1V as opposed to a 100mV signal. The measured value was 75 dB, which is greater than the minimum specification of 60 dB. The summary of experimental values can be seen in Table \ref{tab:expfin}.
  
+ 
+ \begin{table}[H]
+ 	\centering
+ 	\caption{Final experimental values}
+ 	\label{tab:expfin}
+ 	\begin{tabular}{|l|l|}
+ 		\hline
+ 		\textbf{Experimental Values} &       \\ \hline
+ 		Ad                           & 67dB  \\ \hline
+ 		Acm                          & -10dB \\ \hline
+ 		CMRR                         & 75 dB \\ \hline
+ 	\end{tabular}
+ \end{table}
+
+The experimental values all met specifications.
 
 
  
