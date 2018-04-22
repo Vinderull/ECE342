@@ -2,13 +2,13 @@
 
 
 \begin{document}
-This report describes the design, construction, and analysis of a discrete component operational amplifier. The topology chosen includes a cascoded current mirror that sinks current to an actively loaded differential pair amplifier which outputs single-endedly to a common source amplifier stage. This common source stage is then passed to an output Bipolar Junction Transistor (BJT) amplifier stage. The metal oxide semiconducting field effect transistors (MOSFET) in use are the ALD1106 for NMOS and the ALD1107 for PMOS. The general schematic for a generic op amp is shown in Figure \ref{fig:gen_schem}.
+This report describes the design, construction, and analysis of an output stage for an operational ampifier. The topology chosen is two BJTs hooked together as shown in Figure \ref{fig:sample}.
 
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[scale=.45]{Introduction/genericopamp.png}
-    \caption{General operational amplifier symbol \cite{b1}}
-    \label{fig:gen_schem}
+    \includegraphics[scale=.45]{Introduction/outpu}
+    \caption{Sample single supply Class B output stage. \cite{b1}}
+    \label{fig:sample}
     \end{center}
     
 \end{figure}
@@ -23,8 +23,9 @@ Operational amplifiers serve an integral building block for modern electronics. 
 \hline
 \textbf{Specifications} &                 \\ \hline
 Power                   & $\pm$5V         \\ \hline
-Bias Current            & 500 $\mu$A      \\ \hline
-Overall Voltage Gain    & 200V/V (46 dB)  \\ \hline
+Output Stage 			& $\geq$ 500$\Omega$ \\ \hline
+Bias Current            & 400 $\mu$A      \\ \hline
+Overall Voltage Gain    & $\geq$200V/V (46 dB)  \\ \hline
 CMRR                    & $\geq$ 60dB     \\ \hline
 Output Voltage Swing    & $\geq$ $\pm$ 2V \\ \hline
 \end{tabular}
