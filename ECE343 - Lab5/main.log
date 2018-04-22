@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.13)  22 APR 2018 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.13)  22 APR 2018 17:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -646,40 +646,145 @@ l.12 ...dth ]{Introduction/Block_Diagram_MFBP.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-LaTeX Warning: Citation `b1' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `b1' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Reference `tab:specifications' on page 1 undefined on input line
- 17.
-
 [1
 
-]) (CircuitDevelopment/Circuit.tex
+]) (CircuitDevelopment/Circuit.tex)
+(ExperimentalImplementation/experimental.tex
 
-! LaTeX Error: File `Simulations.tex' not found.
+! LaTeX Error: File `ExperimentalImplementation/NMOS_exp' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...idth]{ExperimentalImplementation/NMOS_exp}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.7 \subfile{Simulations.tex}
-                             
-*** (cannot \read from terminal in nonstop modes)
 
- 
+LaTeX Warning: File `ExperimentalImplementation/nmosamp.jpg' not found on input
+ line 19.
+
+
+! Package pdftex.def Error: File `ExperimentalImplementation/nmosamp.jpg' not f
+ound: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...h]{ExperimentalImplementation/nmosamp.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2]
+
+LaTeX Warning: File `ExperimentalImplementation/nmos_fft.jpg' not found on inpu
+t line 28.
+
+
+! Package pdftex.def Error: File `ExperimentalImplementation/nmos_fft.jpg' not 
+found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...]{ExperimentalImplementation/nmos_fft.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3]
+
+! LaTeX Error: File `ExperimentalImplementation/BJT_Exp' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...width]{ExperimentalImplementation/BJT_Exp}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[4]
+
+LaTeX Warning: File `ExperimentalImplementation/bjt_outputexp.jpg' not found on
+ input line 75.
+
+
+! Package pdftex.def Error: File `ExperimentalImplementation/bjt_outputexp.jpg'
+ not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...erimentalImplementation/bjt_outputexp.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ExperimentalImplementation/bjt_fft.jpg' not found on input
+ line 83.
+
+
+! Package pdftex.def Error: File `ExperimentalImplementation/bjt_fft.jpg' not f
+ound: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...h]{ExperimentalImplementation/bjt_fft.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]) (Discussion/Discussion.tex [6]) (Conclusion/Conclusion.tex) [7]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#5$ Volt-age Am-pli-fier [On-lin
+e]. Avail-able: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) 2N7000 [On-line]. Avail-able: 
+ []
+
+[8
+
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3855 strings out of 493312
- 57010 string characters out of 3138860
- 116937 words of memory out of 3000000
- 7313 multiletter control sequences out of 15000+200000
+ 3900 strings out of 493312
+ 58049 string characters out of 3138860
+ 121023 words of memory out of 3000000
+ 7324 multiletter control sequences out of 15000+200000
  9494 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,40p,784b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 41i,9n,40p,903b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (11 pages, 175904 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

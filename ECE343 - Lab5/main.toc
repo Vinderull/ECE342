@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Circuit Development}{2}
+\contentsline {subsection}{\numberline {2.1}Simulations}{2}
+\contentsline {section}{\numberline {3}Experimental Implementation}{2}
+\contentsline {subsection}{\numberline {3.1}NMOS amplifier}{2}
+\contentsline {subsection}{\numberline {3.2}BJT amplifier}{5}
+\contentsline {section}{\numberline {4}Discussion}{7}
+\contentsline {section}{\numberline {5}Conclusion}{7}
