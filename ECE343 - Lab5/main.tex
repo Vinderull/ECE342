@@ -36,7 +36,7 @@
          \vspace*{1.5cm}
         
     %Berkay suggested this title in the meeting
-         \textbf{{\Huge Task 5: Voltage Amplifier }}
+         \textbf{{\Huge Task 5: Operational Amplifiers: Feedback and Stability}}
         
          \vspace{0.5cm}
          \textbf{Optical Uplink}
@@ -50,13 +50,7 @@
         
         \begin{abstract}
         
-        
-   
-        
-        \noindent The design, simulation and construction of an amplifier circuit are described. In task 5 of the optical uplink project, a voltage amplifier will increase the signal from the active bandpass filter from a low voltage range from 100mV to 5V. Two ways are explored to accomplish this task. The first is using a common source NMOS circuit. The second is using a NPN BJT common emitter circuit.  The specifications required, for the purposes of use in the optical uplink project, are a lower cutoff frequency of $\le$ 1kHz, upper cutoff frequency of 200 kHz, and a peak gain of 21 dB $\pm$ 1 dB. Also, the 2nd Harmonic distortion for a 20 mVp-p sinusoidal signal at 1 kHz must be $<$ 2\%. For the purposes of the optical uplink project, the NMOS was chosen instead of the BJT. The lower cutoff frequency for the BJT was greater than 1kHz, while the NMOS had a lower cutoff frequency of approximately 600 Hz. The NMOS circuit output a 22 dB gain and the BJT output 25 dB gain.
-        
-       % The design, simulation, and construction of an LED driver circuit are described. In task 4 of the optical uplink project, a signal conditioning circuit and current driver are explored. A signal conditioner using the MCP6004 operational amplifier as a Schmitt trigger was built in order to output a square wave with 50\% duty-cycle. The current driver was constructed using a MCP6004 operational amplifier which drives an 2N3904 BJT. The current driver receives the output voltage from the conditioner and converts it to a current signal which controls an IR1503 LED. The output of LED driver was required to operated at approximately 20 kHz, 50\% duty-cycle, with a current of at least 100mA amplitude.  The final current operated at a frequency of 20.1 kHz, a duty cycle of 50.1\% and a 150mA peak amplitude.
-        
+        The design, simulation and construction of a differential amplifier circuit (developed in task 4) with feedback is described. In this task a multistage op-amp with a class B output amplifier will be developed, simulated and constructed. The required differential voltage gain for this circuit is 200 $\frac{V}{V}$ while driving the smallest load possible. The uncompensated unity gain is required to be larger than 150 kHz.  The gain was measured at 63.3 dB while unloaded. The smallest value for the load resistor which caused a 3 dB drop in gain was found to be 900 $\Omega$, with a gain measured at 61.3 dB. The unity gain uncompensated unity gain frequency was measured at 2 MHz.         
         
 
         \end{abstract}
@@ -66,7 +60,7 @@
         \textbf{
         Electrical and Computer Engineering\\
         University of Maine\\
-        ECE - 342\\\ \today}
+        ECE - 343\\\ \today}
     \vspace{.5cm}
         \begin{figure}[H]
         \centering
