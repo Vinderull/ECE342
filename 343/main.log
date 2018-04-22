@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  22 APR 2018 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  22 APR 2018 18:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -658,14 +658,14 @@ Package pdftex.def Info: Simulations/simcircuit.png  used on input line 18. on
 input line 18.
 Package pdftex.def Info: Requested size: 366.57063pt x 180.525pt on input line 
 18.
-<Simulations/nuribias.png, id=28, 910.40125pt x 361.35pt>
+ [2 <./Simulations/default_circ.png> <./Simulations/simcircuit.png>]
+<Simulations/nuribias.png, id=33, 910.40125pt x 361.35pt>
 File: Simulations/nuribias.png Graphic file (type png)
 <use Simulations/nuribias.png>
 Package pdftex.def Info: Simulations/nuribias.png  used on input line 28. on in
 put line 28.
 Package pdftex.def Info: Requested size: 318.6452pt x 126.4744pt on input line 
 28.
- [2 <./Simulations/default_circ.png> <./Simulations/simcircuit.png>]
 <Simulations/simdiff.png, id=34, 200.75pt x 228.855pt>
 File: Simulations/simdiff.png Graphic file (type png)
 <use Simulations/simdiff.png>
@@ -862,7 +862,7 @@ Here is how much of TeX's memory you used:
  7448 multiletter control sequences out of 15000+200000
  9326 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,40p,842b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,40p,756b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
@@ -873,7 +873,7 @@ msfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (20 pages, 433219 bytes).
+Output written on main.pdf (20 pages, 433298 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
