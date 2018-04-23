@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  23 APR 2018 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  23 APR 2018 16:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -514,65 +514,7 @@ Package caption Info: float package is loaded.
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count102
 \c@subtable=\count103
-) (main.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 <
-      <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Label `fig:gainwithcomp' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:gainwithcomp' multiply defined.
-
-
-LaTeX Warning: Label `fig:phasewithcomp' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:phasewithcomp' multiply defined.
-
-
-LaTeX Warning: Label `fig:phasewithload' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:phasewithload' multiply defined.
-
-
-LaTeX Warning: Label `fig:gainwithload' multiply defined.
-
-
-LaTeX Warning: Label `fig:invertingphase' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:invertingphase' multiply defined.
-
-
-LaTeX Warning: Label `fig:invertinggain' multiply defined.
-
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-
-LaTeX Warning: Label `fig:phasenoninverting' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:phasenoninverting' multiply defined.
-
-
-LaTeX Warning: Label `fig:gainnoninverting' multiply defined.
-
-
-LaTeX Warning: Label `tab:specs' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -587,7 +529,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen122
@@ -658,71 +601,23 @@ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- [1
-
-{C:/Users/Joseph/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<Images/barcode.png, id=6, 454.69875pt x 443.6575pt>
+<Images/barcode.png, id=1, 454.69875pt x 443.6575pt>
 File: Images/barcode.png Graphic file (type png)
 <use Images/barcode.png>
 Package pdftex.def Info: Images/barcode.png  used on input line 67. on input li
 ne 67.
 Package pdftex.def Info: Requested size: 45.47253pt x 44.36835pt on input line 
 67.
- [1 <./Images/barcode.png>] (main.toc
+ [1
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ine {section}{\numberline {4}Discussion}{8}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ine {section}{\numberline {4}Discussion}{8}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ine {section}{\numberline {4}Discussion}{9}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...ine {section}{\numberline {4}Discussion}{9}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+{C:/Users/Joseph/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/b
+arcode.png>]
+(main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -730,12 +625,12 @@ If that doesn't work, type  X <return>  to quit.
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- (main.lot [2])
+ (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [3] (Introduction/Introduction.tex
-<Introduction/invertingschem.png, id=26, 652.23676pt x 326.4195pt>
+ [2] (Introduction/Introduction.tex
+<Introduction/invertingschem.png, id=20, 652.23676pt x 326.4195pt>
 File: Introduction/invertingschem.png Graphic file (type png)
 <use Introduction/invertingschem.png>
 Package pdftex.def Info: Introduction/invertingschem.png  used on input line 11
@@ -746,14 +641,14 @@ e 11.
 (CircuitDevelopment/Circuit.tex [1
 
  <./Introduction/invertingschem.png>]
-<CircuitDevelopment/schematicsimulation.png, id=32, 842.54774pt x 502.87875pt>
+<CircuitDevelopment/schematicsimulation.png, id=26, 842.54774pt x 502.87875pt>
 File: CircuitDevelopment/schematicsimulation.png Graphic file (type png)
 <use CircuitDevelopment/schematicsimulation.png>
 Package pdftex.def Info: CircuitDevelopment/schematicsimulation.png  used on in
 put line 10. on input line 10.
 Package pdftex.def Info: Requested size: 375.80544pt x 224.29828pt on input lin
 e 10.
-<CircuitDevelopment/varyrload.png, id=33, 966.61125pt x 529.37775pt>
+<CircuitDevelopment/varyrload.png, id=27, 966.61125pt x 529.37775pt>
 File: CircuitDevelopment/varyrload.png Graphic file (type png)
 <use CircuitDevelopment/varyrload.png>
 Package pdftex.def Info: CircuitDevelopment/varyrload.png  used on input line 2
@@ -762,14 +657,14 @@ Package pdftex.def Info: Requested size: 328.82707pt x 180.08298pt on input lin
 e 28.
 
 [2 <./CircuitDevelopment/schematicsimulation.png>]
-<CircuitDevelopment/gainfreqsim.png, id=40, 976.24725pt x 539.01375pt>
+<CircuitDevelopment/gainfreqsim.png, id=33, 976.24725pt x 539.01375pt>
 File: CircuitDevelopment/gainfreqsim.png Graphic file (type png)
 <use CircuitDevelopment/gainfreqsim.png>
 Package pdftex.def Info: CircuitDevelopment/gainfreqsim.png  used on input line
  38. on input line 38.
 Package pdftex.def Info: Requested size: 328.82707pt x 181.55151pt on input lin
 e 38.
-<CircuitDevelopment/phasefreqsim.png, id=41, 983.47424pt x 539.01375pt>
+<CircuitDevelopment/phasefreqsim.png, id=34, 983.47424pt x 539.01375pt>
 File: CircuitDevelopment/phasefreqsim.png Graphic file (type png)
 <use CircuitDevelopment/phasefreqsim.png>
 Package pdftex.def Info: CircuitDevelopment/phasefreqsim.png  used on input lin
@@ -780,7 +675,7 @@ e 48.
 ])
 (ExperimentalImplementation/experimental.tex [4 <./CircuitDevelopment/phasefreq
 sim.png>]
-<ExperimentalImplementation/expschem.png, id=49, 876.27374pt x 500.46976pt>
+<ExperimentalImplementation/expschem.png, id=43, 876.27374pt x 500.46976pt>
 File: ExperimentalImplementation/expschem.png Graphic file (type png)
 <use ExperimentalImplementation/expschem.png>
 Package pdftex.def Info: ExperimentalImplementation/expschem.png  used on input
@@ -788,262 +683,137 @@ Package pdftex.def Info: ExperimentalImplementation/expschem.png  used on input
 Package pdftex.def Info: Requested size: 350.50328pt x 200.18434pt on input lin
 e 14.
  [5 <./ExperimentalImplementation/expschem.png>]
-<ExperimentalImplementation/VTC.png, id=53, 522.95375pt x 402.50375pt>
+<ExperimentalImplementation/VTC.png, id=47, 522.95375pt x 402.50375pt>
 File: ExperimentalImplementation/VTC.png Graphic file (type png)
 <use ExperimentalImplementation/VTC.png>
 Package pdftex.def Info: ExperimentalImplementation/VTC.png  used on input line
  51. on input line 51.
 Package pdftex.def Info: Requested size: 209.1778pt x 160.99864pt on input line
  51.
-<ExperimentalImplementation/gainwithcomp.png, id=54, 526.96875pt x 399.4925pt>
-File: ExperimentalImplementation/gainwithcomp.png Graphic file (type png)
-<use ExperimentalImplementation/gainwithcomp.png>
-Package pdftex.def Info: ExperimentalImplementation/gainwithcomp.png  used on i
-nput line 64. on input line 64.
-Package pdftex.def Info: Requested size: 210.78375pt x 159.79416pt on input lin
-e 64.
-<ExperimentalImplementation/phasewithcomp.png, id=55, 531.9875pt x 401.5pt>
-File: ExperimentalImplementation/phasewithcomp.png Graphic file (type png)
-<use ExperimentalImplementation/phasewithcomp.png>
-Package pdftex.def Info: ExperimentalImplementation/phasewithcomp.png  used on 
-input line 70. on input line 70.
-Package pdftex.def Info: Requested size: 212.79123pt x 160.59715pt on input lin
-e 70.
+<ExperimentalImplementation/gainwithload.png, id=48, 528.97626pt x 404.51125pt>
 
-Overfull \hbox (1.40291pt too wide) in paragraph at lines 70--71
-[][]  
+File: ExperimentalImplementation/gainwithload.png Graphic file (type png)
+<use ExperimentalImplementation/gainwithload.png>
+Package pdftex.def Info: ExperimentalImplementation/gainwithload.png  used on i
+nput line 64. on input line 64.
+Package pdftex.def Info: Requested size: 211.58675pt x 161.80162pt on input lin
+e 64.
+<ExperimentalImplementation/phasewithload.png, id=49, 542.025pt x 407.5225pt>
+File: ExperimentalImplementation/phasewithload.png Graphic file (type png)
+<use ExperimentalImplementation/phasewithload.png>
+Package pdftex.def Info: ExperimentalImplementation/phasewithload.png  used on 
+input line 71. on input line 71.
+Package pdftex.def Info: Requested size: 216.80615pt x 163.0061pt on input line
+ 71.
+
+Overfull \hbox (5.41783pt too wide) in paragraph at lines 71--72
+ [][] 
  []
 
 [6 <./ExperimentalImplementation/VTC.png> <./ExperimentalImplementation/gainwit
-hcomp.png> <./ExperimentalImplementation/phasewithcomp.png>]
-<ExperimentalImplementation/gainwithload.png, id=62, 528.97626pt x 404.51125pt>
-
-File: ExperimentalImplementation/gainwithload.png Graphic file (type png)
-<use ExperimentalImplementation/gainwithload.png>
-Package pdftex.def Info: ExperimentalImplementation/gainwithload.png  used on i
-nput line 105. on input line 105.
-Package pdftex.def Info: Requested size: 211.58675pt x 161.80162pt on input lin
-e 105.
-<ExperimentalImplementation/phasewithload.png, id=63, 542.025pt x 407.5225pt>
-File: ExperimentalImplementation/phasewithload.png Graphic file (type png)
-<use ExperimentalImplementation/phasewithload.png>
-Package pdftex.def Info: ExperimentalImplementation/phasewithload.png  used on 
-input line 112. on input line 112.
-Package pdftex.def Info: Requested size: 216.80615pt x 163.0061pt on input line
- 112.
-
-Overfull \hbox (5.41783pt too wide) in paragraph at lines 112--113
- [][] 
- []
-
-[7 <./ExperimentalImplementation/gainwithload.png> <./ExperimentalImplementatio
-n/phasewithload.png>]
+hload.png> <./ExperimentalImplementation/phasewithload.png>]
+<ExperimentalImplementation/gainwithcomp.png, id=56, 526.96875pt x 399.4925pt>
 File: ExperimentalImplementation/gainwithcomp.png Graphic file (type png)
 <use ExperimentalImplementation/gainwithcomp.png>
 Package pdftex.def Info: ExperimentalImplementation/gainwithcomp.png  used on i
-nput line 131. on input line 131.
+nput line 87. on input line 87.
 Package pdftex.def Info: Requested size: 210.78375pt x 159.79416pt on input lin
-e 131.
-File: ExperimentalImplementation/gainwithload.png Graphic file (type png)
-<use ExperimentalImplementation/gainwithload.png>
-Package pdftex.def Info: ExperimentalImplementation/gainwithload.png  used on i
-nput line 139. on input line 139.
-Package pdftex.def Info: Requested size: 211.58675pt x 161.80162pt on input lin
-e 139.
-
-Overfull \hbox (116.46266pt too wide) in paragraph at lines 139--140
- [][] 
- []
-
-File: ExperimentalImplementation/phasewithload.png Graphic file (type png)
-<use ExperimentalImplementation/phasewithload.png>
-Package pdftex.def Info: ExperimentalImplementation/phasewithload.png  used on 
-input line 146. on input line 146.
-Package pdftex.def Info: Requested size: 216.80615pt x 163.0061pt on input line
- 146.
-
-Overfull \hbox (121.68207pt too wide) in paragraph at lines 146--147
- [][] 
- []
-
-<ExperimentalImplementation/invertingschem.png, id=69, 652.23676pt x 326.4195pt
->
-File: ExperimentalImplementation/invertingschem.png Graphic file (type png)
-<use ExperimentalImplementation/invertingschem.png>
-Package pdftex.def Info: ExperimentalImplementation/invertingschem.png  used on
- input line 162. on input line 162.
-Package pdftex.def Info: Requested size: 260.89008pt x 130.56548pt on input lin
-e 162.
-
-Overfull \hbox (49.50175pt too wide) in paragraph at lines 162--163
- [] 
- []
-
-<ExperimentalImplementation/invertingain.png, id=70, 525.965pt x 406.51875pt>
-File: ExperimentalImplementation/invertingain.png Graphic file (type png)
-<use ExperimentalImplementation/invertingain.png>
-Package pdftex.def Info: ExperimentalImplementation/invertingain.png  used on i
-nput line 176. on input line 176.
-Package pdftex.def Info: Requested size: 210.38226pt x 162.60461pt on input lin
-e 176.
-
-Overfull \hbox (115.25818pt too wide) in paragraph at lines 176--177
- [][] 
- []
-
-
-Overfull \hbox (93.76537pt too wide) in paragraph at lines 179--180
- \OT1/cmr/m/n/10 dd96fee8943853baf7c0472f8139d9fe0446fb8f 
- []
-
+e 87.
+<ExperimentalImplementation/phasewithcomp.png, id=57, 531.9875pt x 401.5pt>
 File: ExperimentalImplementation/phasewithcomp.png Graphic file (type png)
 <use ExperimentalImplementation/phasewithcomp.png>
 Package pdftex.def Info: ExperimentalImplementation/phasewithcomp.png  used on 
-input line 185. on input line 185.
+input line 94. on input line 94.
 Package pdftex.def Info: Requested size: 212.79123pt x 160.59715pt on input lin
-e 185.
+e 94.
 
-Overfull \hbox (117.66714pt too wide) in paragraph at lines 184--186
- [] 
+Overfull \hbox (1.40291pt too wide) in paragraph at lines 94--95
+ [][] 
  []
 
+<ExperimentalImplementation/invertingain.png, id=58, 525.965pt x 406.51875pt>
 File: ExperimentalImplementation/invertingain.png Graphic file (type png)
 <use ExperimentalImplementation/invertingain.png>
 Package pdftex.def Info: ExperimentalImplementation/invertingain.png  used on i
-nput line 198. on input line 198.
+nput line 107. on input line 107.
 Package pdftex.def Info: Requested size: 210.38226pt x 162.60461pt on input lin
-e 198.
-
-Overfull \hbox (115.25818pt too wide) in paragraph at lines 198--199
- [][] 
- []
-
-<ExperimentalImplementation/invertingphase.png, id=71, 517.935pt x 403.5075pt>
+e 107.
+<ExperimentalImplementation/invertingphase.png, id=59, 517.935pt x 403.5075pt>
 File: ExperimentalImplementation/invertingphase.png Graphic file (type png)
 <use ExperimentalImplementation/invertingphase.png>
 Package pdftex.def Info: ExperimentalImplementation/invertingphase.png  used on
- input line 205. on input line 205.
+ input line 114. on input line 114.
 Package pdftex.def Info: Requested size: 207.17032pt x 161.40013pt on input lin
-e 205.
-
-Overfull \hbox (112.04623pt too wide) in paragraph at lines 205--206
- [][] 
- []
-
-<ExperimentalImplementation/gainnoninverting.png, id=72, 536.0025pt x 406.51875
+e 114.
+<ExperimentalImplementation/gainnoninverting.png, id=60, 536.0025pt x 406.51875
 pt>
 File: ExperimentalImplementation/gainnoninverting.png Graphic file (type png)
 <use ExperimentalImplementation/gainnoninverting.png>
 Package pdftex.def Info: ExperimentalImplementation/gainnoninverting.png  used 
-on input line 217. on input line 217.
+on input line 126. on input line 126.
 Package pdftex.def Info: Requested size: 214.3972pt x 162.60461pt on input line
- 217.
+ 126.
 
-Overfull \hbox (119.27312pt too wide) in paragraph at lines 217--218
+Overfull \hbox (3.00888pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
-<ExperimentalImplementation/phasenoninverting.png, id=73, 528.97626pt x 404.511
+<ExperimentalImplementation/phasenoninverting.png, id=61, 528.97626pt x 404.511
 25pt>
 File: ExperimentalImplementation/phasenoninverting.png Graphic file (type png)
 <use ExperimentalImplementation/phasenoninverting.png>
 Package pdftex.def Info: ExperimentalImplementation/phasenoninverting.png  used
- on input line 224. on input line 224.
+ on input line 133. on input line 133.
 Package pdftex.def Info: Requested size: 211.58675pt x 161.80162pt on input lin
-e 224.
-
-Overfull \hbox (116.46266pt too wide) in paragraph at lines 224--225
- [][] 
- []
-
-<ExperimentalImplementation/spectrum.png, id=74, 583.17876pt x 344.28625pt>
+e 133.
+[7 <./ExperimentalImplementation/gainwithcomp.png> <./ExperimentalImplementatio
+n/phasewithcomp.png> <./ExperimentalImplementation/invertingain.png> <./Experim
+entalImplementation/invertingphase.png>]
+<ExperimentalImplementation/spectrum.png, id=69, 583.17876pt x 344.28625pt>
 File: ExperimentalImplementation/spectrum.png Graphic file (type png)
 <use ExperimentalImplementation/spectrum.png>
 Package pdftex.def Info: ExperimentalImplementation/spectrum.png  used on input
- line 236. on input line 236.
+ line 145. on input line 145.
 Package pdftex.def Info: Requested size: 233.26736pt x 137.71205pt on input lin
-e 236.
-
-Overfull \hbox (21.87904pt too wide) in paragraph at lines 236--237
- [] 
+e 145.
+) (Discussion/Discussion.tex [8 <./ExperimentalImplementation/gainnoninverting.
+png> <./ExperimentalImplementation/phasenoninverting.png> <./ExperimentalImplem
+entation/spectrum.png>])
+(Conclusion/Conclusion.tex) [9]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#5$ Volt-age Am-pli-fier [On-lin
+e]. Avail-able: 
  []
 
-File: ExperimentalImplementation/invertingphase.png Graphic file (type png)
-<use ExperimentalImplementation/invertingphase.png>
-Package pdftex.def Info: ExperimentalImplementation/invertingphase.png  used on
- input line 242. on input line 242.
-Package pdftex.def Info: Requested size: 207.17032pt x 161.40013pt on input lin
-e 242.
-[8]
-Overfull \vbox (1433.05423pt too high) has occurred while \output is active []
 
-
-[9 <./ExperimentalImplementation/invertingschem.png> <./ExperimentalImplementat
-ion/invertingain.png> <./ExperimentalImplementation/invertingphase.png> <./Expe
-rimentalImplementation/gainnoninverting.png> <./ExperimentalImplementation/phas
-enoninverting.png> <./ExperimentalImplementation/spectrum.png>]
-File: ExperimentalImplementation/spectrum.png Graphic file (type png)
-<use ExperimentalImplementation/spectrum.png>
-Package pdftex.def Info: ExperimentalImplementation/spectrum.png  used on input
- line 258. on input line 258.
-Package pdftex.def Info: Requested size: 233.26736pt x 137.71205pt on input lin
-e 258.
-<ExperimentalImplementation/noninvertingschem.png, id=87, 679.338pt x 464.33475
-pt>
-File: ExperimentalImplementation/noninvertingschem.png Graphic file (type png)
-<use ExperimentalImplementation/noninvertingschem.png>
-Package pdftex.def Info: ExperimentalImplementation/noninvertingschem.png  used
- on input line 268. on input line 268.
-Package pdftex.def Info: Requested size: 271.73038pt x 185.7306pt on input line
- 268.
-File: ExperimentalImplementation/gainnoninverting.png Graphic file (type png)
-<use ExperimentalImplementation/gainnoninverting.png>
-Package pdftex.def Info: ExperimentalImplementation/gainnoninverting.png  used 
-on input line 282. on input line 282.
-Package pdftex.def Info: Requested size: 214.3972pt x 162.60461pt on input line
- 282.
-
-Overfull \hbox (3.00888pt too wide) in paragraph at lines 282--283
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) 2N7000 [On-line]. Avail-able: 
  []
 
-File: ExperimentalImplementation/phasenoninverting.png Graphic file (type png)
-<use ExperimentalImplementation/phasenoninverting.png>
-Package pdftex.def Info: ExperimentalImplementation/phasenoninverting.png  used
- on input line 289. on input line 289.
-Package pdftex.def Info: Requested size: 211.58675pt x 161.80162pt on input lin
-e 289.
-[10 <./ExperimentalImplementation/noninvertingschem.png>])
-(Discussion/Discussion.tex) [11] (Conclusion/Conclusion.tex) [12] [13
+[10
 
-]
-(main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4009 strings out of 493312
- 62092 string characters out of 3138896
- 122403 words of memory out of 3000000
- 7436 multiletter control sequences out of 15000+200000
+ 3986 strings out of 493312
+ 61390 string characters out of 3138896
+ 120222 words of memory out of 3000000
+ 7414 multiletter control sequences out of 15000+200000
  8721 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,40p,972b,649s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (18 pages, 426421 bytes).
+ 41i,9n,40p,787b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (13 pages, 396169 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

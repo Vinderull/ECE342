@@ -5,9 +5,8 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces Phase plot with 900 $\Omega $ load resistance\relax }}{4}
 \contentsline {figure}{\numberline {6}{\ignorespaces Experimental range of operation\relax }}{5}
 \contentsline {figure}{\numberline {7}{\ignorespaces Experimental range of operation\relax }}{6}
-\contentsline {figure}{\numberline {8}{\ignorespaces Common mode gain, Acm at 1V\relax }}{6}
-\contentsline {figure}{\numberline {9}{\ignorespaces Gain and phase of loaded amplifier\relax }}{7}
-\contentsline {figure}{\numberline {10}{\ignorespaces Common mode gain, Acm at 1V\relax }}{9}
-\contentsline {figure}{\numberline {11}{\ignorespaces Harmonic spectrum of amplifier\relax }}{10}
-\contentsline {figure}{\numberline {12}{\ignorespaces Gain of non-inverting amplifier\relax }}{10}
-\contentsline {figure}{\numberline {13}{\ignorespaces Common mode gain, Acm at 1V\relax }}{11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Gain and phase of loaded amplifier\relax }}{6}
+\contentsline {figure}{\numberline {9}{\ignorespaces Gain and phase of loaded amplifier with frequency compensation\relax }}{7}
+\contentsline {figure}{\numberline {10}{\ignorespaces Gain and phase of inverting amplifier\relax }}{7}
+\contentsline {figure}{\numberline {11}{\ignorespaces Gain and phase of inverting amplifier\relax }}{8}
+\contentsline {figure}{\numberline {12}{\ignorespaces Harmonic spectrum of amplifier\relax }}{8}
