@@ -31,25 +31,26 @@ The output of the amplifier met the specifications as it was simulated to have a
 \end{figure}
 
 
-
-
+It was found that the load of approximately 900 $\Omega$ caused a 3 dB drop in gain. A load of 500 $\Omega$ caused a 6 dB drop. Therefore, 900 is the smallest load the circuit can drive according to the simulation. Using this value for the load, a simulation was conducted and the resulting data was exported to Matlab to plot. The gain verses frequency plot at a 900 $\Omega$ load resistance is seen below in Figure \ref{fig:loadgain}. During this simulation, the capacitor at the collector of the 2n3906 (used for frequency compensation) was found to work at any value below 500 pF. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/gainfreqsim.png}
 	\caption{Gain with 900 $\Omega$ load resistance}
-	\label{fig:loadsweep}
+	\label{fig:loadgain}
 \end{figure}
 
+As seen, the gain is valued at just over 60 dB, which meets the 3 dB drop in gain requirement at 900 $\Omega$ load. The zero crossing for the gain was found to be approximately 8 MHz. In order to be a stable amplifier, the phase shift should not change more than 180 degrees before the zero crossing of the gain. The resultant phase plot from simulations is see in Figure \ref{fig:phasesim} below.
 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/phasefreqsim.png}
 	\caption{Phase plot with 900 $\Omega$ load resistance}
-	\label{fig:loadsweep}
+	\label{fig:phasesim}
 \end{figure}
 
+The value for an 180 degree phase shift was found to be approximately 12.9 MHz from the simulations. This is well beyond the required 8.9 MHz found from the plot of the gain in Figure \ref{fig:loadgain}. All of the nodal voltages and currents were found during the simulation using dynamic DC analysis in Microcap 11. The current values are shown in Table \ref{tab:simcircuitcurrent} AC analysis was used in order to simulate the gain and phase. 
 
 
 \begin{table}[H]
@@ -68,14 +69,15 @@ The output of the amplifier met the specifications as it was simulated to have a
 	\end{tabular}
 \end{table}
 
+The voltage values are seen in Table \ref{tab:simcircuitvoltage} below. 
 
 \begin{table}[H]
 	\centering
 	\caption{Current values from simulated circuit}
-	\label{tab:simcircuitcurrent}
+	\label{tab:simcircuitvoltage}
 	\begin{tabular}{|l|c|}
 		\hline
-		\multicolumn{2}{|l|}{Simulated current values}                            \\ \hline
+		\multicolumn{2}{|l|}{Simulated voltage values}                            \\ \hline
 		V$_{Ref_2}$ & -340 mV                                                  \\ \hline
 		V$_{Ref_1}$ & -2.987 V                                                 \\ \hline
 		V$_{D_1}$ & 2.796 V                                                  \\ \hline
@@ -85,6 +87,7 @@ The output of the amplifier met the specifications as it was simulated to have a
 	\end{tabular}
 \end{table}
 
+This concludes the section on circuit development for task 5. 
 
 
 \end{document}
