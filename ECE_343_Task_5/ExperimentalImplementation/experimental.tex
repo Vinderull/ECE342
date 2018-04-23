@@ -54,42 +54,73 @@
 			\end{center}
 		\end{figure}
 		
-		The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. In order to prevent the op amp from saturating, a 1000:1 voltage divider was added at the signal input. The channel 1 probe was connected after the voltage divider to compensate for the 60dB drop from the voltage divider. Channel 2 was connected at the final output of the operational amplifier. 
+		The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. In order to prevent the op amp from saturating, a 1000:1 voltage divider was added at the signal input. The channel 1 probe was connected after the voltage divider to compensate for the 60dB drop from the voltage divider. Channel 2 was connected at the final output of the operational amplifier.  In order to ensure the op amp was unity gain stable, a 150pF capacitor had to be added to the output node of the common source amplifier stage. Prior to this modification there was no 0 dB gain crossing which meant that op amp was in fact unstable and would oscillate without input. The compensated gain can be seen in Figure \ref{fig:compgain}.
 		
-				\begin{figure}[H]
-			\begin{center}
-				\includegraphics[scale=.40]{ExperimentalImplementation/gainwithload.png}
-				\caption{Gain of loaded amplifier}
-				\label{fig:gainwithload}
-			\end{center}
-		\end{figure}
-	
-	
+		
 			\begin{figure}[H]
-		\begin{center}
-			\includegraphics[scale=.40]{ExperimentalImplementation/phasewithload.png}
-			\caption{Phase plot of loaded amplifier}
-			\label{fig:phasewithload}
-		\end{center}
-	\end{figure}
-
-
-		\begin{figure}[H]
-	\begin{center}
+			\centering
+			\begin{subfigure}[b]{0.45\textwidth}
+				\centering
 		\includegraphics[scale=.40]{ExperimentalImplementation/gainwithcomp.png}
-		\caption{Gain plot of loaded amplifier and frequency compensation}
-		\label{fig:gainwithcomp}
-	\end{center}
-\end{figure}
-
-
-		\begin{figure}[H]
-	\begin{center}
+\caption{Gain plot of loaded amplifier and frequency compensation}
+\label{fig:gainwithcomp}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[b]{0.45\textwidth}
 		\includegraphics[scale=.40]{ExperimentalImplementation/phasewithcomp.png}
-		\caption{Phase plot of loaded amplifier with frequency compensation}
-		\label{fig:phasewithcomp}
-	\end{center}
-\end{figure}
+\caption{Phase plot of loaded amplifier with frequency compensation}
+\label{fig:phasewithcomp}
+			\end{subfigure}
+			\caption{Common mode gain, Acm at 1V}
+			\label{fig:compgain}
+		\end{figure} 
+	
+	This addition moved the unity gain frequency bandwidth to 170 kHz, which is greater than the required 150kHz.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 The final stage output gain with a 500 $\Omega$ load can be seen in Figure \ref{fig:gainwithload}.
+				
+		
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[scale=.40]{ExperimentalImplementation/gainwithload.png}
+		\caption{Gain of loaded amplifier}
+		\label{fig:tload}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[scale=.40]{ExperimentalImplementation/phasewithload.png}
+		\caption{Phase plot of loaded amplifier}
+		\label{fig:phasewithload}
+		\end{subfigure}
+		\caption{Common mode gain, Acm at 1V}
+		\label{fig:gainwithload}
+	\end{figure} 
+	
+It can be seen that the gain dropped 3.67dB from the unloaded gain of 60dB. This is slightly out of spec and can be compensated by using an only slighlty larger load of 600 $\Omega$. The op amp did, however, remain stable with the load.
+	
+	
+
 
 
 
