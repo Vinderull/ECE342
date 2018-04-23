@@ -56,89 +56,74 @@
 		
 		The range of operation is extremely narrow. This, however, is expected due to the limits imposed by the use of a cascode current mirror. The cascode affords more gain at the expense of voltage range. This was explored in more depth in Task 3. In order to prevent the op amp from saturating, a 1000:1 voltage divider was added at the signal input. The channel 1 probe was connected after the voltage divider to compensate for the 60dB drop from the voltage divider. Channel 2 was connected at the final output of the operational amplifier. 
 		
-		
-		\begin{figure}[H]
-			\centering
-			\begin{subfigure}[b]{0.45\textwidth}
-				\centering
+				\begin{figure}[H]
+			\begin{center}
 				\includegraphics[scale=.40]{ExperimentalImplementation/gainwithload.png}
 				\caption{Gain of loaded amplifier}
 				\label{fig:gainwithload}
-			\end{subfigure}
-			\hfill
-			\begin{subfigure}[b]{0.45\textwidth}
-				\centering
-				\includegraphics[scale=.40]{ExperimentalImplementation/phasewithload.png}
-				\caption{Phase plot of loaded amplifier}
-				\label{fig:phasewithload}
-			\end{subfigure}
-			\caption{Gain and phase of loaded amplifier}
-			\label{fig:loadamp}
-		\end{figure} 
+			\end{center}
+		\end{figure}
 	
-	Figure 8 shows the gain vs frequency as well as the phase vs frequency plots of the loaded op amp, the loaded op amp is stable past the required 150kHz mark and demonstrates the loaded gain to be 56.33 dB.
-	\newpage
-	Figure 9 below shows the same op amp as Figure 8 but with frequency compensation applied to ensure the amplifier is unity gain stable at the desired frequencies.
 	
+			\begin{figure}[H]
+		\begin{center}
+			\includegraphics[scale=.40]{ExperimentalImplementation/phasewithload.png}
+			\caption{Phase plot of loaded amplifier}
+			\label{fig:phasewithload}
+		\end{center}
+	\end{figure}
+
+
 		\begin{figure}[H]
-		\centering
-		\begin{subfigure}[b]{0.45\textwidth}
-			\centering
+	\begin{center}
 		\includegraphics[scale=.40]{ExperimentalImplementation/gainwithcomp.png}
 		\caption{Gain plot of loaded amplifier and frequency compensation}
 		\label{fig:gainwithcomp}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[b]{0.45\textwidth}
-			\centering
-			\includegraphics[scale=.40]{ExperimentalImplementation/phasewithcomp.png}
-			\caption{Phase plot of loaded amplifier with frequency compensation}
-			\label{fig:phasewithcomp}
-		\end{subfigure}
-		\caption{Gain and phase of loaded amplifier with frequency compensation}
-		\label{fig:loadampfreq}
-	\end{figure} 
-	
- Below in Figure 10 are the gain and phase plots of the inverting amplifier. The plots show the desired outputs from this op amp.
+	\end{center}
+\end{figure}
+
+
 		\begin{figure}[H]
-		\centering
-			\begin{subfigure}[b]{0.45\textwidth}
-				\centering
-				\includegraphics[scale=.40]{ExperimentalImplementation/invertingain.png}
-				\caption{Gain of inverting amplifier}
-				\label{fig:invertinggain}
-			\end{subfigure}
-		\hfill
-			\begin{subfigure}[b]{0.45\textwidth}
-				\centering
-				\includegraphics[scale=.40]{ExperimentalImplementation/invertingphase.png}
-				\caption{Phase plot of inverting amplifier}
-				\label{fig:invertingphase}
-			\end{subfigure}
-		\caption{Gain and phase of inverting amplifier}
-		\label{fig:invertamp}
-		\end{figure} 
-Figure 11 shows the non inverting op amp's gain and phase plots, notably the phase plot shows the desired 180 degree phase shift that one would expect.
-	\begin{figure}[H]
-		\centering
-		\begin{subfigure}[b]{0.45\textwidth}
-			\centering
-			\includegraphics[scale=.40]{ExperimentalImplementation/gainnoninverting.png}
-			\caption{Gain of non-inverting amplifier}
-			\label{fig:gainnoninverting}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[b]{0.45\textwidth}
-			\centering
+	\begin{center}
+		\includegraphics[scale=.40]{ExperimentalImplementation/phasewithcomp.png}
+		\caption{Phase plot of loaded amplifier with frequency compensation}
+		\label{fig:phasewithcomp}
+	\end{center}
+\end{figure}
+
+
+
+		\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.40]{ExperimentalImplementation/invertingain.png}
+		\caption{Gain of inverting amplifier}
+		\label{fig:invertinggain}
+	\end{center}
+\end{figure}
+
+		\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.40]{ExperimentalImplementation/invertingphase.png}
+		\caption{Phase plot of inverting amplifier}
+		\label{fig:invertingphase}
+	\end{center}
+\end{figure}
+		
+				\begin{figure}[H]
+			\begin{center}
+				\includegraphics[scale=.40]{ExperimentalImplementation/gainnoninverting.png}
+				\caption{Gain of non-inverting amplifier}
+				\label{fig:gainnoninverting}
+			\end{center}
+		\end{figure}
+	
+			\begin{figure}[H]
+		\begin{center}
 			\includegraphics[scale=.40]{ExperimentalImplementation/phasenoninverting.png}
 			\caption{Phase plot of non-inverting amplifier}
 			\label{fig:phasenoninverting}
-		\end{subfigure}
-		\caption{Gain and phase of inverting amplifier}
-		\label{fig:noninvertamp}
-	\end{figure} 
-
-The total harmonic distortion (THD) is shown below in Figure 12 and appears to be minimal for the op amp designed.
+		\end{center}
+	\end{figure}
 
 		\begin{figure}[H]
 	\begin{center}
