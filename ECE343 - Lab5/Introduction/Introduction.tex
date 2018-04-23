@@ -2,39 +2,19 @@
 
 
 \begin{document}
-
-\noindent This report describes design, implementation and test of two voltage amplifiers. One consisting of negative metal oxide semconducting field effect transistors (NMOS). The other comprised of bipolar junction transistors. Figure \ref{fig:blockdiagram2} demonstrates where in the optical uplink project the voltage amplifier is placed. 
-
-
-%%%% CHANGE ME
+	
+This report describes the design, construction, and analysis of negative feedback for an operational amplifier. This is achieved using capacitors and resistors attached to and across certain nodes in the op amp \ref{fig:sample}
 
 
-The voltage amplifier is required by the optical uplink project. The output signal from the multi-feedback bandpass filter (MFBP) is in the hundreds of millivolt range. In order to make a more easily detectable signal, a voltage amplifier is required. This can achieved through the use of either a common source or common emitter amplifier. The specifications for this lab are summarized in Table \ref{tab:specifications}.
-
-\begin{table}[H]
-	\centering
-	\caption{Voltage amplifier specifications}
-	\label{tab:specifications}
-	\begin{tabular}{|l|l|}
-		\hline
-		Specifications & Required       \\ \hline
-		Peak gain, with load      & 21 dB $\pm$ 1dB\% \\ \hline
-		Bias current for N$_1$     & ~1mA          \\ \hline
-		Lower cut-off frequency      & $\geq$100 mA    \\ \hline
-		Upper cut-off frequency    &  at least 200 kHz \\ \hline
-		R$_{in}$, small signal       &  at least 1 M$\Omega$ \\ \hline
-		R$_{out}$, small signal      &  at least 3 k$\Omega$ \\ \hline
-		2$^{nd}$ Harmonic distortion $@$ 1kHz  & $<$2\% \\ \hline
-		Supply voltages            &  $\pm$12 V     \\  \hline
-	\end{tabular}
-\end{table}
+add fig here	
+	
+	
+	
+	
+Operational amplifiers serve an integral building block for modern electronics. Op amps provide large gain with various configuration schema. This allows the circuit designer to use the op amp in different topologies and achieve different results, all without modifying the op amp circuit itself. In addition, an op amp provides significant gain while maintaining stability, this is where the output stage comes in. The output stage allows design to accommodate for non-controllable factors such as transistor mismatch and temperature variation.   The objective of this lab is to apply feedback to the op amp so that the op amp achieves the specifications as seen in Table \ref{tab:labspecs}
 
 
-The voltage amplifier circuit receives the voltage signal from the MFBP and increases the amplitude of the voltage wavefrom. The desired final output being 5 V. This is achieved with either the use of a NMOS common source amplifier or an NPN BJT common emitter amplifier.
-
-
-Section 2 of this report describes the design and simulations of the common source amplifier and the common emitter amplifier. Experimental results are addressed in section 3. A discussion of the results, sources of error, and areas of possible improvement are outlined in section 4. Section 5 concludes this report. \newline
-
+\noindent Section 2 of this report describes the design, and when relevant, the simulations of the experiments. Experimental results and implementation are addressed in Section 3, including reasoning as to why a different circuit than the one outlined previously was constructed. A discussion of the results, sources of error, and areas of possible improvement are outlined in Section 4. Section 5 concludes this report. \newline
 
 
 \end{document}
