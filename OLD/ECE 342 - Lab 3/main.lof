@@ -1,0 +1,30 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Block diagram for optical uplink \cite {b1}\relax }}{1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Ideal VTC of inverters \cite {b1}\relax }}{1}
+\contentsline {figure}{\numberline {3}{\ignorespaces Simulated NMOS inverter\relax }}{3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Simulated NMOS Vout vs R\relax }}{3}
+\contentsline {figure}{\numberline {5}{\ignorespaces Simulated VTC of single NMOS inverter\relax }}{4}
+\contentsline {figure}{\numberline {6}{\ignorespaces Simulated transient with 1k resistor\relax }}{4}
+\contentsline {figure}{\numberline {7}{\ignorespaces Simulated transient with 4.4k resistor\relax }}{5}
+\contentsline {figure}{\numberline {8}{\ignorespaces Simulated transient with 100k resistor\relax }}{5}
+\contentsline {figure}{\numberline {9}{\ignorespaces Simulated transient with 4.4k resistor and 10V supply\relax }}{6}
+\contentsline {figure}{\numberline {10}{\ignorespaces Simulated transient with 4.4k resistor and 15V supply\relax }}{6}
+\contentsline {figure}{\numberline {11}{\ignorespaces CD4007UBE internal schematic\relax }}{7}
+\contentsline {figure}{\numberline {12}{\ignorespaces CMOS inverter schematic\relax }}{8}
+\contentsline {figure}{\numberline {13}{\ignorespaces Voltage transfer function characteristics\relax }}{8}
+\contentsline {figure}{\numberline {14}{\ignorespaces Voltage transfer characteristics - simulated\relax }}{9}
+\contentsline {figure}{\numberline {15}{\ignorespaces CMOS inverter voltage output\relax }}{9}
+\contentsline {figure}{\numberline {16}{\ignorespaces CMOS astable multivibrator schematic - simulated\relax }}{10}
+\contentsline {figure}{\numberline {17}{\ignorespaces CMOS astable multivibrator output \relax }}{11}
+\contentsline {figure}{\numberline {18}{\ignorespaces CMOS astable multivibrator - 5\% tolerance simulated\relax }}{11}
+\contentsline {figure}{\numberline {19}{\ignorespaces CMOS astable multivibrator - 10 \% tolerance simulated\relax }}{12}
+\contentsline {figure}{\numberline {20}{\ignorespaces CD4007UBE ring oscillator\relax }}{12}
+\contentsline {figure}{\numberline {21}{\ignorespaces CD4007 ring oscillator output\relax }}{13}
+\contentsline {figure}{\numberline {22}{\ignorespaces CD4007 ring oscillator - 5\% tolerance simulation\relax }}{14}
+\contentsline {figure}{\numberline {23}{\ignorespaces CD4007 ring oscillator - 10\% tolerance\relax }}{14}
+\contentsline {figure}{\numberline {24}{\ignorespaces Experimental VTC NMOS\relax }}{15}
+\contentsline {figure}{\numberline {25}{\ignorespaces Measured output of NMOS inverter\relax }}{16}
+\contentsline {figure}{\numberline {26}{\ignorespaces Measured VTC of CMOS inverter\relax }}{17}
+\contentsline {figure}{\numberline {27}{\ignorespaces Measured output of CMOS inverter\relax }}{17}
+\contentsline {figure}{\numberline {28}{\ignorespaces Pinout for AND gate\relax }}{18}
+\contentsline {figure}{\numberline {29}{\ignorespaces Experimental ring oscillator circuit\relax }}{19}
+\contentsline {figure}{\numberline {30}{\ignorespaces Experimental transient analysis\relax }}{19}

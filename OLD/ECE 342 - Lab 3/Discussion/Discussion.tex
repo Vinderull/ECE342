@@ -1,0 +1,87 @@
+\begin{document}
+
+This lab served as introduction to MOSFETS and implementation of digital logic. When using transistors to create digital devices, it is often assumed that the device behaves ideally. When the device is logic high, it is one voltage, and when it is logic low it is another. Based on this logic, it is assumed that the switching on and off of the MOSFETS happen instantaneously. Based on the results of the ring oscillator and other inverter circuits, the MOSFETS do not switch instantaneously. Instead, power is consumed by the MOSFETS when they transition from one state to another. This consumption of power causes a small time delay. Each of the circuits described in this report are discussed in the following subsections, excluding the astable multivibrator. The astable multivibrator was not constructed during the experimental phase of this task.
+
+
+\subsection{NMOS inverter}
+The NMOS inverter worked as simulated and required no significant design changes in order to function. The measured power consumption was different from the simulated values, but it operated within a tighter band of values. The comparison of the NMOS with simulations is shown in Figure \ref{tab:expvssimNMOS}.
+
+\begin{table}[H]
+	\centering
+	\caption{Comparison of NMOS}
+	\label{tab:expvssimNMOS}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Component Values & Simulated    & Experimental \\ \hline
+		R                & 4.4k$\Omega$ & 4.3k$\Omega$ \\ \hline
+		Max Power        & 31.2mW       & 5.8mW        \\ \hline
+		Min Power        & 69.5pW       & 37$\mu$W     \\ \hline
+		Rise Time        & 199ns        & 11$\mu$s     \\ \hline
+		Fall Time        & 195ns        & 1.22$\mu$s   \\ \hline
+	
+	\end{tabular}
+\end{table}
+The rise and fall times were significantly greater as well. This can be accounted for by the fact the implemented circuit, in addition to board parasitic capacitance, also had capacitance from the jumpers connecting the pins of the device. Each jumper added capacitance to the circuit, which in turn increased the time constant for the circuit, which would account for the increased transition times.
+
+
+
+\subsection{CMOS inverter}
+The CMOS inverter required no changes from simulation. The circuit behaved as expected, with the VTC matching that of the simulations. One of the strengths of the CMOS is the faster transition between logic states. This is reflected in the slope of the experimental VTC. The CMOS also represents logic low with zero volts, as opposed to the NMOS were logic low was still some positive voltage. The DC power consumption of the CMOS was also negligible compared to that of the NMOS. Table \ref{tab:cmosexpvsim} shows the differences between the simulated and measured CMOS circuit.
+
+\begin{table}[H]
+	\centering
+	\caption{CMOS inverter comparison}
+	\label{tab:cmosexpvsim}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Component Values & Simulated & Experimental \\ \hline
+		Rise Time        & 142ns     & 235ns        \\ \hline
+		Fall Time        & 114ns     & 177ns        \\ \hline
+		Power            & 0         & 5$\mu$W      \\ \hline
+	\end{tabular}
+\end{table}
+
+The difference in rise and fall times can be ascribed to the parasitic capacitances from the board and jumper wires. 
+
+\subsection{AND gate}
+The AND gate operated as expected. This lab served as an introduction to the use of transistors as logic devices. The use of binary logic is fundamental in the design of digital logic. The construction of a physical AND gate demonstrates the real device characteristics of logic circuits. The truth table for the constructed AND gate is shown in Table \ref{tab:truthANDdis}.
+
+\begin{table}[H]
+\centering
+\caption{Truth Table: AND}
+\label{tab:truthANDdis}
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{2}{|l|}{Inputs} & Output \\ \hline
+A             & B            & Z      \\ \hline
+0             & 0            & 0      \\ \hline
+0             & 1            & 0      \\ \hline
+1             & 0            & 0      \\ \hline
+1             & 1            & 1      \\ \hline
+\end{tabular}
+\end{table}
+
+The AND gate, in addition to the OR gate, are the fundemental building blocks for digital logic, and thus are of the utmost importance.
+
+
+\subsection{Ring oscillator}
+The ring oscillator circuit designed with the CMOS did not initially meet the specifications required in the lab. The simulations were accurate, but real-world parasitic capacitances from the board and jumper wires impacted the circuit. To remedy the situation, a capacitor of 4.7 nF was added in parallel after the second inverting gate. By increasing the capacitance the frequency was lowered from 22.8 kHz to 19.8 kHz. The comparison between the simulated results and experimental is expressed in Table \ref{tab:simvexpring}
+
+\begin{table}[H]
+	\centering
+	\caption{Comparison of ring oscillator results}
+	\label{tab:simvexpring}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Component Values & Simulated & Experimental \\ \hline
+		C$_1$            & 8nF       & 8.2nF        \\ \hline
+		C$_2$            & 8nF       & 13.9nF       \\ \hline
+		C$_3$            & 8nF       & 8.2nF        \\ \hline
+		Frequency        & 20.1kHz   & 19.8kHz      \\ \hline
+		Amplitude        & 5V        & 4.9V         \\ \hline
+	\end{tabular}
+	\end{table}
+The reason this oscillator is chosen over the astable multivibrator as the signal generator is mostly arbitrary and simply design choice for the optical uplink project \cite{b4}. Although one of the benefits of the ring oscillator is that from the sensitivity testing it is less affected by component tolerances than the astable multivibrator. This is significant since the capacitors available for circuit construction are 10\% tolerances.
+
+
+\end{document}
