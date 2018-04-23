@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.13)  22 APR 2018 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.13)  22 APR 2018 20:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -514,7 +514,14 @@ Package caption Info: float package is loaded.
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count102
 \c@subtable=\count103
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:loadsweep' multiply defined.
+
+
+LaTeX Warning: Label `fig:loadsweep' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -529,8 +536,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen122
@@ -634,39 +640,62 @@ LaTeX Warning: Reference `fig:blockdiagram2' on page 1 undefined on input line
 6.
 
 ) (CircuitDevelopment/Circuit.tex
-<CircuitDevelopment/schematicsimulation.png, id=20, 847.36575pt x 496.85625pt>
+<CircuitDevelopment/schematicsimulation.png, id=20, 842.54774pt x 502.87875pt>
 File: CircuitDevelopment/schematicsimulation.png Graphic file (type png)
 <use CircuitDevelopment/schematicsimulation.png>
 Package pdftex.def Info: CircuitDevelopment/schematicsimulation.png  used on in
 put line 10. on input line 10.
-Package pdftex.def Info: Requested size: 375.80544pt x 220.35356pt on input lin
+Package pdftex.def Info: Requested size: 375.80544pt x 224.29828pt on input lin
 e 10.
  [1
 
-])
-(ExperimentalImplementation/experimental.tex
+]
+<CircuitDevelopment/varyrload.png, id=28, 966.61125pt x 529.37775pt>
+File: CircuitDevelopment/varyrload.png Graphic file (type png)
+<use CircuitDevelopment/varyrload.png>
+Package pdftex.def Info: CircuitDevelopment/varyrload.png  used on input line 2
+8. on input line 28.
+Package pdftex.def Info: Requested size: 328.82707pt x 180.08298pt on input lin
+e 28.
+ [2 <./CircuitDevelopment/schematicsimulation.png>]
+<CircuitDevelopment/gainfreqsim.png, id=32, 976.24725pt x 539.01375pt>
+File: CircuitDevelopment/gainfreqsim.png Graphic file (type png)
+<use CircuitDevelopment/gainfreqsim.png>
+Package pdftex.def Info: CircuitDevelopment/gainfreqsim.png  used on input line
+ 35. on input line 35.
+Package pdftex.def Info: Requested size: 328.82707pt x 181.55151pt on input lin
+e 35.
+<CircuitDevelopment/phasefreqsim.png, id=33, 983.47424pt x 539.01375pt>
+File: CircuitDevelopment/phasefreqsim.png Graphic file (type png)
+<use CircuitDevelopment/phasefreqsim.png>
+Package pdftex.def Info: CircuitDevelopment/phasefreqsim.png  used on input lin
+e 41. on input line 41.
+Package pdftex.def Info: Requested size: 328.82707pt x 180.21912pt on input lin
+e 41.
+ [3 <./CircuitDevelopment/varyrload.png> <./CircuitDevelopment/gainfreqsim.png>
+]) (ExperimentalImplementation/experimental.tex
 
-LaTeX Warning: Reference `fig:nmosexp' on page 2 undefined on input line 6.
+LaTeX Warning: Reference `fig:nmosexp' on page 4 undefined on input line 6.
 
 
-LaTeX Warning: Reference `fig:nmosfreq' on page 2 undefined on input line 8.
+LaTeX Warning: Reference `fig:nmosfreq' on page 4 undefined on input line 8.
 
 
-LaTeX Warning: Reference `fig:nmosexpfft' on page 2 undefined on input line 13.
+LaTeX Warning: Reference `fig:nmosexpfft' on page 4 undefined on input line 13.
 
 
-[2 <./CircuitDevelopment/schematicsimulation.png>]
+[4 <./CircuitDevelopment/phasefreqsim.png>]
 
-LaTeX Warning: Reference `fig:bjtexp' on page 3 undefined on input line 43.
-
-
-LaTeX Warning: Reference `fig:bjtexpfreq' on page 3 undefined on input line 47.
+LaTeX Warning: Reference `fig:bjtexp' on page 5 undefined on input line 43.
 
 
+LaTeX Warning: Reference `fig:bjtexpfreq' on page 5 undefined on input line 47.
 
-LaTeX Warning: Reference `fig:bjtexpfft' on page 3 undefined on input line 52.
 
-) (Discussion/Discussion.tex [3]) (Conclusion/Conclusion.tex) [4]
+
+LaTeX Warning: Reference `fig:bjtexpfft' on page 5 undefined on input line 52.
+
+) (Discussion/Discussion.tex [5]) (Conclusion/Conclusion.tex) [6]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 []\OT1/cmr/m/n/10 D.E. Kotecki Lab.(2017) Lab $#5$ Volt-age Am-pli-fier [On-lin
 e]. Avail-able: 
@@ -677,18 +706,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 []\OT1/cmr/m/n/10 ON Semi-con-duc-tor. (2017) 2N7000 [On-line]. Avail-able: 
  []
 
-[5
+[7
 
 ] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 3885 strings out of 493312
- 58130 string characters out of 3138860
- 120975 words of memory out of 3000000
- 7328 multiletter control sequences out of 15000+200000
+ 3902 strings out of 493312
+ 58666 string characters out of 3138860
+ 121030 words of memory out of 3000000
+ 7342 multiletter control sequences out of 15000+200000
  9326 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,40p,903b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -702,9 +734,9 @@ msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (8 pages, 180638 bytes).
+Output written on main.pdf (10 pages, 266472 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,6 +12,35 @@ The circuit that was developed in task 4 will be used for the purposes of this c
 	\label{fig:simschem}
 \end{figure}
 
+The value of 13 k$\Omega$ was taken from the previous lab which gave a reference current of 401 $\mu$A. There are several specifications to meet, or at least come near for the completion of this task. The unity gain frequency should be above 150 kHz. A small load resistance of 500 $\Omega$ or less should cause a drop of 3 dB from the unloaded gain. Lastly, the gain needs to be high than 200 $\frac{V}{V}$ or 46 dB. The equation for closed loop gain is shown below in equation \ref{eqn:closedloop}.
 
+\begin{equation}
+A_f(j\omega) = \frac{x_o}{x_i} = \frac{A_f(j\omega)}{1+A_f(j\omega)\beta}
+\label{eqn:closedloop}
+\end{equation}
+
+The part of the denominator, $A_f(j\omega)\beta$ is the actual loop gain for the amplifier, which it is much greater than one, then the closed loop gain is approximately $\frac{1}{\beta}$. The value of $\beta$ in this case was found to be 21$\frac{V}{V} $. The value for the resistor at the source of the ALD1106 NMOS, RS, was found to be 1.1k in the previous lab, and yielded similar results for this simulation, as it gave the appropriate offset nulling at the base of the BJTs at approximately zero volts. This will allow the amplifier to have it's maximum amount of gain. 
+
+The output of the amplifier met the specifications as it was simulated to have a 63.3 dB gain. To find the smallest load resistor that the amplifier could drive, Microcap 11 was used to do a sweep of load resistor values from 250 $\Omega$ to 2.5 k$\Omega$. The goal is to find the load resistor value that will cause a 3 dB drop from the unloaded gain, which would be 60.3 dB, or at least a value close to that. The result can be seen in Figure \ref{fig:loadsweep} below.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/varyrload.png}
+	\caption{Sweep values of load resistor vs gain}
+	\label{fig:loadsweep}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/gainfreqsim.png}
+	\caption{Gain with 900 $\Omega$ load resistance}
+	\label{fig:loadsweep}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{CircuitDevelopment/phasefreqsim.png}
+	\caption{Phase plot with 900 $\Omega$ load resistance}
+	\label{fig:loadsweep}
+\end{figure}
 
 \end{document}
