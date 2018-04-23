@@ -117,28 +117,48 @@
 		\label{fig:gainwithload}
 	\end{figure} 
 	
-It can be seen that the gain dropped 3.67dB from the unloaded gain of 60dB. This is slightly out of spec and can be compensated by using an only slighlty larger load of 600 $\Omega$. The op amp did, however, remain stable with the load.
+It can be seen that the gain dropped 3.67dB from the unloaded gain of 60dB. This is slightly out of spec and can be compensated by using an only slighlty larger load of 600 $\Omega$. The op amp did, however, remain stable with the added load.
 	
 	
-
-
-
+	
+The op amp was then required to be constructed in two different configurations. One in the inverting configuration and the other in the non-inverting. The experimental schematic for the inverting can be seen in Figure \ref{fig:invertingschem}
 
 		\begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.40]{ExperimentalImplementation/invertingain.png}
+		\includegraphics[scale=.40]{ExperimentalImplementation/invertingschem.png}
 		\caption{Gain of inverting amplifier}
-		\label{fig:invertinggain}
+		\label{fig:invertingschem}
 	\end{center}
 \end{figure}
 
-		\begin{figure}[H]
-	\begin{center}
+The op amp shown is the op amp desgined in prior in Task 4. The ideal gain was is -20 V/V. The measured gain can be seen in Figure \ref{fig:invertinggain}.
+	
+	
+	
+				\begin{figure}[H]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+		\includegraphics[scale=.40]{ExperimentalImplementation/invertingain.png}
+\caption{Gain of inverting amplifier}
+\label{fig:invertinggain1}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
 		\includegraphics[scale=.40]{ExperimentalImplementation/invertingphase.png}
-		\caption{Phase plot of inverting amplifier}
-		\label{fig:invertingphase}
-	\end{center}
-\end{figure}
+\caption{Phase plot of inverting amplifier}
+\label{fig:invertingphase}
+		\end{subfigure}
+		\caption{Common mode gain, Acm at 1V}
+		\label{fig:invertinggain}
+	\end{figure} 
+
+
+
+
+	
+The gain can be seen to be 27dB, when converted to V/V is found to be 23 V/V. This is slightly larger than what was expected in the ideal case. 
 		
 				\begin{figure}[H]
 			\begin{center}
