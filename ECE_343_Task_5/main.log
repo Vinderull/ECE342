@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 APR 2018 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 APR 2018 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,7 +534,7 @@ s/barcode.png>] (./main.toc)
 
  [2]
 (./Introduction/Introduction.tex
-<Introduction/invertingschem.png, id=21, 652.23676pt x 326.4195pt>
+<Introduction/invertingschem.png, id=20, 652.23676pt x 326.4195pt>
 File: Introduction/invertingschem.png Graphic file (type png)
 
 <use Introduction/invertingschem.png>
@@ -545,7 +545,7 @@ Package pdftex.def Info: Introduction/invertingschem.png used on input line 11.
 [1
 
  <./Introduction/invertingschem.png>]
-<CircuitDevelopment/schematicsimulation.png, id=27, 842.54774pt x 502.87875pt>
+<CircuitDevelopment/schematicsimulation.png, id=26, 842.54774pt x 502.87875pt>
 File: CircuitDevelopment/schematicsimulation.png Graphic file (type png)
 
 <use CircuitDevelopment/schematicsimulation.png>
@@ -553,7 +553,7 @@ Package pdftex.def Info: CircuitDevelopment/schematicsimulation.png used on inp
 ut line 10.
 (pdftex.def)             Requested size: 375.80544pt x 224.29828pt.
 
-<CircuitDevelopment/varyrload.png, id=28, 966.61125pt x 529.37775pt>
+<CircuitDevelopment/varyrload.png, id=27, 966.61125pt x 529.37775pt>
 File: CircuitDevelopment/varyrload.png Graphic file (type png)
 
 <use CircuitDevelopment/varyrload.png>
@@ -561,7 +561,7 @@ Package pdftex.def Info: CircuitDevelopment/varyrload.png used on input line 28
 .
 (pdftex.def)             Requested size: 328.82707pt x 180.08298pt.
  [2 <./CircuitDevelopment/schematicsimulation.png>]
-<CircuitDevelopment/gainfreqsim.png, id=34, 976.24725pt x 539.01375pt>
+<CircuitDevelopment/gainfreqsim.png, id=33, 976.24725pt x 539.01375pt>
 File: CircuitDevelopment/gainfreqsim.png Graphic file (type png)
 
 <use CircuitDevelopment/gainfreqsim.png>
@@ -569,7 +569,7 @@ Package pdftex.def Info: CircuitDevelopment/gainfreqsim.png used on input line
 38.
 (pdftex.def)             Requested size: 328.82707pt x 181.55151pt.
 
-<CircuitDevelopment/phasefreqsim.png, id=35, 983.47424pt x 539.01375pt>
+<CircuitDevelopment/phasefreqsim.png, id=34, 983.47424pt x 539.01375pt>
 File: CircuitDevelopment/phasefreqsim.png Graphic file (type png)
 
 <use CircuitDevelopment/phasefreqsim.png>
@@ -580,7 +580,7 @@ Package pdftex.def Info: CircuitDevelopment/phasefreqsim.png used on input line
 ])
 (./ExperimentalImplementation/experimental.tex [4 <./CircuitDevelopment/phasefr
 eqsim.png>]
-<ExperimentalImplementation/expschem.png, id=44, 876.27374pt x 500.46976pt>
+<ExperimentalImplementation/expschem.png, id=43, 876.27374pt x 500.46976pt>
 File: ExperimentalImplementation/expschem.png Graphic file (type png)
 
 <use ExperimentalImplementation/expschem.png>
@@ -588,7 +588,7 @@ Package pdftex.def Info: ExperimentalImplementation/expschem.png used on input
 line 14.
 (pdftex.def)             Requested size: 350.50328pt x 200.18434pt.
  [5 <./ExperimentalImplementation/expschem.png>]
-<ExperimentalImplementation/VTC.png, id=48, 522.95375pt x 402.50375pt>
+<ExperimentalImplementation/VTC.png, id=47, 522.95375pt x 402.50375pt>
 File: ExperimentalImplementation/VTC.png Graphic file (type png)
 
 <use ExperimentalImplementation/VTC.png>
@@ -596,7 +596,7 @@ Package pdftex.def Info: ExperimentalImplementation/VTC.png used on input line
 51.
 (pdftex.def)             Requested size: 209.1778pt x 160.99864pt.
 
-<ExperimentalImplementation/gainwithcomp.png, id=49, 526.96875pt x 399.4925pt>
+<ExperimentalImplementation/gainwithcomp.png, id=48, 526.96875pt x 399.4925pt>
 File: ExperimentalImplementation/gainwithcomp.png Graphic file (type png)
 
 <use ExperimentalImplementation/gainwithcomp.png>
@@ -604,7 +604,7 @@ Package pdftex.def Info: ExperimentalImplementation/gainwithcomp.png used on in
 put line 64.
 (pdftex.def)             Requested size: 210.78375pt x 159.79416pt.
 
-<ExperimentalImplementation/phasewithcomp.png, id=50, 531.9875pt x 401.5pt>
+<ExperimentalImplementation/phasewithcomp.png, id=49, 531.9875pt x 401.5pt>
 File: ExperimentalImplementation/phasewithcomp.png Graphic file (type png)
 
 <use ExperimentalImplementation/phasewithcomp.png>
@@ -618,98 +618,102 @@ Overfull \hbox (1.40291pt too wide) in paragraph at lines 70--71
 
 [6 <./ExperimentalImplementation/VTC.png> <./ExperimentalImplementation/gainwit
 hcomp.png> <./ExperimentalImplementation/phasewithcomp.png>]
-<ExperimentalImplementation/gainwithload.png, id=57, 528.97626pt x 404.51125pt>
+<ExperimentalImplementation/gainwithload.png, id=56, 528.97626pt x 404.51125pt>
 File: ExperimentalImplementation/gainwithload.png Graphic file (type png)
 <use ExperimentalImplementation/gainwithload.png>
 Package pdftex.def Info: ExperimentalImplementation/gainwithload.png used on in
-put line 105.
+put line 90.
 (pdftex.def)             Requested size: 211.58675pt x 161.80162pt.
 
-<ExperimentalImplementation/phasewithload.png, id=58, 542.025pt x 407.5225pt>
+<ExperimentalImplementation/phasewithload.png, id=57, 542.025pt x 407.5225pt>
 File: ExperimentalImplementation/phasewithload.png Graphic file (type png)
 
 <use ExperimentalImplementation/phasewithload.png>
 Package pdftex.def Info: ExperimentalImplementation/phasewithload.png used on i
-nput line 112.
+nput line 97.
 (pdftex.def)             Requested size: 216.80615pt x 163.0061pt.
 
-Overfull \hbox (5.41783pt too wide) in paragraph at lines 112--113
+Overfull \hbox (5.41783pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
 
-<ExperimentalImplementation/invertingschem.png, id=59, 652.23676pt x 326.4195pt
+<ExperimentalImplementation/invertingschem.png, id=58, 652.23676pt x 326.4195pt
 >
 File: ExperimentalImplementation/invertingschem.png Graphic file (type png)
  <use ExperimentalImplementation/invertingschem.png>
 Package pdftex.def Info: ExperimentalImplementation/invertingschem.png used on 
-input line 128.
+input line 112.
 (pdftex.def)             Requested size: 260.89008pt x 130.56548pt.
 
-<ExperimentalImplementation/invertingain.png, id=60, 525.965pt x 406.51875pt>
+<ExperimentalImplementation/invertingain.png, id=59, 597.23125pt x 374.39874pt>
 File: ExperimentalImplementation/invertingain.png Graphic file (type png)
-
 <use ExperimentalImplementation/invertingain.png>
 Package pdftex.def Info: ExperimentalImplementation/invertingain.png used on in
-put line 142.
-(pdftex.def)             Requested size: 210.38226pt x 162.60461pt.
+put line 126.
+(pdftex.def)             Requested size: 238.88826pt x 149.75684pt.
 
-<ExperimentalImplementation/invertingphase.png, id=61, 517.935pt x 403.5075pt>
-File: ExperimentalImplementation/invertingphase.png Graphic file (type png)
-
-<use ExperimentalImplementation/invertingphase.png>
-Package pdftex.def Info: ExperimentalImplementation/invertingphase.png used on 
-input line 149.
-(pdftex.def)             Requested size: 207.17032pt x 161.40013pt.
- [7 <./ExperimentalImplementation/gainwithload.png> <./ExperimentalImplementati
-on/phasewithload.png> <./ExperimentalImplementation/invertingschem.png>]
-<ExperimentalImplementation/spectrum.png, id=67, 583.17876pt x 344.28625pt>
-File: ExperimentalImplementation/spectrum.png Graphic file (type png)
-
-<use ExperimentalImplementation/spectrum.png>
-Package pdftex.def Info: ExperimentalImplementation/spectrum.png used on input 
-line 165.
-(pdftex.def)             Requested size: 233.26736pt x 137.71205pt.
-
-<ExperimentalImplementation/noninvertingschem.png, id=68, 679.338pt x 464.33475
-pt>
-File: ExperimentalImplementation/noninvertingschem.png Graphic file (type png)
- <use ExperimentalImplementation/noninvertingschem.png>
-Package pdftex.def Info: ExperimentalImplementation/noninvertingschem.png used 
-on input line 175.
-(pdftex.def)             Requested size: 271.73038pt x 185.7306pt.
- [8 <./ExperimentalImplementation/invertingain.png> <./ExperimentalImplementati
-on/invertingphase.png> <./ExperimentalImplementation/spectrum.png>]
-<ExperimentalImplementation/gainnoninverting.png, id=76, 536.0025pt x 406.51875
-pt>
-File: ExperimentalImplementation/gainnoninverting.png Graphic file (type png)
- <use ExperimentalImplementation/gainnoninverting.png>
-Package pdftex.def Info: ExperimentalImplementation/gainnoninverting.png used o
-n input line 189.
-(pdftex.def)             Requested size: 214.3972pt x 162.60461pt.
-
-Overfull \hbox (3.00888pt too wide) in paragraph at lines 189--190
+Overfull \hbox (27.49994pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
 
-<ExperimentalImplementation/phasenoninverting.png, id=77, 528.97626pt x 404.511
-25pt>
+<ExperimentalImplementation/phaseinverting.png, id=60, 518.93875pt x 399.4925pt
+>
+File: ExperimentalImplementation/phaseinverting.png Graphic file (type png)
+ <use ExperimentalImplementation/phaseinverting.png>
+Package pdftex.def Info: ExperimentalImplementation/phaseinverting.png used on 
+input line 133.
+(pdftex.def)             Requested size: 207.57182pt x 159.79416pt.
+ [7 <./ExperimentalImplementation/gainwithload.png> <./ExperimentalImplementati
+on/phasewithload.png> <./ExperimentalImplementation/invertingschem.png>]
+<ExperimentalImplementation/spectrum.png, id=66, 583.17876pt x 344.28625pt>
+File: ExperimentalImplementation/spectrum.png Graphic file (type png)
+
+<use ExperimentalImplementation/spectrum.png>
+Package pdftex.def Info: ExperimentalImplementation/spectrum.png used on input 
+line 149.
+(pdftex.def)             Requested size: 233.26736pt x 137.71205pt.
+
+<ExperimentalImplementation/noninvertingschem.png, id=67, 679.338pt x 464.33475
+pt>
+File: ExperimentalImplementation/noninvertingschem.png Graphic file (type png)
+ <use ExperimentalImplementation/noninvertingschem.png>
+Package pdftex.def Info: ExperimentalImplementation/noninvertingschem.png used 
+on input line 159.
+(pdftex.def)             Requested size: 271.73038pt x 185.7306pt.
+ [8 <./ExperimentalImplementation/invertingain.png> <./ExperimentalImplementati
+on/phaseinverting.png> <./ExperimentalImplementation/spectrum.png>]
+<ExperimentalImplementation/noninvertingain.png, id=75, 579.16376pt x 426.59375
+pt>
+File: ExperimentalImplementation/noninvertingain.png Graphic file (type png)
+ <use ExperimentalImplementation/noninvertingain.png>
+Package pdftex.def Info: ExperimentalImplementation/noninvertingain.png used on
+ input line 173.
+(pdftex.def)             Requested size: 231.66139pt x 170.63446pt.
+
+Overfull \hbox (20.27307pt too wide) in paragraph at lines 173--174
+ [][] 
+ []
+
+
+<ExperimentalImplementation/phasenoninverting.png, id=76, 367.3725pt x 281.05pt
+>
 File: ExperimentalImplementation/phasenoninverting.png Graphic file (type png)
  <use ExperimentalImplementation/phasenoninverting.png>
 Package pdftex.def Info: ExperimentalImplementation/phasenoninverting.png used 
-on input line 196.
-(pdftex.def)             Requested size: 211.58675pt x 161.80162pt.
+on input line 180.
+(pdftex.def)             Requested size: 146.94638pt x 112.418pt.
 )
 (./Discussion/Discussion.tex [9 <./ExperimentalImplementation/noninvertingschem
-.png> <./ExperimentalImplementation/gainnoninverting.png> <./ExperimentalImplem
-entation/phasenoninverting.png>]) (./Conclusion/Conclusion.tex) [10] [11
+.png> <./ExperimentalImplementation/noninvertingain.png> <./ExperimentalImpleme
+ntation/phasenoninverting.png>]) (./Conclusion/Conclusion.tex) [10] [11
 
 ]
 (./main.aux) ) 
 Here is how much of TeX's memory you used:
  3909 strings out of 493089
- 61210 string characters out of 6134842
+ 61205 string characters out of 6134842
  122020 words of memory out of 5000000
  7277 multiletter control sequences out of 15000+600000
  8721 words of font info for 34 fonts, out of 8000000 for 9000
@@ -720,17 +724,16 @@ m/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (14 pages, 411888 bytes).
+i7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (14 pages, 405420 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 125 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

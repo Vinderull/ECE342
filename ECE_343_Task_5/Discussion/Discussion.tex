@@ -1,17 +1,17 @@
 \begin{document}
-After several minor changes, the op amp operated correctly. This lab served as introduction to feedback applications of operational amplifiers. The two types of feedback were explored. The specifications are outlined in Table \ref{tab:specs}.
+After several minor changes, the op amp operated correctly. The largest change that had to be made was the inclusiion of a 150 pF capacitor at the outout of the common source amplifier stage. The inclusion of this capacitor change the pole location such that the 0dB crossing point now occured prior to the 180$^\circ$ phase shift location. Prior to this change the amplifier was unstable and did not have a zero crossing that was in the range of the Digilent's Network analyzer, despite the fact that the 180$^\circ$ phase occured at about 200 kHz. Some of the other possible locations for this capacitor include across the drains of the active load amplifier and at the input of the common source amplifier. The location that worked the best for the purposes of this lab was the output of the common source amplifier.
+
+ This lab also served as introduction to feedback applications of operational amplifiers. The op amp was configured into both inverting and non-inverting topologies. In these two configurations the op amp is expected to behave like any commericial op amp that has been used in ECE 214 and ECE 342. The specifications are outlined in Table \ref{tab:specs}.
 
 \begin{table}[H]
 	\centering
 	\caption{Current and voltage values from simulated vs experimental circuit}
 	\label{tab:specs}
-	\begin{tabular}{|l|c|c|}
-		\hline
-		\multicolumn{3}{|l|}{Simulated current values}                            \\ \hline
-		\textbf{DC Bias Conditions} & Simulated & Experimental        \\ \hline
-		V$_{Ref_2}$ & -340 mV      & -403 mV                                        \\ \hline
-		V$_{Ref_1}$ & -2.987 V       & -3.01 V                        	   \\ \hline
-		V$_{D_1}$ & 2.796 V          & 2.82 V                              	       	       \\ \hline
+	\begin{tabular}{|l|c|c|}                       
+		\textbf{Gains} & Simulated & Experimental        \\ \hline
+		A$_{d}$ & 75 dB      & 60 dB                                      \\ \hline
+		Unity Gain &    50MHz      & 170kHz                    	   \\ \hline
+		3dB drop load & 900 $\Omega$         & 500$\Omega$ V                              	       	       \\ \hline
 		V$_{D_2}$  & 2.796 V                       & 2.84 V                        	   \\ \hline\
 		V$_{out}$ & $\approx$ 0 V				& .09mV 						 \\ \hline
 		I$_{Ref}$ & 410.8 $\mu$A            & 387 $\mu$A                                       \\ \hline
