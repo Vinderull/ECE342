@@ -5,7 +5,7 @@
 		
 		
 		
-	This section details the experimental implementation of an actively loaded differential amplifier with a common source output, cascoded current mirror and a class B amplifier stage at the output. These also include components for frequency compensation and a load.The power supplies and analysis were implemented using the Digilent Analog Discovery kit. The experimental circuit can be seen Figure \ref{fig:expercircuit}.
+	This section details the experimental implementation of an actively loaded differential amplifier with a common source output, cascoded current mirror and a class B amplifier stage at the output. These also include components for frequency compensation and a load. The power supplies and analysis were implemented using the Digilent Analog Discovery kit. The experimental circuit can be seen Figure \ref{fig:expercircuit}.
 		
 		
 				
@@ -33,7 +33,7 @@
 				D1                          & 2.82 V     \\ \hline
 				D2                          & 2.84 V     \\ \hline
 				S                           & 2 V    \\ \hline
-				OutCS                       & .09mV      \\ \hline
+				OutCS                       & 0.09 mV      \\ \hline
 				I$_{Ref}$                        & 387 $\mu$A \\ \hline
 				I$_{D_1}$                        &  193.7 $\mu$A\\ \hline
 				I$_{D_2}$                        & 194 $\mu$A  \\ \hline
@@ -75,25 +75,10 @@
 			\label{fig:compgain}
 		\end{figure} 
 	
-	This addition moved the unity gain frequency bandwidth to 170 kHz, which is greater than the required 150kHz.
+	This addition moved the unity gain frequency bandwidth to 170 kHz, which is greater than the required 150kHz. The system is also now stable which allows for the loaded gain to be measured.
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		 The final stage output gain with a 500 $\Omega$ load can be seen in Figure \ref{fig:gainwithload}.
+		 Per the requirements of the lab, the op amp should be able to drive a load that is as low as a 500 $\Omega$ load. The loaded gain with a 500 $\Omega$ load can be seen in Figure \ref{fig:gainwithload}.
 				
 		
 	
@@ -120,13 +105,12 @@
 It can be seen that the gain dropped 3.67dB from the unloaded gain of 60dB. This is slightly out of spec and can be compensated by using an only slighlty larger load of 600 $\Omega$. The op amp did, however, remain stable with the added load.
 	
 	
-	
 The op amp was then required to be constructed in two different configurations. One in the inverting configuration and the other in the non-inverting. The experimental schematic for the inverting can be seen in Figure \ref{fig:invertingschem}
 
 		\begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=.40]{ExperimentalImplementation/invertingschem.png}
-		\caption{Gain of inverting amplifier}
+		\caption{Schematic of inverting amplifier}
 		\label{fig:invertingschem}
 	\end{center}
 \end{figure}

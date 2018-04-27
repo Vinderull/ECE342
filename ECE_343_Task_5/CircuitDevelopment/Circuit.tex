@@ -3,7 +3,7 @@
 
 This section covers the design choices associated with the actively loaded differential amplifier with cascoded current mirror and a class B amplifier for an output stage. Frequency compensation will also be considered in the development to ensure stability.
 
-The circuit that was developed in task 4 will be used for the purposes of this circuit development section. The output stage will be added in this task which will be a class B amplifier. The class B amplifier will consist of a 2n3904 NPN BJT and a 2n3906 PNP BJT. The simulations were conducted in Microcap 10. As these schematics are difficult to read, a set of schematics with identical values and components were created in Eagle by Autodesk. The simulated schematic can be seen in Figure \ref{fig:simschem} below.
+The circuit that was developed in Task 4 will be used for the purposes of this circuit development section. The output stage will be added in this task which will be a class B amplifier. The class B amplifier will consist of a 2n3904 NPN BJT and a 2n3906 PNP BJT. The simulations were conducted in Microcap 10. As these schematics are difficult to read, a set of schematics with identical values and components were created in Eagle by Autodesk. The simulated schematic can be seen in Figure \ref{fig:simschem} below.
 
 \begin{figure}[H]
 	\centering
@@ -12,7 +12,7 @@ The circuit that was developed in task 4 will be used for the purposes of this c
 	\label{fig:simschem}
 \end{figure}
 
-The value of 13 k$\Omega$ was taken from the previous lab which gave a reference current of 401 $\mu$A. There are several specifications to meet, or at least come near for the completion of this task. The unity gain frequency should be above 150 kHz. A small load resistance of 500 $\Omega$ or less should cause a drop of 3 dB from the unloaded gain. Lastly, the gain needs to be high than 200 $\frac{V}{V}$ or 46 dB. The equation for closed loop gain is shown below in equation \ref{eqn:closedloop}.
+The value of 13 k$\Omega$ was unchanged from Task 4 which gave a reference current of 401 $\mu$A. There are several specifications to meet, or at least come near for the completion of this task. The unity gain frequency should be above 150 kHz. A small load resistance of 500 $\Omega$ or less should cause a drop of 3 dB from the unloaded gain. Lastly, the gain needs to be high than 200 V/V or 46 dB. The equation for closed loop gain is shown below in equation \ref{eqn:closedloop}.
 
 \begin{equation}
 A_f(j\omega) = \frac{x_o}{x_i} = \frac{A_f(j\omega)}{1+A_f(j\omega)\beta}
@@ -78,16 +78,16 @@ The voltage values are seen in Table \ref{tab:simcircuitvoltage} below.
 	\begin{tabular}{|l|c|}
 		\hline
 		\multicolumn{2}{|l|}{Simulated voltage values}                            \\ \hline
-		V$_{Ref_2}$ & -340 mV                                                  \\ \hline
-		V$_{Ref_1}$ & -2.987 V                                                 \\ \hline
+		V$_{Ref2}$ & -340 mV                                                  \\ \hline
+		V$_{Ref1}$ & -2.987 V                                                 \\ \hline
 		V$_{D_1}$ & 2.796 V                                                  \\ \hline
 		V$_{D_2}$  & 2.796 V                                      \\ \hline
-		V$_Base$   & 9.7 $\mu$V										 \\	\hline
+		V$_{Base}$   & 9.7 $\mu$V										 \\	\hline
 		V$_{out}$ & $\approx$ 0 V \\ \hline
 	\end{tabular}
 \end{table}
 
-This concludes the section on circuit development for task 5. 
+The circuit simulated as expected with the chosen DC bias conditiions utilizing a bias current of 400$\mu$A.
 
 
 \end{document}
