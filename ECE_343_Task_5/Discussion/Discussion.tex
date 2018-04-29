@@ -1,32 +1,30 @@
 \begin{document}
-After several minor changes, the op amp operated correctly. The largest change that had to be made was the inclusiion of a 150 pF capacitor at the outout of the common source amplifier stage. The inclusion of this capacitor change the pole location such that the 0dB crossing point now occured prior to the 180$^\circ$ phase shift location. Prior to this change the amplifier was unstable and did not have a zero crossing that was in the range of the Digilent's Network analyzer, despite the fact that the 180$^\circ$ phase occured at about 200 kHz. Some of the other possible locations for this capacitor include across the drains of the active load amplifier and at the input of the common source amplifier. The location that worked the best for the purposes of this lab was the output of the common source amplifier.
+After several minor changes, the op amp operated correctly. The largest change that had to be made was the inclusiion of a 150 pF capacitor at the outout of the common source amplifier stage. The inclusion of this capacitor change the pole location such that the 0dB crossing point now occured prior to the 180$^\circ$ phase shift location. Prior to this change the amplifier was unstable and did not have a zero crossing that was in the range of the Digilent's Network analyzer, despite the fact that the 180$^\circ$ phase occured at about 200 kHz. Some of the other possible locations for this capacitor include across the drains of the active load amplifier and at the input of the common source amplifier. The location that worked the best for the purposes of this lab was the output of the common source amplifier. It should be noted that the op amp remains useful even if it is not unity gain stable, this is due to two reasons; the fact that under feedback op amp can be made stable, and that the op amp can be used as a oscillator which will be seen in Task 6. 
 
  This lab also served as introduction to feedback applications of operational amplifiers. The op amp was configured into both inverting and non-inverting topologies. In these two configurations the op amp is expected to behave like any commericial op amp that has been used in ECE 214 and ECE 342. The specifications are outlined in Table \ref{tab:specs}.
 
 \begin{table}[H]
 	\centering
-	\caption{Current and voltage values from simulated vs experimental circuit}
+	\caption{Specification values from simulated vs experimental circuit}
 	\label{tab:specs}
-	\begin{tabular}{|l|c|c|}                       
-		\textbf{Gains} & Simulated & Experimental        \\ \hline
+	\begin{tabular}{|l|c|c|} 
+		\hline                      
+		\textbf{Parameters} & Simulated & Experimental        \\ \hline
 		A$_{d}$ & 75 dB      & 60 dB                                      \\ \hline
 		Unity Gain &    50MHz      & 170kHz                    	   \\ \hline
 		3dB drop load & 900 $\Omega$         & 500$\Omega$ V                              	       	       \\ \hline
-		V$_{D_2}$  & 2.796 V                       & 2.84 V                        	   \\ \hline\
-		V$_{out}$ & $\approx$ 0 V				& .09mV 						 \\ \hline
-		I$_{Ref}$ & 410.8 $\mu$A            & 387 $\mu$A                                       \\ \hline
-		I$_{D_1}$ & 204.4 $\mu$A              &  193.7 $\mu$A\                                    \\ \hline
-		I$_{D_2}$ & 204.4 $\mu$A                  & 194 $\mu$A                                \\ \hline
-		I$_{CS}$  & $\approx$  227 $\mu$A               & 217 $\mu$A                            \\ \hline
-		I$_{C}$   & $\approx$ 2  $\mu$A				& 2.23 $\mu$A 						 \\	\hline
+		Inverting gain  & -20V/V                       &  -19.9V/V                        	   \\ \hline\
+	Non-inverting gain & 21 V/V				& 21.5 V/V 	 \\ \hline
+		Total Harmonic Distortion           & N/A         &    1.41\%                            \\ \hline
+	
 
 	\end{tabular}
 \end{table}
 
+Feedback can be used to improve the performance of the circuit depending on which configuration is chosen by the designer. The stability of the circuit can be improved with the correct setup. One of the largest advantages offered by feedback is the improvement it provides to both in the input and output resistance of the amplifier. An ideal voltage amplifier has infinited input impedence and zero output impedence. For the discrete circuit implemented this not the case. With the use of feedback the input impendence can be increased by a factor of $1+A\beta$ while decreasing the output impendence by the same factor.
 
-One of the bigger challenges of this lab was achieving and maintaining stability of the op amp as well as getting the op amp to operate at all, the op amp was adjusted and rebuilt more than once until it was finally able to perform the experiments required for this lab. This challenge arises from the volatility of a discrete op amp as well as well as flaw inherent in the manufacturing of the devices.
+One of the largest challenges faced by this lab was the op amp remained extremely sensitive to environmental changes. Everytime the circuit was deployed for testing the offset voltage at the output of the common source amplifier had to be changed through the adjustment of the source degeneration resistance. This is due to the thermal coefficients of the MOSFETs are fairly dependent on ambient temperature. A couple of degrees can change the operation range of the amplifier, resulting in the necessity of a new source resistance. The value of the capacitor to ensure stability was constant at 150 pF and did not require any alteration between testing sessions.
 
-The final circuits fell well within specifications and operated correctly after minor component alterations.
 
 
 
